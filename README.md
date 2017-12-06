@@ -56,18 +56,18 @@ The definitions and descriptions of POS tags are presented in detail as follow:
 21. Symbol (SYM): SYM for others sign or symbol such as: +, -, \*, \/, ៖, =, @, \#, \% etc.
 22. VB\_JJ: VB\_JJ is a tag for an adjective which its original form is a Verb. Currently, there is no proposed POS tag name for such kind of Khmer words. Although we can use JJ tag, we want to clarify by using VB\_JJ POS tag for its function and also for semantic purpose. For example: 
 
-a. The word សម្រាប់ (for) or ដើម្បី (to) is normally removed in both written and spoken Khmer. 
+- The word សម្រាប់ (for) or ដើម្បី (to) is normally removed in both written and spoken Khmer. 
    កន្លែង/NN (place) សម្រាប់ (for) ធ្វើការ/VB\_JJ (working), office in English  
    ម៉ាស៊ីន/NN (Machine) សម្រាប់ (for) បោក/VB\_JJ (washing) ខោអាវ/NN (cloth), washing machine in English 
    ពួកគាត់/PRO (they) អាច/VB (can) មាន/VB (have) ការងារ/NN (work) ធ្វើ/VB\_JJ (to do)
-b. When Khmer Relative Pronoun is removed, the verb form keep the same as it was. It must be VB\_JJ it is no longer a Verb in subbordiante clause.
+- When Khmer Relative Pronoun is removed, the verb form keep the same as it was. It must be VB\_JJ it is no longer a Verb in subbordiante clause.
 
 សិស្ស (student) ដែល (who) មាន/VB (has) ពិន្ទុ (mark) ខ្ពស់ (hight) នឹង (will) ទទួលបាន (get) អាហារូបករណ៍ (scholarship), student who has hight mark will get a scholarship in English but when ដែល who is removed, មាន/VB (has) should become មាន/VB\_JJ (having)
 \end{enumerate}
     
-23 Verb (VB): Verb is a word that shows the action, even, and condition. Verb is a middle part of phrase. Normally, verb always need object and sometime it also need complement. For example, {\kh \small{ស្តាប់}} (listen), {\kh \small{មានប្រសាសន៍}} (say), {\kh \small{ស្រលាញ់}} (love), {\kh \small{ច្រៀង}} (sing), {\kh \small{បើកបរ}} (drive) etc.
+23. Verb (VB): Verb is a word that shows the action, even, and condition. Verb is a middle part of phrase. Normally, verb always need object and sometime it also need complement. For example, ស្តាប់ (listen), មានប្រសាសន៍ (say), ស្រលាញ់ (love), ច្រៀង (sing), បើកបរ (drive) etc.
 
-\item Verb Complement (VCOM): Its original form is a verb, but it will turn into VCOM when two verbs in a sentence to emphasize the first verb. Especially, a compound verb is splitted by the word {\kh \small{មិន}} (no or not), the first part is a verb and the second part is VCOM. For example, {\kh \small{លក់}} (sell) {\kh \small{ដាច់}}/VCOM (a lot), {\kh \small{ប្រលង}} (exam) {\kh \small{មិន}} (no) {\kh \small{ជាប់}}/VCOM (pass), {\kh \small{ដេក}}/VB (sleep), {\kh \small{មិន}}/RB (not) {\kh \small{លក់}}/VCOM (sleep well) etc.
+24. Verb Complement (VCOM): Its original form is a verb, but it will turn into VCOM when two verbs in a sentence to emphasize the first verb. Especially, a compound verb is splitted by the word មិន (no or not), the first part is a verb and the second part is VCOM. For example, លក់ (sell) ដាច់/VCOM (a lot), ប្រលង (exam) មិន (no) ជាប់/VCOM (pass), ដេក/VB (sleep), មិន/RB (not) លក់/VCOM (sleep well) etc.
  
 ## Publication
 Vichet Chea, Ye Kyaw Thu, Chenchen Ding, Masao Utiyama, Andrew Finch and Eiichiro Sumita, "Khmer Word Segmentation Using Conditional Random Fields", In Khmer Natural Language Processing 2015 (KNLP2015), December 4, 2015, Phnom Penh, Cambodia. 
