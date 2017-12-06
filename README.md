@@ -43,15 +43,11 @@ The definitions and descriptions of POS tags are presented in detail as follow:
 
 14. Noun (NN): A noun is a word or compound word that identifies a person, an animal, an object, an idea, a thing, etc. For example: ឡាន (Car), ការអភិវឌ្ឍន៍ (Development), សកម្មភាព (Action), ខ្មៅដៃ (Pencil), ទឹកកក (Ice) etc.
 
-15. Particle (PA): We consider three types of particle and they are hesitation, response and final. For the two medial particle words  ក៏ ("so, then, but" in English) and នូវ ("of, with" in English) \cite{nla.cat-vn334929}, we consider them as RB and IN.
-
-\item Hesitation Particle: {\kh \small{ខ្ញុំ}} (I) {\kh \small{គិត}} (think) …{\kh \small{អ៊ើ}}/PA (Er. . .) {\kh \small{មិន}} (not) {\kh \small{ឃើញ}} (see), (\dquotes{I er… don’t think so} in English)
-\item Response Particle: {\kh \small{អើ}}/PA (Hm, Ah) {\kh \small{ខ្ញុំ}} (I) {\kh \small{ដឹង}} (know) {\kh \small{ហើយ}} (already), (\dquotes{Hmm I already know} in English)
-\item Final Particle: There are some final particles such as {\kh \small{ណា៎}}, {\kh \small{សិន}} and {\kh \small{ចុះ}}. \\
-Example usage of {\kh \small{ណា៎}}: {\kh \small{កុំ}}/RB (don't) {\kh \small{ភ្លេច}}/VB (forget) {\kh \small{ណា៎}}/PA, (\dquotes{Hmm don't forget!} in English), Example usage of {\kh \small{សិន}}: {\kh \small{ចាំ}}/VB (wait) {\kh \small{បន្តិច}}/RB (a while) {\kh \small{សិន}}/PA, Example usage of {\kh \small{ចុះ}}: {\kh \small{ទៅ}}/VB (go) {\kh \small{ចុះ}}/PA
-\end{itemize}
-
-\item Preposition (IN): Preposition is a word or a compound word that is used to connect two different words or phrases. It indicate the place, time, possession, relation etc. For example, {\kh \small{ចំពោះ}} (to), {\kh \small{ដល់}} (to), {\kh \small{ដើម្បី}} (in order to), {\kh \small{ក្នុង}} (in), {\kh \small{លើ}} (on), {\kh \small{រវាង}} (between, around) etc. 
+15. Particle (PA): We consider three types of particle and they are hesitation, response and final. For the two medial particle words  ក៏ ("so, then, but" in English) and នូវ ("of, with" in English) \[1\], we consider them as RB and IN.
+- Hesitation Particle: ខ្ញុំ (I) គិត (think) …អ៊ើ/PA (Er. . .) មិន (not) ឃើញ (see), ("I er… don’t think so" in English)
+- Response Particle: អើ/PA (Hm, Ah) ខ្ញុំ (I) ដឹង (know) ហើយ (already), ("Hmm I already know" in English)
+- Final Particle: There are some final particles such as ណា៎, សិន and ចុះ. Example usage of ណា៎: កុំ/RB (don't) ភ្លេច/VB (forget) ណា៎/PA, ("Hmm don't forget!" in English), Example usage of សិន: ចាំ/VB (wait) បន្តិច/RB (a while) សិន/PA, Example usage of ចុះ: ទៅ/VB (go) ចុះ/PA
+16. Preposition (IN): Preposition is a word or a compound word that is used to connect two different words or phrases. It indicate the place, time, possession, relation etc. For example, {\kh \small{ចំពោះ}} (to), {\kh \small{ដល់}} (to), {\kh \small{ដើម្បី}} (in order to), {\kh \small{ក្នុង}} (in), {\kh \small{លើ}} (on), {\kh \small{រវាង}} (between, around) etc. 
 
 \item Pronoun (PRO): A pronoun is a word that substitutes of a noun or a noun phrase. Those words are equivalent to Englis word: I, he, she, it, we, they, them, him, her etc. For example, {\kh \small{ខ្ញុំ}} (I), {\kh \small{គាត់}} (he or she), {\kh \small{យើង}} (we), {\kh \small{ពួកយើង}} (our group or we), {\kh \small{ខ្ញុំបាទ}} (polite form of I, me), {\kh \small{ទូលបង្គំ}} (I, me for conversation with royal family) etc.
 
