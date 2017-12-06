@@ -62,7 +62,7 @@ The definitions and descriptions of POS tags are presented in detail as follow:
    ពួកគាត់/PRO (they) អាច/VB (can) មាន/VB (have) ការងារ/NN (work) ធ្វើ/VB\_JJ (to do)
 - When Khmer Relative Pronoun is removed, the verb form keep the same as it was. It must be VB\_JJ it is no longer a Verb in subbordiante clause.
 
-សិស្ស (student) ដែល (who) មាន/VB (has) ពិន្ទុ (mark) ខ្ពស់ (hight) នឹង (will) ទទួលបាន (get) អាហារូបករណ៍ (scholarship), student who has hight mark will get a scholarship in English but when ដែល who is removed, មាន/VB (has) should become មាន/VB\_JJ (having)
+  សិស្ស (student) ដែល (who) មាន/VB (has) ពិន្ទុ (mark) ខ្ពស់ (hight) នឹង (will) ទទួលបាន (get) អាហារូបករណ៍ (scholarship), student who has hight mark will get a scholarship in English but when ដែល who is removed, មាន/VB (has) should become មាន/VB\_JJ (having)
 \end{enumerate}
     
 23. Verb (VB): Verb is a word that shows the action, even, and condition. Verb is a middle part of phrase. Normally, verb always need object and sometime it also need complement. For example, ស្តាប់ (listen), មានប្រសាសន៍ (say), ស្រលាញ់ (love), ច្រៀង (sing), បើកបរ (drive) etc.
