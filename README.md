@@ -14,3 +14,8 @@ The khPOS Corpus (Khmer POS Corpus) is a 12,000 sentences (25,626 words) manuall
 In Khmer texts, words composed of single or multiple syllables are usually not separated by white space. Spaces are used for easier reading and generally put between phrases, but there are no clear rules for using spaces in Khmer language. Therefore, word segmentation is a necessary prerequisite for POS tagging. In our khPOS corpus, we did manual word segmentation based on following rules:
 
 
+## Publication
+Vichet Chea, Ye Kyaw Thu, Chenchen Ding, Masao Utiyama, Andrew Finch and Eiichiro Sumita, "Khmer Word Segmentation Using Conditional Random Fields", In Khmer Natural Language Processing 2015 (KNLP2015), December 4, 2015, Phnom Penh, Cambodia. 
+[paper](http://khmernlp.org/2015/wp-content/uploads/2016/09/Paper-Khmer-Word-Segmentation-Using-.pdf)
+
+## Reference
