@@ -1,0 +1,316 @@
+start closed testing!
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train1/train1.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train1/CLOSE-TEST.word.tagged
+===== Finished tagging with model train1.pipe.ser! =====
+head first 2 lines of tagged file
+ក្រៅ_ពី|IN នោះ|DT លិខិត|NN នេះ|DT បាន|AUX បញ្ជាក់|VB យ៉ាង|RB លម្អិត|JJ ពី|IN ការ~កិបកេង|NN ប្រាក់|NN ឧបត្ថម្ភ|NN ផ្សេង|JJ ៗ|DBL ពី|IN ក្រសួង|NN សរុប|JJ ជាង|RB ២៥|CD លាន|CD រៀល|PN ផ្សេង_ទៀត|RB ។|KAN
+លោក~ជំទាវ|PRO ណោន|PN សារម្យ|PN
+===== Start evaluation on train1.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe (closed test data)  =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train1/train1.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe
+starting: testing
+finished: testing in 0.487 seconds
+Accuracy: 93.54  (9725/10397)
+ count  gold   model
+   149  NN     PN
+    48  PN     NN
+    44  VB     IN
+    39  PRO    NN
+    34  IN     AUX
+    33  VB     AUX
+    26  VB_JJ  VB
+    22  PRO    VB
+    22  IN     VB
+    18  VB     VB_JJ
+avg tagging: 0.0004 sec
+==========
+
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train2/train2.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train2/CLOSE-TEST.word.tagged
+===== Finished tagging with model train2.pipe.ser! =====
+head first 2 lines of tagged file
+ក្រៅ_ពី|IN នោះ|DT លិខិត|NN នេះ|DT បាន|AUX បញ្ជាក់|VB យ៉ាង|RB លម្អិត|JJ ពី|IN ការ~កិបកេង|NN ប្រាក់|NN ឧបត្ថម្ភ|NN ផ្សេង|JJ ៗ|DBL ពី|IN ក្រសួង|NN សរុប|JJ ជាង|RB ២៥|CD លាន|CD រៀល|PN ផ្សេង_ទៀត|RB ។|KAN
+លោក~ជំទាវ|PRO ណោន|PN សារម្យ|PN
+===== Start evaluation on train2.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe (closed test data)  =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train2/train2.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe
+starting: testing
+finished: testing in 0.462 seconds
+Accuracy: 94.44  (9819/10397)
+ count  gold   model
+    66  PRO    NN
+    44  VB     IN
+    36  PN     NN
+    34  VB_JJ  VB
+    31  VB     VB_JJ
+    22  IN     VB
+    21  PN     RB
+    19  IN     RPN
+    17  PRO    VB
+    16  RB     JJ
+avg tagging: 0.0004 sec
+==========
+
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train3/train3.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train3/CLOSE-TEST.word.tagged
+===== Finished tagging with model train3.pipe.ser! =====
+head first 2 lines of tagged file
+ក្រៅ_ពី|IN នោះ|DT លិខិត|NN នេះ|DT បាន|AUX បញ្ជាក់|VB យ៉ាង|RB លម្អិត|JJ ពី|IN ការ~កិបកេង|NN ប្រាក់|NN ឧបត្ថម្ភ|NN ផ្សេង|JJ ៗ|DBL ពី|IN ក្រសួង|NN សរុប|JJ ជាង|IN ២៥|CD លាន|CD រៀល|PN ផ្សេង_ទៀត|RB ។|KAN
+លោក~ជំទាវ|PRO ណោន|PN សារម្យ|PN
+===== Start evaluation on train3.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe (closed test data)  =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train3/train3.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe
+starting: testing
+finished: testing in 0.463 seconds
+Accuracy: 94.33  (9807/10397)
+ count  gold   model
+    79  PN     NN
+    55  PRO    NN
+    43  VB     IN
+    42  VB     VB_JJ
+    37  VB     AUX
+    31  VB_JJ  VB
+    27  IN     VB
+    18  PRO    VB
+    15  RB     JJ
+    14  RB     VB
+avg tagging: 0.0004 sec
+==========
+
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train4/train4.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train4/CLOSE-TEST.word.tagged
+===== Finished tagging with model train4.pipe.ser! =====
+head first 2 lines of tagged file
+ក្រៅ_ពី|IN នោះ|DT លិខិត|NN នេះ|DT បាន|AUX បញ្ជាក់|VB យ៉ាង|RB លម្អិត|JJ ពី|IN ការ~កិបកេង|NN ប្រាក់|NN ឧបត្ថម្ភ|NN ផ្សេង|JJ ៗ|DBL ពី|IN ក្រសួង|NN សរុប|JJ ជាង|IN ២៥|CD លាន|CD រៀល|PN ផ្សេង_ទៀត|RB ។|KAN
+លោក~ជំទាវ|PRO ណោន|PN សារម្យ|PN
+===== Start evaluation on train4.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe (closed test data)  =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train4/train4.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe
+starting: testing
+finished: testing in 0.517 seconds
+Accuracy: 93.83  (9756/10397)
+ count  gold   model
+    67  PN     NN
+    58  PRO    NN
+    50  VB     AUX
+    43  VB     IN
+    42  VB     VB_JJ
+    34  PRO    RB
+    32  VB_JJ  VB
+    24  IN     VB
+    16  RB     JJ
+    15  RB     VB
+avg tagging: 0.0005 sec
+==========
+
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train5/train5.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train5/CLOSE-TEST.word.tagged
+===== Finished tagging with model train5.pipe.ser! =====
+head first 2 lines of tagged file
+ក្រៅ_ពី|IN នោះ|DT លិខិត|NN នេះ|DT បាន|AUX បញ្ជាក់|VB យ៉ាង|RB លម្អិត|JJ ពី|IN ការ~កិបកេង|NN ប្រាក់|NN ឧបត្ថម្ភ|NN ផ្សេង|JJ ៗ|DBL ពី|IN ក្រសួង|NN សរុប|JJ ជាង|IN ២៥|CD លាន|CD រៀល|PN ផ្សេង_ទៀត|RB ។|KAN
+លោក~ជំទាវ|PRO ណោន|PN សារម្យ|PN
+===== Start evaluation on train5.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe (closed test data)  =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train5/train5.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe
+starting: testing
+finished: testing in 0.465 seconds
+Accuracy: 94.30  (9804/10397)
+ count  gold   model
+    79  PRO    NN
+    42  VB     IN
+    42  VB     VB_JJ
+    36  PN     NN
+    31  VB_JJ  VB
+    21  PRO    RB
+    21  IN     VB
+    18  VB     RPN
+    17  RB     VB
+    15  RB     JJ
+avg tagging: 0.0004 sec
+==========
+
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train6/train6.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train6/CLOSE-TEST.word.tagged
+===== Finished tagging with model train6.pipe.ser! =====
+head first 2 lines of tagged file
+ក្រៅ_ពី|IN នោះ|DT លិខិត|NN នេះ|DT បាន|AUX បញ្ជាក់|VB យ៉ាង|RB លម្អិត|JJ ពី|IN ការ~កិបកេង|NN ប្រាក់|NN ឧបត្ថម្ភ|NN ផ្សេង|JJ ៗ|DBL ពី|IN ក្រសួង|NN សរុប|JJ ជាង|IN ២៥|CD លាន|CD រៀល|PN ផ្សេង_ទៀត|RB ។|KAN
+លោក~ជំទាវ|PRO ណោន|PN សារម្យ|PN
+===== Start evaluation on train6.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe (closed test data)  =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train6/train6.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe
+starting: testing
+finished: testing in 0.427 seconds
+Accuracy: 93.66  (9738/10397)
+ count  gold   model
+    77  PN     NN
+    63  PRO    NN
+    47  VB     IN
+    46  VB     VB_JJ
+    35  VB     AUX
+    33  VB_JJ  VB
+    33  IN     AUX
+    24  IN     VB
+    17  RB     VB
+    15  RB     JJ
+avg tagging: 0.0004 sec
+==========
+
+===========
+===========
+start open testing!
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train1/train1.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train1/OPEN-TEST.word.tagged
+===== Finished tagging with model train1.pipe.ser! =====
+head first 2 lines of tagged file
+លោក~ស្រី|PRO ឃុន|PN វត្តី|PN ស្រី|PN រាជ្យនី|PN
+គាត់|PRO ឈ្មោះ|PN មឿន|PN តឿប|PN
+===== Start evaluation on /home/ye/experiment/kh-pos/final-exp/2hours/train1/train1.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe (open test data) =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train1/train1.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe
+starting: testing
+finished: testing in 0.481 seconds
+Accuracy: 90.02  (9702/10778)
+ count  gold   model
+   183  NN     PN
+    86  PN     NN
+    67  VB_JJ  VB
+    53  VB     NN
+    50  JJ     NN
+    46  PRO    NN
+    44  VB     IN
+    34  IN     AUX
+    31  VB     AUX
+    31  VB     VB_JJ
+avg tagging: 0.0004 sec
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train2/train2.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train2/OPEN-TEST.word.tagged
+===== Finished tagging with model train2.pipe.ser! =====
+head first 2 lines of tagged file
+លោក~ស្រី|PRO ឃុន|PN វត្តី|PN ស្រី|PN រាជ្យនី|PN
+គាត់|PRO ឈ្មោះ|NN មឿន|PN តឿប|PN
+===== Start evaluation on /home/ye/experiment/kh-pos/final-exp/2hours/train2/train2.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe (open test data) =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train2/train2.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe
+starting: testing
+finished: testing in 0.44 seconds
+Accuracy: 92.22  (9939/10778)
+ count  gold   model
+    77  PN     NN
+    68  PRO    NN
+    58  VB_JJ  VB
+    44  VB     IN
+    39  JJ     NN
+    35  VB     NN
+    33  VB     VB_JJ
+    29  RB     VB
+    24  NN     PN
+    23  IN     VB
+avg tagging: 0.0004 sec
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train3/train3.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train3/OPEN-TEST.word.tagged
+===== Finished tagging with model train3.pipe.ser! =====
+head first 2 lines of tagged file
+លោក~ស្រី|PRO ឃុន|PN វត្តី|PN ស្រី|PN រាជ្យនី|PN
+គាត់|PRO ឈ្មោះ|NN មឿន|PN តឿប|PN
+===== Start evaluation on /home/ye/experiment/kh-pos/final-exp/2hours/train3/train3.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe (open test data) =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train3/train3.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe
+starting: testing
+finished: testing in 0.462 seconds
+Accuracy: 92.78  (10000/10778)
+ count  gold   model
+   101  PN     NN
+    79  PRO    NN
+    51  VB_JJ  VB
+    40  VB     IN
+    40  VB     VB_JJ
+    32  VB     AUX
+    27  RB     VB
+    26  JJ     NN
+    26  VB     NN
+    23  IN     VB
+avg tagging: 0.0004 sec
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train4/train4.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train4/OPEN-TEST.word.tagged
+===== Finished tagging with model train4.pipe.ser! =====
+head first 2 lines of tagged file
+លោក~ស្រី|PRO ឃុន|PN វត្តី|PN ស្រី|PN រាជ្យនី|PN
+គាត់|PRO ឈ្មោះ|NN មឿន|PN តឿប|PN
+===== Start evaluation on /home/ye/experiment/kh-pos/final-exp/2hours/train4/train4.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe (open test data) =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train4/train4.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe
+starting: testing
+finished: testing in 0.512 seconds
+Accuracy: 92.32  (9950/10778)
+ count  gold   model
+    82  PRO    NN
+    79  PN     NN
+    60  VB     AUX
+    53  VB_JJ  VB
+    43  PRO    RB
+    42  VB     IN
+    42  VB     VB_JJ
+    28  VB     NN
+    27  IN     VB
+    25  JJ     NN
+avg tagging: 0.0005 sec
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train5/train5.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train5/OPEN-TEST.word.tagged
+===== Finished tagging with model train5.pipe.ser! =====
+head first 2 lines of tagged file
+លោក~ស្រី|PRO ឃុន|PN វត្តី|PN ស្រី|PN រាជ្យនី|PN
+គាត់|PRO ឈ្មោះ|NN មឿន|PN តឿប|PN
+===== Start evaluation on /home/ye/experiment/kh-pos/final-exp/2hours/train5/train5.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe (open test data) =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train5/train5.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe
+starting: testing
+finished: testing in 0.449 seconds
+Accuracy: 93.07  (10031/10778)
+ count  gold   model
+   102  PRO    NN
+    49  PN     NN
+    48  VB_JJ  VB
+    41  VB     IN
+    39  VB     VB_JJ
+    33  PRO    RB
+    28  VB     NN
+    28  IN     VB
+    25  RB     VB
+    24  JJ     NN
+avg tagging: 0.0004 sec
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train6/train6.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train6/OPEN-TEST.word.tagged
+===== Finished tagging with model train6.pipe.ser! =====
+head first 2 lines of tagged file
+លោក~ស្រី|PRO ឃុន|PN វត្តី|PN ស្រី|PN រាជ្យនី|PN
+គាត់|PRO ឈ្មោះ|NN មឿន|PN តឿប|PN
+===== Start evaluation on /home/ye/experiment/kh-pos/final-exp/2hours/train6/train6.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe (open test data) =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train6/train6.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe
+starting: testing
+finished: testing in 0.432 seconds
+Accuracy: 92.68  (9989/10778)
+ count  gold   model
+    92  PN     NN
+    79  PRO    NN
+    48  VB_JJ  VB
+    48  VB     VB_JJ
+    45  VB     IN
+    32  IN     AUX
+    30  VB     AUX
+    26  VB     NN
+    22  IN     VB
+    20  JJ     NN
+avg tagging: 0.0004 sec

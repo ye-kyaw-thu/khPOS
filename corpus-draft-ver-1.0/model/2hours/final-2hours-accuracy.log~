@@ -1,0 +1,180 @@
+
+Evaluation for closed-test with train1:
+Accuracy: 93.54% (9725/10397)
+
+Most common mistakes:
+ឈ្មោះ/NN --> ឈ្មោះ/PN	145
+កម្ពុជា/PN --> កម្ពុជា/NN	39
+ដើម្បី/IN --> ដើម្បី/AUX	34
+បាន/VB --> បាន/AUX	33
+ជា/VB --> ជា/IN	15
+យើង/PRO --> យើង/VB	13
+ខ្លួន/PRO --> ខ្លួន/NN	12
+ឲ្យ/VB --> ឲ្យ/IN	10
+ឯង/PRO --> ឯង/NN	9
+អ្នក/PRO --> អ្នក/VB	9
+
+Evaluation for closed-test with train2:
+Accuracy: 94.44% (9819/10397)
+
+Most common mistakes:
+អ្នក/PRO --> អ្នក/NN	24
+កម្ពុជា/PN --> កម្ពុជា/RB	20
+កម្ពុជា/PN --> កម្ពុជា/NN	19
+ដើម្បី/IN --> ដើម្បី/RPN	19
+គ្នា/PRO --> គ្នា/VB	14
+ជា/VB --> ជា/IN	14
+ពេញ/PN --> ពេញ/CD	13
+ខ្លួន/PRO --> ខ្លួន/NN	12
+ត្រូវ/VB --> ត្រូវ/RPN	11
+យើង/PRO --> យើង/NN	11
+
+Evaluation for closed-test with train3:
+Accuracy: 94.33% (9807/10397)
+
+Most common mistakes:
+កម្ពុជា/PN --> កម្ពុជា/NN	41
+បាន/VB --> បាន/AUX	37
+អ្នក/PRO --> អ្នក/NN	24
+គេ/PRO --> គេ/VB	18
+ជា/VB --> ជា/IN	15
+ខ្លួន/PRO --> ខ្លួន/NN	12
+ពេញ/PN --> ពេញ/NN	12
+មាន/VB --> JJ	12
+ខ្មែរ/PN --> ខ្មែរ/NN	10
+ទៅ/IN --> ទៅ/VB	10
+
+Evaluation for closed-test with train4:
+Accuracy: 93.83% (9756/10397)
+
+Most common mistakes:
+កម្ពុជា/PN --> កម្ពុជា/NN	41
+បាន/VB --> បាន/AUX	35
+គេ/PRO --> គេ/RB	26
+អ្នក/PRO --> អ្នក/NN	25
+ជា/VB --> ជា/IN	15
+អាច/VB --> អាច/AUX	14
+ខ្លួន/PRO --> ខ្លួន/NN	12
+ខ្មែរ/PN --> ខ្មែរ/NN	11
+មាន/VB --> JJ	11
+ឲ្យ/VB --> ឲ្យ/IN	9
+
+Evaluation for closed-test with train5:
+Accuracy: 94.30% (9804/10397)
+
+Most common mistakes:
+អ្នក/PRO --> អ្នក/NN	26
+បាន/VB --> បាន/RPN	18
+គេ/PRO --> គេ/AUX	15
+ជា/VB --> ជា/IN	15
+គ្នា/PRO --> គ្នា/NN	13
+ខ្លួន/PRO --> ខ្លួន/NN	12
+ឲ្យ/VB --> ឲ្យ/IN	11
+គេ/PRO --> គេ/RB	10
+(/SYM --> (/IN	10
+ខ្មែរ/PN --> ខ្មែរ/NN	10
+
+Evaluation for closed-test with train6:
+Accuracy: 93.66% (9738/10397)
+
+Most common mistakes:
+កម្ពុជា/PN --> កម្ពុជា/NN	42
+ដើម្បី/IN --> ដើម្បី/AUX	33
+បាន/VB --> បាន/AUX	33
+អ្នក/PRO --> អ្នក/NN	24
+ជា/VB --> ជា/IN	15
+ខ្លួន/PRO --> ខ្លួន/NN	12
+មាន/VB --> JJ	11
+យើង/PRO --> យើង/NN	11
+ខ្មែរ/PN --> ខ្មែរ/NN	11
+(/SYM --> (/IN	10
+
+Evaluation for open-test with train1:
+Accuracy: 90.02% (9702/10778)
+
+Most common mistakes:
+ឈ្មោះ/NN --> ឈ្មោះ/PN	158
+កម្ពុជា/PN --> កម្ពុជា/NN	37
+ដើម្បី/IN --> ដើម្បី/AUX	31
+បាន/VB --> បាន/AUX	31
+យើង/PRO --> យើង/VB	17
+អ្វី/PRO --> អ្វី/NN	13
+បាន/VCOM --> បាន/AUX	13
+ខ្លួន/PRO --> ខ្លួន/NN	10
+ជា/IN --> ជា/VB	10
+ជា/VB --> ជា/IN	9
+
+Evaluation for open-test with train2:
+Accuracy: 92.22% (9939/10778)
+
+Most common mistakes:
+អ្នក/PRO --> អ្នក/NN	33
+កម្ពុជា/PN --> កម្ពុជា/NN	24
+ដើម្បី/IN --> ដើម្បី/RPN	16
+ពេញ/PN --> ពេញ/CD	15
+កម្ពុជា/PN --> កម្ពុជា/RB	14
+គ្នា/PRO --> គ្នា/VB	13
+ជា/VB --> ជា/IN	12
+ដើម្បី/IN --> ដើម្បី/AUX	10
+ខ្លួន/PRO --> ខ្លួន/NN	10
+ថៃ/PN --> ថៃ/NN	10
+
+Evaluation for open-test with train3:
+Accuracy: 92.78% (10000/10778)
+
+Most common mistakes:
+កម្ពុជា/PN --> កម្ពុជា/NN	39
+អ្នក/PRO --> អ្នក/NN	35
+បាន/VB --> បាន/AUX	32
+គេ/PRO --> គេ/VB	16
+ពេញ/PN --> ពេញ/NN	15
+អ្វី/PRO --> អ្វី/NN	13
+នឹង/AUX --> នឹង/IN	10
+ខ្លួន/PRO --> ខ្លួន/NN	10
+ជា/VB --> ជា/IN	9
+គេ/PRO --> គេ/NN	9
+
+Evaluation for open-test with train4:
+Accuracy: 92.32% (9950/10778)
+
+Most common mistakes:
+កម្ពុជា/PN --> កម្ពុជា/NN	39
+អ្នក/PRO --> អ្នក/NN	37
+អាច/VB --> អាច/AUX	29
+បាន/VB --> បាន/AUX	29
+គេ/PRO --> គេ/RB	21
+ទ្រង់/PRO --> ទ្រង់/RB	18
+អ្វី/PRO --> អ្វី/NN	13
+ជា/IN --> ជា/VB	11
+នឹង/AUX --> នឹង/IN	11
+មាន/VB --> JJ	10
+
+Evaluation for open-test with train5:
+Accuracy: 93.07% (10031/10778)
+
+Most common mistakes:
+អ្នក/PRO --> អ្នក/NN	35
+ទ្រង់/PRO --> ទ្រង់/RB	17
+គ្នា/PRO --> គ្នា/NN	13
+អ្វី/PRO --> អ្វី/NN	13
+គេ/PRO --> គេ/RB	11
+ខ្លួន/PRO --> ខ្លួន/NN	10
+ជា/VB --> ជា/IN	10
+ជា/IN --> ជា/VB	9
+បាន/VB --> បាន/RPN	9
+ហើយ/CC --> ហើយ/RB	9
+
+Evaluation for open-test with train6:
+Accuracy: 92.68% (9989/10778)
+
+Most common mistakes:
+កម្ពុជា/PN --> កម្ពុជា/NN	38
+អ្នក/PRO --> អ្នក/NN	35
+ដើម្បី/IN --> ដើម្បី/AUX	31
+បាន/VB --> បាន/AUX	29
+ទ្រង់/PRO --> ទ្រង់/AUX	15
+អ្វី/PRO --> អ្វី/NN	13
+មាន/VB --> JJ	10
+យើង/PRO --> យើង/NN	10
+ថៃ/PN --> ថៃ/NN	10
+ជា/VB --> ជា/IN	10

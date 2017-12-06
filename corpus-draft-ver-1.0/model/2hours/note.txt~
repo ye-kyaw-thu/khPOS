@@ -1,0 +1,1775 @@
+Training, testing and evaluation log file for 2hours approach:
+
+Change "/" to "|" for training with 2hours program:
+ye@DL-Box:~/experiment/kh-pos/final-exp/2hours$ ./slash2pipe-all.sh
+
+Check "|":
+
+ye@DL-Box:~/experiment/kh-pos/final-exp/2hours$ for i in {1..6}; do echo "filename: train$i.pipe:"; head -n 3 ./train$i/train$i.pipe; echo ""; done
+filename: train1.pipe:
+ក្រៅ_ពី|IN នោះ|DT លិខិត|NN នេះ|DT បាន|AUX បញ្ជាក់|VB យ៉ាង|RB លម្អិត|JJ ពី|IN ការ~កិបកេង|NN ប្រាក់|NN ឧបត្ថម្ភ|NN ផ្សេង|JJ ៗ|DBL ពី|IN ក្រសួង|NN សរុប|JJ ជាង|IN ២៥|CD លាន|CD រៀល|PN ផ្សេង_ទៀត|JJ ។|KAN
+លោក~ជំទាវ|PRO ណោន|PN សារម្យ|PN
+លោក~ជំទាវ|PRO ប៉ូលែន|PN
+
+filename: train2.pipe:
+ក្រៅ_ពី|IN នោះ|DT លិខិត|NN នេះ|DT បាន|AUX បញ្ជាក់|VB យ៉ាង|RB លម្អិត|JJ ពី|IN ការ~កិបកេង|NN ប្រាក់|NN ឧបត្ថម្ភ|NN ផ្សេង|JJ ៗ|DBL ពី|IN ក្រសួង|NN សរុប|JJ ជាង|IN ២៥|CD លាន|CD រៀល|PN ផ្សេង_ទៀត|JJ ។|KAN
+លោក~ជំទាវ|PRO ណោន|PN សារម្យ|PN
+លោក~ជំទាវ|PRO ប៉ូលែន|PN
+
+filename: train3.pipe:
+ក្រៅ_ពី|IN នោះ|DT លិខិត|NN នេះ|DT បាន|AUX បញ្ជាក់|VB យ៉ាង|RB លម្អិត|JJ ពី|IN ការ~កិបកេង|NN ប្រាក់|NN ឧបត្ថម្ភ|NN ផ្សេង|JJ ៗ|DBL ពី|IN ក្រសួង|NN សរុប|JJ ជាង|IN ២៥|CD លាន|CD រៀល|PN ផ្សេង_ទៀត|JJ ។|KAN
+លោក~ជំទាវ|PRO ណោន|PN សារម្យ|PN
+លោក~ជំទាវ|PRO ប៉ូលែន|PN
+
+filename: train4.pipe:
+ក្រៅ_ពី|IN នោះ|DT លិខិត|NN នេះ|DT បាន|AUX បញ្ជាក់|VB យ៉ាង|RB លម្អិត|JJ ពី|IN ការ~កិបកេង|NN ប្រាក់|NN ឧបត្ថម្ភ|NN ផ្សេង|JJ ៗ|DBL ពី|IN ក្រសួង|NN សរុប|JJ ជាង|IN ២៥|CD លាន|CD រៀល|PN ផ្សេង_ទៀត|JJ ។|KAN
+លោក~ជំទាវ|PRO ណោន|PN សារម្យ|PN
+លោក~ជំទាវ|PRO ប៉ូលែន|PN
+
+filename: train5.pipe:
+ក្រៅ_ពី|IN នោះ|DT លិខិត|NN នេះ|DT បាន|AUX បញ្ជាក់|VB យ៉ាង|RB លម្អិត|JJ ពី|IN ការ~កិបកេង|NN ប្រាក់|NN ឧបត្ថម្ភ|NN ផ្សេង|JJ ៗ|DBL ពី|IN ក្រសួង|NN សរុប|JJ ជាង|IN ២៥|CD លាន|CD រៀល|PN ផ្សេង_ទៀត|JJ ។|KAN
+លោក~ជំទាវ|PRO ណោន|PN សារម្យ|PN
+លោក~ជំទាវ|PRO ប៉ូលែន|PN
+
+filename: train6.pipe:
+ក្រៅ_ពី|IN នោះ|DT លិខិត|NN នេះ|DT បាន|AUX បញ្ជាក់|VB យ៉ាង|RB លម្អិត|JJ ពី|IN ការ~កិបកេង|NN ប្រាក់|NN ឧបត្ថម្ភ|NN ផ្សេង|JJ ៗ|DBL ពី|IN ក្រសួង|NN សរុប|JJ ជាង|IN ២៥|CD លាន|CD រៀល|PN ផ្សេង_ទៀត|JJ ។|KAN
+លោក~ជំទាវ|PRO ណោន|PN សារម្យ|PN
+លោក~ជំទាវ|PRO ប៉ូលែន|PN
+
+
+Checking for closed and open test files:
+
+ye@DL-Box:~/experiment/kh-pos/final-exp/2hours$ head -n 3 ./CLOSE-TEST.pipe 
+ក្រៅ_ពី|IN នោះ|DT លិខិត|NN នេះ|DT បាន|AUX បញ្ជាក់|VB យ៉ាង|RB លម្អិត|JJ ពី|IN ការ~កិបកេង|NN ប្រាក់|NN ឧបត្ថម្ភ|NN ផ្សេង|JJ ៗ|DBL ពី|IN ក្រសួង|NN សរុប|JJ ជាង|IN ២៥|CD លាន|CD រៀល|PN ផ្សេង_ទៀត|JJ ។|KAN
+លោក~ជំទាវ|PRO ណោន|PN សារម្យ|PN
+លោក~ជំទាវ|PRO ប៉ូលែន|PN
+ye@DL-Box:~/experiment/kh-pos/final-exp/2hours$ head -n 3 ./OPEN-TEST.pipe 
+លោក~ស្រី|PRO ឃុន|PN វត្តី|PN ស្រី|PN រាជ្យនី|PN
+គាត់|PRO ឈ្មោះ|NN មឿន|PN តឿប|PN
+លោក|PRO ឃូ|PN ប៉ាវ|PN ស្រ៊ុន|PN
+ye@DL-Box:~/experiment/kh-pos/final-exp/2hours$ 
+
+===============
+
+Training:
+Note: First change to the path of 2hour program exist and then run
+
+Run 2h-train-all.sh
+
+Following is the output of train6 (FYI):
+
+Training mode
+Raw tokens: 129029  (12000 sentences)
+Token-supervision tokens: 129029  (12000 sentences)
+Type-supervision TD-entries: 8800  (7626 word types)
+tsmooth: AddLambdaTransitionDistributioner(0.1)
+esmooth: AddLambdaEmissionDistributioner(0.1)
+emTrainer: SoftEmHmmTaggerTrainer(50, UnsmoothedTransitionDistributioner(), UnsmoothedEmissionDistributioner(), alphaT=0.000000, alphaE=0.000000)
+Induce a soft tagging of the raw data
+[main] INFO junto.config.GraphBuilder$ - Edges Processed: 1000000
+[main] INFO junto.graph.Graph - ZERO ENTROPY NEIGHBORHOOD Heuristic adjustment used for 0 nodes!
+[main] INFO junto.graph.Graph - Total edges: 1638116
+[main] INFO junto.graph.Graph - Total nodes pruned: 0
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 1
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 2
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 3
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 4
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 5
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 6
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 7
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 8
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 9
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 10
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 11
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 12
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 13
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 14
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 15
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 16
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 17
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 18
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 19
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 20
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 21
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 22
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 23
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 24
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 25
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 26
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 27
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 28
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 29
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 30
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 31
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 32
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 33
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 34
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 35
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 36
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 37
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 38
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 39
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 40
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 41
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 42
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 43
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 44
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 45
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 46
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 47
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 48
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 49
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 50
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 51
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 52
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 53
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 54
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 55
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 56
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 57
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 58
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 59
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 60
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 61
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 62
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 63
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 64
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 65
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 66
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 67
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 68
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 69
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 70
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 71
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 72
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 73
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 74
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 75
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 76
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 77
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 78
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 79
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 80
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 81
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 82
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 83
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 84
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 85
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 86
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 87
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 88
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 89
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 90
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 91
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 92
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 93
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 94
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 95
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 96
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 97
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 98
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 99
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 100
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 101
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 102
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 103
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 104
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 105
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 106
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 107
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 108
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 109
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 110
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 111
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 112
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 113
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 114
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 115
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 116
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 117
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 118
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 119
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 120
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 121
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 122
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 123
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 124
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 125
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 126
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 127
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 128
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 129
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 130
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 131
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 132
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 133
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 134
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 135
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 136
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 137
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 138
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 139
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 140
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 141
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 142
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 143
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 144
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 145
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 146
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 147
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 148
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 149
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 150
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 151
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 152
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 153
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 154
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 155
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 156
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 157
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 158
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 159
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 160
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 161
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 162
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 163
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 164
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 165
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 166
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 167
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 168
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 169
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 170
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 171
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 172
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 173
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 174
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 175
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 176
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 177
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 178
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 179
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 180
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 181
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 182
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 183
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 184
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 185
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 186
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 187
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 188
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 189
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 190
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 191
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 192
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 193
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 194
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 195
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 196
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 197
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 198
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 199
+[main] INFO junto.algorithm.ModifiedAdsorption - Iteration: 200
+[main] INFO junto.graph.GraphIo$ - Total test instances evaluated: 0
+Extract a generalized tag dictionary
+Induce a hard tagging via model minimization on the soft LP output
+learn a smoothed HMM from EM
+learn an HMM initialized with the estimated transition and emission distributions
+raw tokens = 129029  (12000 sentences)
+numWords = 7626
+numTags  = 25
+
+Make Indexed Distributions
+Make Prior Counts (from the 12000 gold labeled sentences)
+Start Training
+iteration 1:   0.244 sec   avgLogProb=-75.32011273370081,    avgProb=1.9448703856917238E-33
+iteration 2:   0.194 sec   avgLogProb=-72.86741301359864,    avgProb=2.2598760399738883E-32
+iteration 3:   0.202 sec   avgLogProb=-72.47009123321112,    avgProb=3.3623217843896255E-32
+iteration 4:   0.180 sec   avgLogProb=-72.40695092834869,    avgProb=3.581465404268148E-32
+iteration 5:   0.179 sec   avgLogProb=-72.38581413028584,    avgProb=3.6579718172485764E-32
+iteration 6:   0.179 sec   avgLogProb=-72.37332848725944,    avgProb=3.7039302608781187E-32
+iteration 7:   0.179 sec   avgLogProb=-72.36512947318474,    avgProb=3.734423674358457E-32
+iteration 8:   0.178 sec   avgLogProb=-72.36080296391091,    avgProb=3.7506156952244086E-32
+iteration 9:   0.178 sec   avgLogProb=-72.3588084043081,     avgProb=3.7581039872155696E-32
+iteration 10:  0.178 sec   avgLogProb=-72.35785851499799,    avgProb=3.761675466005568E-32
+iteration 11:  0.177 sec   avgLogProb=-72.35733071192708,    avgProb=3.76366141391689E-32
+iteration 12:  0.177 sec   avgLogProb=-72.35698092486473,    avgProb=3.764978124257231E-32
+iteration 13:  0.177 sec   avgLogProb=-72.35671814753313,    avgProb=3.7659676051631353E-32
+iteration 14:  0.177 sec   avgLogProb=-72.35650694141714,    avgProb=3.766763084556073E-32
+iteration 15:  0.177 sec   avgLogProb=-72.35633189786343,    avgProb=3.767422489863019E-32
+iteration 16:  0.177 sec   avgLogProb=-72.35618502591657,    avgProb=3.7679758591749443E-32
+iteration 17:  0.177 sec   avgLogProb=-72.35606114056856,    avgProb=3.7684426850914276E-32
+iteration 18:  0.178 sec   avgLogProb=-72.35595620044758,    avgProb=3.7688381666732754E-32
+iteration 19:  0.178 sec   avgLogProb=-72.35586678054334,    avgProb=3.769175190889355E-32
+iteration 20:  0.190 sec   avgLogProb=-72.35578994432015,    avgProb=3.7694648112020754E-32
+iteration 21:  0.178 sec   avgLogProb=-72.35572321823187,    avgProb=3.769716341235542E-32
+iteration 22:  0.177 sec   avgLogProb=-72.35566456963483,    avgProb=3.7699374362936155E-32
+iteration 23:  0.177 sec   avgLogProb=-72.35561236905741,    avgProb=3.7701342343410477E-32
+iteration 24:  0.177 sec   avgLogProb=-72.35556534144764,    avgProb=3.7703115389116626E-32
+iteration 25:  0.176 sec   avgLogProb=-72.35552251352051,    avgProb=3.7704730169973766E-32
+iteration 26:  0.178 sec   avgLogProb=-72.35548316172873,    avgProb=3.770621394785917E-32
+iteration 27:  0.178 sec   avgLogProb=-72.35544676322894,    avgProb=3.770758642245739E-32
+iteration 28:  0.177 sec   avgLogProb=-72.35541295107073,    avgProb=3.77088614188902E-32
+iteration 29:  0.176 sec   avgLogProb=-72.35538147440288,    avgProb=3.7710048386877155E-32
+iteration 30:  0.177 sec   avgLogProb=-72.35535216429328,    avgProb=3.771115368872643E-32
+iteration 31:  0.176 sec   avgLogProb=-72.35532490551402,    avgProb=3.7712181662750885E-32
+iteration 32:  0.176 sec   avgLogProb=-72.35529961431627,    avgProb=3.7713135461056514E-32
+iteration 33:  0.176 sec   avgLogProb=-72.35527622194763,    avgProb=3.7714017670941954E-32
+iteration 34:  0.176 sec   avgLogProb=-72.3552546633058,     avgProb=3.771483074270535E-32
+iteration 35:  0.176 sec   avgLogProb=-72.35523486993876,    avgProb=3.7715577253581237E-32
+iteration 36:  0.176 sec   avgLogProb=-72.3552167664817,     avgProb=3.771626004209462E-32
+iteration 37:  0.190 sec   avgLogProb=-72.3552002696232,     avgProb=3.7716882247032145E-32
+iteration 38:  0.176 sec   avgLogProb=-72.35518528877441,    avgProb=3.771744728217422E-32
+iteration 39:  0.176 sec   avgLogProb=-72.35517172774314,    avgProb=3.7717958773124287E-32
+iteration 40:  0.176 sec   avgLogProb=-72.35515948687988,    avgProb=3.7718420476325754E-32
+iteration 41:  0.177 sec   avgLogProb=-72.35514846531125,    avgProb=3.771883619477692E-32
+iteration 42:  0.177 sec   avgLogProb=-72.35513856300577,    avgProb=3.77192097000645E-32
+iteration 43:  0.176 sec   avgLogProb=-72.3551296825355,     avgProb=3.771954466587185E-32
+iteration 44:  0.177 sec   avgLogProb=-72.35512173047695,    avgProb=3.771984461509223E-32
+iteration 45:  0.176 sec   avgLogProb=-72.3551146184212,     avgProb=3.7720112881684164E-32
+iteration 46:  0.176 sec   avgLogProb=-72.35510826366193,    avgProb=3.772035258468259E-32
+iteration 47:  0.176 sec   avgLogProb=-72.355102589569,      avgProb=3.7720566614075806E-32
+iteration 48:  0.176 sec   avgLogProb=-72.35509752570748,    avgProb=3.77207576262853E-32
+iteration 49:  0.176 sec   avgLogProb=-72.35509300779952,    avgProb=3.7720928045581165E-32
+iteration 50:  0.176 sec   avgLogProb=-72.3550889775108,     avgProb=3.7721080072118384E-32
+MAX ITERATIONS REACHED
+Indexing events using cutoff of 10
+
+	Computing event counts...  done. 129029 events
+	Indexing...  done.
+Sorting and merging events... done. Reduced 129029 events to 117217.
+Done indexing.
+Incorporating indexed data for training...  
+done.
+	Number of Event Tokens: 117217
+	    Number of Outcomes: 23
+	  Number of Predicates: 14758
+...done.
+Computing model parameters ...
+Performing 100 iterations.
+  1:  ... loglikelihood=-404569.68318770383	0.10653418998829721
+  2:  ... loglikelihood=-183683.48464554144	0.8873896565888288
+  3:  ... loglikelihood=-113794.97132844281	0.9184601911198258
+  4:  ... loglikelihood=-83339.77042514803	0.9347356020739523
+  5:  ... loglikelihood=-66688.47333973988	0.944671352951662
+  6:  ... loglikelihood=-56254.46931831669	0.9507862573529982
+  7:  ... loglikelihood=-49099.589597681195	0.9554518751598478
+  8:  ... loglikelihood=-43871.40409925681	0.9592417208534515
+  9:  ... loglikelihood=-39868.51128618699	0.962078292476885
+ 10:  ... loglikelihood=-36693.202132320774	0.9645118539243116
+ 11:  ... loglikelihood=-34103.75781139206	0.9663719008904975
+ 12:  ... loglikelihood=-31944.92280190382	0.9681776964868363
+ 13:  ... loglikelihood=-30112.416401428654	0.9696967348425548
+ 14:  ... loglikelihood=-28533.571322191405	0.9709600167404226
+ 15:  ... loglikelihood=-27156.16483897048	0.9722853002038302
+ 16:  ... loglikelihood=-25941.669098639013	0.9734400793620039
+ 17:  ... loglikelihood=-24861.00958241083	0.9743623526494044
+ 18:  ... loglikelihood=-23891.808961037204	0.9753776282851142
+ 19:  ... loglikelihood=-23016.543444695326	0.9763076517682071
+ 20:  ... loglikelihood=-22221.278018583886	0.9771524230986832
+ 21:  ... loglikelihood=-21494.77934975842	0.9777491881670012
+ 22:  ... loglikelihood=-20827.881149894474	0.9783537034310116
+ 23:  ... loglikelihood=-20213.021977732722	0.9789892194777918
+ 24:  ... loglikelihood=-19643.90313475664	0.9795084825891853
+ 25:  ... loglikelihood=-19115.23162721621	0.9800354958962714
+ 26:  ... loglikelihood=-18622.524277536497	0.9805857597904347
+ 27:  ... loglikelihood=-18161.956413843745	0.9810895225104433
+ 28:  ... loglikelihood=-17730.243544061675	0.9814615319036806
+ 29:  ... loglikelihood=-17324.54782044584	0.9820505467763061
+ 30:  ... loglikelihood=-16942.403412780674	0.9824458067566206
+ 31:  ... loglikelihood=-16581.656481468814	0.9828333165412426
+ 32:  ... loglikelihood=-16240.416529621854	0.9831665749560177
+ 33:  ... loglikelihood=-15917.01668988209	0.9835153337621775
+ 34:  ... loglikelihood=-15609.981074535226	0.9838640925683374
+ 35:  ... loglikelihood=-15317.997748792446	0.9841508498089577
+ 36:  ... loglikelihood=-15039.896214200742	0.9844841082237327
+ 37:  ... loglikelihood=-14774.628537050039	0.9847321144858908
+ 38:  ... loglikelihood=-14521.25344452637	0.9850111215308186
+ 39:  ... loglikelihood=-14278.922853946171	0.9853211293585163
+ 40:  ... loglikelihood=-14046.870409383482	0.9855691356206744
+ 41:  ... loglikelihood=-13824.401683932361	0.9858093916871401
+ 42:  ... loglikelihood=-13610.885771157664	0.986018646970836
+ 43:  ... loglikelihood=-13405.748040639848	0.9862046516674546
+ 44:  ... loglikelihood=-13208.463873253124	0.9864371575382278
+ 45:  ... loglikelihood=-13018.553224401863	0.9866541630176162
+ 46:  ... loglikelihood=-12835.575889694901	0.9868014167357726
+ 47:  ... loglikelihood=-12659.127368807016	0.9870261724108533
+ 48:  ... loglikelihood=-12488.835240593884	0.9872276774988569
+ 49:  ... loglikelihood=-12324.35597669065	0.9874291825868603
+ 50:  ... loglikelihood=-12165.372132459765	0.9875531857179394
+ 51:  ... loglikelihood=-12011.589863730043	0.9878166923714824
+ 52:  ... loglikelihood=-11862.736725713834	0.9879639460896388
+ 53:  ... loglikelihood=-11718.559717051852	0.9880801990250254
+ 54:  ... loglikelihood=-11578.823537448525	0.9882739539173364
+ 55:  ... loglikelihood=-11443.309031913404	0.9884134574398004
+ 56:  ... loglikelihood=-11311.81179850486	0.9885762115493416
+ 57:  ... loglikelihood=-11184.140939679084	0.98879321702873
+ 58:  ... loglikelihood=-11060.117940107028	0.9889249703555015
+ 59:  ... loglikelihood=-10939.575656119403	0.9890722240736579
+ 60:  ... loglikelihood=-10822.357403923907	0.9891884770090444
+ 61:  ... loglikelihood=-10708.316135401677	0.9893124801401235
+ 62:  ... loglikelihood=-10597.313691736525	0.9894132326841253
+ 63:  ... loglikelihood=-10489.220126354581	0.9895604864022817
+ 64:  ... loglikelihood=-10383.913089705524	0.9897542412945927
+ 65:  ... loglikelihood=-10281.27726933819	0.9898627440342869
+ 66:  ... loglikelihood=-10181.203879496068	0.9899867471653659
+ 67:  ... loglikelihood=-10083.590195155139	0.990110750296445
+ 68:  ... loglikelihood=-9988.339126003693	0.9903122553844484
+ 69:  ... loglikelihood=-9895.358826393584	0.99044400871122
+ 70:  ... loglikelihood=-9804.562337726098	0.9905370110595293
+ 71:  ... loglikelihood=-9715.867260147665	0.9906455137992234
+ 72:  ... loglikelihood=-9629.195450750663	0.9907307659518403
+ 73:  ... loglikelihood=-9544.472745801018	0.9908780196699967
+ 74:  ... loglikelihood=-9461.628704760993	0.9910330235838455
+ 75:  ... loglikelihood=-9380.59637412259	0.9911337761278473
+ 76:  ... loglikelihood=-9301.312069259957	0.991219028280464
+ 77:  ... loglikelihood=-9223.71517270912	0.9913197808244658
+ 78:  ... loglikelihood=-9147.747947427017	0.9913895325856978
+ 79:  ... loglikelihood=-9073.355363740751	0.9914205333684676
+ 80:  ... loglikelihood=-9000.48493881119	0.9914670345426222
+ 81:  ... loglikelihood=-8929.086587563834	0.9915445364995467
+ 82:  ... loglikelihood=-8859.11248412671	0.9916142882607786
+ 83:  ... loglikelihood=-8790.5169329151	0.9917072906090879
+ 84:  ... loglikelihood=-8723.256248579504	0.991831293740167
+ 85:  ... loglikelihood=-8657.288644105955	0.9919242960884762
+ 86:  ... loglikelihood=-8592.57412642412	0.9919785474583234
+ 87:  ... loglikelihood=-8529.0743989347	0.992079300002325
+ 88:  ... loglikelihood=-8466.75277042225	0.9921258011764797
+ 89:  ... loglikelihood=-8405.574069864864	0.9921878027420192
+ 90:  ... loglikelihood=-8345.504566694635	0.9922808050903286
+ 91:  ... loglikelihood=-8286.511896104392	0.9923350564601756
+ 92:  ... loglikelihood=-8228.564989024304	0.9924048082214076
+ 93:  ... loglikelihood=-8171.634006432189	0.9924590595912547
+ 94:  ... loglikelihood=-8115.690277679135	0.9925443117438716
+ 95:  ... loglikelihood=-8060.706242549943	0.9925908129180262
+ 96:  ... loglikelihood=-8006.655396788003	0.9926605646792581
+ 97:  ... loglikelihood=-7953.512240847746	0.9926838152663354
+ 98:  ... loglikelihood=-7901.25223164929	0.9927535670275675
+ 99:  ... loglikelihood=-7849.851737129514	0.9928310689844918
+100:  ... loglikelihood=-7799.287993399743	0.9928930705500314
+Writing tagger model to /home/ye/experiment/kh-pos/final-exp/2hours/train6/train6.pipe.ser
+
+ training finished !!!
+ls /home/ye/experiment/kh-pos/final-exp/2hours/train6/
+train6
+train6.pipe
+train6.pipe.ser
+train6.tag
+train6.word
+
+
+traiing time for train1 to train6:
+
+real	57m51.245s
+user	86m28.974s
+sys	1m15.961s
+
+===============
+
+When I checked the model files (i.e. .ser):
+I found train1 and train3 are failed.
+
+ye@DL-Box:~/experiment/kh-pos/final-exp/2hours$ for i in {1..6}; do ls ./train$i/*.ser; done;
+ls: ./train1/*.ser にアクセスできません: そのようなファイルやディレクトリはありません
+./train2/train2.pipe.ser
+ls: ./train3/*.ser にアクセスできません: そのようなファイルやディレクトリはありません
+./train4/train4.pipe.ser
+./train5/train5.pipe.ser
+./train6/train6.pipe.ser
+
+==============
+
+
+Train3 Error:
+Whe I retrained again, Train1 is OK and Train3 got error as follow:
+
+
+Make Indexed Distributions
+Make Prior Counts (from the 6000 gold labeled sentences)
+Start Training
+iteration 1:   0.131 sec   avgLogProb=-74.36708207396774,    avgProb=5.044134054823107E-33
+iteration 2:   0.098 sec   avgLogProb=-71.45427177735212,    avgProb=9.285473580992154E-32
+iteration 3:   0.083 sec   avgLogProb=-71.1788327387624,     avgProb=1.2229979054283803E-31
+iteration 4:   0.083 sec   avgLogProb=-71.13686626002128,    avgProb=1.275415008861726E-31
+iteration 5:   0.083 sec   avgLogProb=-71.1240641795526,     avgProb=1.291847937839096E-31
+iteration 6:   0.083 sec   avgLogProb=-71.11944719535623,    avgProb=1.2978261694330151E-31
+iteration 7:   0.083 sec   avgLogProb=-71.117852703943,      avgProb=1.2998971927917398E-31
+iteration 8:   0.082 sec   avgLogProb=-71.11734565777755,    avgProb=1.3005564678061367E-31
+iteration 9:   0.082 sec   avgLogProb=-71.11716212449421,    avgProb=1.3007951851104494E-31
+iteration 10:  0.082 sec   avgLogProb=-71.11701196153837,    avgProb=1.300990531026891E-31
+iteration 11:  0.082 sec   avgLogProb=-71.11672328420615,    avgProb=1.3013661517166143E-31
+iteration 12:  0.082 sec   avgLogProb=-71.11609631620605,    avgProb=1.3021823224798824E-31
+iteration 13:  0.099 sec   avgLogProb=-71.11532830841004,    avgProb=1.3031827927906987E-31
+iteration 14:  0.079 sec   avgLogProb=-71.11493467332487,    avgProb=1.3036958722367474E-31
+iteration 15:  0.078 sec   avgLogProb=-71.11477590214162,    avgProb=1.303902878005823E-31
+iteration 16:  0.078 sec   avgLogProb=-71.11468102745904,    avgProb=1.3040265912460157E-31
+iteration 17:  0.078 sec   avgLogProb=-71.11461379132827,    avgProb=1.3041142718960595E-31
+iteration 18:  0.078 sec   avgLogProb=-71.1145668593296,     avgProb=1.3041754780215825E-31
+iteration 19:  0.078 sec   avgLogProb=-71.11453640136422,    avgProb=1.3042152011580816E-31
+iteration 20:  0.078 sec   avgLogProb=-71.11451958914307,    avgProb=1.3042371280967874E-31
+iteration 21:  0.079 sec   avgLogProb=-71.1145142675221,     avgProb=1.3042440687709123E-31
+iteration 22:  0.079 sec   avgLogProb=-71.11451826815157,    avgProb=1.304238850984087E-31
+DIVERGENCE!
+Exception in thread "main" java.lang.AssertionError: assertion failed: DIVERGENCE!
+	at scala.Predef$.assert(Predef.scala:165)
+	at dhg.pos.tag.learn.SoftEmHmmTaggerTrainer.iterate(EmHmm.scala:285)
+	at dhg.pos.tag.learn.SoftEmHmmTaggerTrainer.doTrain(EmHmm.scala:260)
+	at dhg.pos.tag.learn.SemisupervisedHmmTaggerTrainer.trainWithTagsetsAndSomeGold(EmHmm.scala:129)
+	at dhg.pos.tag.learn.SemisupervisedHmmTaggerTrainer.trainWithTagsetsAndSomeGold(EmHmm.scala:50)
+	at dhg.pos.tag.SemisupervisedTaggerTrainer$class.trainWithSomeGold(Tagger.scala:68)
+	at dhg.pos.tag.learn.SemisupervisedHmmTaggerTrainer.trainWithSomeGold(EmHmm.scala:50)
+	at dhg.pos.run.Naacl2013Autotagger.induceRawCorpusTagging(Naacl2013Trainer.scala:156)
+	at dhg.pos.run.Run$.main(Run.scala:67)
+	at dhg.pos.run.Run.main(Run.scala)
+
+
+===================
+
+Updated ./2h-train-1and3-.sh.
+Part of ./2h-train-1and3-.sh FYI:
+
+for i in 1 3
+do
+
+   if [ "$i" == 1 ]; then
+      iteration_value=29;
+   else
+      #iteration_value=28;
+      iteration_value=22;
+   fi
+
+==================
+
+(py2.7) ye@DL-Box:~/tool/low-resource-pos-tagging-2014-master$ time ./2h-train-1and3-.sh | tee ./final-3only.log
+
+Training log is as follows:
+
+
+Training mode
+Raw tokens: 63757  (6000 sentences)
+Token-supervision tokens: 63757  (6000 sentences)
+Type-supervision TD-entries: 6794  (6025 word types)
+tsmooth: AddLambdaTransitionDistributioner(0.1)
+esmooth: AddLambdaEmissionDistributioner(0.1)
+emTrainer: SoftEmHmmTaggerTrainer(22, UnsmoothedTransitionDistributioner(), UnsmoothedEmissionDistributioner(), alphaT=0.000000, alphaE=0.000000)
+Induce a soft tagging of the raw data
+Extract a generalized tag dictionary
+Induce a hard tagging via model minimization on the soft LP output
+learn a smoothed HMM from EM
+learn an HMM initialized with the estimated transition and emission distributions
+raw tokens = 63757  (6000 sentences)
+numWords = 6025
+numTags  = 25
+
+Make Indexed Distributions
+Make Prior Counts (from the 6000 gold labeled sentences)
+Start Training
+iteration 1:   0.124 sec   avgLogProb=-74.36708207396774,    avgProb=5.044134054823107E-33
+iteration 2:   0.115 sec   avgLogProb=-71.45427177735212,    avgProb=9.285473580992154E-32
+iteration 3:   0.084 sec   avgLogProb=-71.1788327387624,     avgProb=1.2229979054283803E-31
+iteration 4:   0.081 sec   avgLogProb=-71.13686626002128,    avgProb=1.275415008861726E-31
+iteration 5:   0.084 sec   avgLogProb=-71.1240641795526,     avgProb=1.291847937839096E-31
+iteration 6:   0.092 sec   avgLogProb=-71.11944719535623,    avgProb=1.2978261694330151E-31
+iteration 7:   0.079 sec   avgLogProb=-71.117852703943,      avgProb=1.2998971927917398E-31
+iteration 8:   0.084 sec   avgLogProb=-71.11734565777755,    avgProb=1.3005564678061367E-31
+iteration 9:   0.080 sec   avgLogProb=-71.11716212449421,    avgProb=1.3007951851104494E-31
+iteration 10:  0.080 sec   avgLogProb=-71.11701196153837,    avgProb=1.300990531026891E-31
+iteration 11:  0.087 sec   avgLogProb=-71.11672328420615,    avgProb=1.3013661517166143E-31
+iteration 12:  0.080 sec   avgLogProb=-71.11609631620605,    avgProb=1.3021823224798824E-31
+iteration 13:  0.079 sec   avgLogProb=-71.11532830841004,    avgProb=1.3031827927906987E-31
+iteration 14:  0.081 sec   avgLogProb=-71.11493467332487,    avgProb=1.3036958722367474E-31
+iteration 15:  0.081 sec   avgLogProb=-71.11477590214162,    avgProb=1.303902878005823E-31
+iteration 16:  0.079 sec   avgLogProb=-71.11468102745904,    avgProb=1.3040265912460157E-31
+iteration 17:  0.079 sec   avgLogProb=-71.11461379132827,    avgProb=1.3041142718960595E-31
+iteration 18:  0.079 sec   avgLogProb=-71.1145668593296,     avgProb=1.3041754780215825E-31
+iteration 19:  0.079 sec   avgLogProb=-71.11453640136422,    avgProb=1.3042152011580816E-31
+iteration 20:  0.079 sec   avgLogProb=-71.11451958914307,    avgProb=1.3042371280967874E-31
+iteration 21:  0.089 sec   avgLogProb=-71.1145142675221,     avgProb=1.3042440687709123E-31
+iteration 22:  0.084 sec   avgLogProb=-71.11451826815157,    avgProb=1.304238850984087E-31
+MAX ITERATIONS REACHED
+Indexing events using cutoff of 10
+
+	Computing event counts...  done. 63757 events
+	Indexing...  done.
+Sorting and merging events... done. Reduced 63757 events to 57611.
+Done indexing.
+Incorporating indexed data for training...  
+done.
+	Number of Event Tokens: 57611
+	    Number of Outcomes: 23
+	  Number of Predicates: 9345
+...done.
+Computing model parameters ...
+Performing 100 iterations.
+  1:  ... loglikelihood=-199909.70472503343	0.10576093605408034
+  2:  ... loglikelihood=-96189.09668287532	0.8803896042787459
+  3:  ... loglikelihood=-61134.27703830439	0.9092648650344276
+  4:  ... loglikelihood=-45457.14941124537	0.9257493294853898
+  5:  ... loglikelihood=-36751.35813106438	0.9359286039180011
+  6:  ... loglikelihood=-31233.087638528777	0.9423749549069121
+  7:  ... loglikelihood=-27414.309965641856	0.9470018978308264
+  8:  ... loglikelihood=-24602.457927659354	0.9510014586633625
+  9:  ... loglikelihood=-22435.368927110554	0.9542011073293912
+ 10:  ... loglikelihood=-20706.39610454368	0.9568047430086108
+ 11:  ... loglikelihood=-19289.273232661886	0.9589064730147278
+ 12:  ... loglikelihood=-18102.504952449035	0.9608984111548536
+ 13:  ... loglikelihood=-17091.113397113528	0.9625452891447214
+ 14:  ... loglikelihood=-16216.638134976463	0.9642862744482958
+ 15:  ... loglikelihood=-15451.341444748768	0.9656665150493279
+ 16:  ... loglikelihood=-14774.692275971804	0.9673761312483335
+ 17:  ... loglikelihood=-14171.148385075217	0.9686465799833743
+ 18:  ... loglikelihood=-13628.709473075955	0.9698229214047085
+ 19:  ... loglikelihood=-13137.945760001972	0.9711090546920338
+ 20:  ... loglikelihood=-12691.33007273276	0.9723167652179369
+ 21:  ... loglikelihood=-12282.769600735191	0.9731794155935819
+ 22:  ... loglikelihood=-11907.271903875095	0.9737283749235378
+ 23:  ... loglikelihood=-11560.702420674046	0.9743714415672005
+ 24:  ... loglikelihood=-11239.60507303532	0.975045877315432
+ 25:  ... loglikelihood=-10941.067054500665	0.9755948366453879
+ 26:  ... loglikelihood=-10662.615158444525	0.9761751650799128
+ 27:  ... loglikelihood=-10402.135111517962	0.9768339162758599
+ 28:  ... loglikelihood=-10157.808056764168	0.9773358219489625
+ 29:  ... loglikelihood=-9928.060063699395	0.9779475194880562
+ 30:  ... loglikelihood=-9711.521671638664	0.9785121633702966
+ 31:  ... loglikelihood=-9506.99523473597	0.9789199617296924
+ 32:  ... loglikelihood=-9313.428377366774	0.9793591291936572
+ 33:  ... loglikelihood=-9129.892266368091	0.9797826121053375
+ 34:  ... loglikelihood=-8955.563705846247	0.9801433568078799
+ 35:  ... loglikelihood=-8789.710286845122	0.9805041015104223
+ 36:  ... loglikelihood=-8631.677995940248	0.9809432689743871
+ 37:  ... loglikelihood=-8480.880817110952	0.9814451746474897
+ 38:  ... loglikelihood=-8336.791960295935	0.9818843421114545
+ 39:  ... loglikelihood=-8198.936425783817	0.9821039258434368
+ 40:  ... loglikelihood=-8066.88467191763	0.9823235095754191
+ 41:  ... loglikelihood=-7940.247198934098	0.9825117242028326
+ 42:  ... loglikelihood=-7818.669897277147	0.9830136298759352
+ 43:  ... loglikelihood=-7701.830036800174	0.9833900591307622
+ 44:  ... loglikelihood=-7589.43279561235	0.9836566965195979
+ 45:  ... loglikelihood=-7481.208245218669	0.9838605956992957
+ 46:  ... loglikelihood=-7376.908723021124	0.9840958639835626
+ 47:  ... loglikelihood=-7276.306534924533	0.9842997631632605
+ 48:  ... loglikelihood=-7179.191940286238	0.9846134542089496
+ 49:  ... loglikelihood=-7085.37137921797	0.9848800915977853
+ 50:  ... loglikelihood=-6994.665908617511	0.9851624135389055
+ 51:  ... loglikelihood=-6906.909818560838	0.9853035745094656
+ 52:  ... loglikelihood=-6821.949405031047	0.9855074736891636
+ 53:  ... loglikelihood=-6739.641878571345	0.9857270574211459
+ 54:  ... loglikelihood=-6659.854391456222	0.9859780102576972
+ 55:  ... loglikelihood=-6582.463168491974	0.9861505403328262
+ 56:  ... loglikelihood=-6507.352728675808	0.9862760167511019
+ 57:  ... loglikelihood=-6434.415186716679	0.9864014931693775
+ 58:  ... loglikelihood=-6363.549624930242	0.986558338692222
+ 59:  ... loglikelihood=-6294.661527296405	0.9866838151104976
+ 60:  ... loglikelihood=-6227.662268548892	0.9868249760810578
+ 61:  ... loglikelihood=-6162.46865209648	0.9870445598130402
+ 62:  ... loglikelihood=-6099.002491363975	0.9872327744404535
+ 63:  ... loglikelihood=-6037.190229823605	0.9874837272770048
+ 64:  ... loglikelihood=-5976.962595566355	0.9875935191429961
+ 65:  ... loglikelihood=-5918.254286774336	0.9876562573521339
+ 66:  ... loglikelihood=-5861.003684881628	0.9877346801135561
+ 67:  ... loglikelihood=-5805.152592599913	0.9878287874272629
+ 68:  ... loglikelihood=-5750.645994300316	0.9880640557115297
+ 69:  ... loglikelihood=-5697.431836540593	0.9881738475775209
+ 70:  ... loglikelihood=-5645.460826768247	0.9883620622049344
+ 71:  ... loglikelihood=-5594.686248451546	0.9885032231754944
+ 72:  ... loglikelihood=-5545.063791079394	0.9885973304892012
+ 73:  ... loglikelihood=-5496.551393642056	0.9887541760120457
+ 74:  ... loglikelihood=-5449.109100348804	0.9888482833257525
+ 75:  ... loglikelihood=-5402.698927469619	0.9889894442963125
+ 76:  ... loglikelihood=-5357.2847403054475	0.9890992361623038
+ 77:  ... loglikelihood=-5312.83213938959	0.9893031353420016
+ 78:  ... loglikelihood=-5269.308355114475	0.9894756654171307
+ 79:  ... loglikelihood=-5226.682150058823	0.9896168263876908
+ 80:  ... loglikelihood=-5184.9237283592975	0.9897423028059664
+ 81:  ... loglikelihood=-5144.004651536824	0.9898207255673886
+ 82:  ... loglikelihood=-5103.897760239797	0.9899305174333799
+ 83:  ... loglikelihood=-5064.577101422942	0.9900246247470866
+ 84:  ... loglikelihood=-5026.0178605200435	0.9901501011653623
+ 85:  ... loglikelihood=-4988.196298211626	0.9903069466882067
+ 86:  ... loglikelihood=-4951.089691426122	0.9903696848973446
+ 87:  ... loglikelihood=-4914.676278243006	0.9904481076587669
+ 88:  ... loglikelihood=-4878.935206397126	0.990589268629327
+ 89:  ... loglikelihood=-4843.846485111406	0.9906363222861804
+ 90:  ... loglikelihood=-4809.390940004175	0.9906833759430337
+ 91:  ... loglikelihood=-4775.550170844854	0.9908245369135938
+ 92:  ... loglikelihood=-4742.306511946706	0.9908872751227317
+ 93:  ... loglikelihood=-4709.642995004581	0.9909813824364384
+ 94:  ... loglikelihood=-4677.543314202097	0.991075489750145
+ 95:  ... loglikelihood=-4645.9917934258665	0.991106858854714
+ 96:  ... loglikelihood=-4614.973355438521	0.9911695970638518
+ 97:  ... loglikelihood=-4584.473492873684	0.9912323352729896
+ 98:  ... loglikelihood=-4554.478240927197	0.9912950734821274
+ 99:  ... loglikelihood=-4524.974151628849	0.9913421271389808
+100:  ... loglikelihood=-4495.948269587066	0.9914362344526876
+Writing tagger model to /home/ye/experiment/kh-pos/final-exp/2hours/train3/train3.pipe.ser
+
+ training finished !!!
+ls /home/ye/experiment/kh-pos/final-exp/2hours/train3/
+train3
+train3.pipe
+train3.pipe.ser
+train3.tag
+train3.word
+
+=================
+
+Now all training finished as follows:
+
+ye@DL-Box:~/experiment/kh-pos/final-exp/2hours$ for i in {1..6}; do ls ./train$i/*.ser; done;
+./train1/train1.pipe.ser
+./train2/train2.pipe.ser
+./train3/train3.pipe.ser
+./train4/train4.pipe.ser
+./train5/train5.pipe.ser
+./train6/train6.pipe.ser
+
+
+==================
+
+
+Testing:
+
+Like training, testing also should done under the 2hours program path.
+
+(py2.7) ye@DL-Box:~/tool/low-resource-pos-tagging-2014-master$ time ./2h-test-all.sh | tee final-2hour-test.log
+
+
+start closed testing!
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train1/train1.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train1/CLOSE-TEST.word.tagged
+===== Finished tagging with model train1.pipe.ser! =====
+head first 2 lines of tagged file
+ក្រៅ_ពី|IN នោះ|DT លិខិត|NN នេះ|DT បាន|AUX បញ្ជាក់|VB យ៉ាង|RB លម្អិត|JJ ពី|IN ការ~កិបកេង|NN ប្រាក់|NN ឧបត្ថម្ភ|NN ផ្សេង|JJ ៗ|DBL ពី|IN ក្រសួង|NN សរុប|JJ ជាង|RB ២៥|CD លាន|CD រៀល|PN ផ្សេង_ទៀត|RB ។|KAN
+លោក~ជំទាវ|PRO ណោន|PN សារម្យ|PN
+===== Start evaluation on train1.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe (closed test data)  =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train1/train1.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe
+starting: testing
+finished: testing in 0.492 seconds
+Accuracy: 93.01  (9670/10397)
+ count  gold   model
+   149  NN     PN
+    55  RBR    SYM
+    48  PN     NN
+    44  VB     IN
+    39  PRO    NN
+    34  IN     AUX
+    33  VB     AUX
+    26  VB_JJ  VB
+    22  PRO    VB
+    22  IN     VB
+avg tagging: 0.0005 sec
+==========
+
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train2/train2.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train2/CLOSE-TEST.word.tagged
+===== Finished tagging with model train2.pipe.ser! =====
+head first 2 lines of tagged file
+ក្រៅ_ពី|IN នោះ|DT លិខិត|NN នេះ|DT បាន|AUX បញ្ជាក់|VB យ៉ាង|RB លម្អិត|JJ ពី|IN ការ~កិបកេង|NN ប្រាក់|NN ឧបត្ថម្ភ|NN ផ្សេង|JJ ៗ|DBL ពី|IN ក្រសួង|NN សរុប|JJ ជាង|RB ២៥|CD លាន|CD រៀល|PN ផ្សេង_ទៀត|RB ។|KAN
+លោក~ជំទាវ|PRO ណោន|PN សារម្យ|PN
+===== Start evaluation on train2.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe (closed test data)  =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train2/train2.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe
+starting: testing
+finished: testing in 0.446 seconds
+Accuracy: 93.91  (9764/10397)
+ count  gold   model
+    66  PRO    NN
+    55  RBR    SYM
+    44  VB     IN
+    36  PN     NN
+    34  VB_JJ  VB
+    31  VB     VB_JJ
+    22  IN     VB
+    21  PN     RB
+    19  IN     RPN
+    17  PRO    VB
+avg tagging: 0.0004 sec
+==========
+
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train3/train3.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train3/CLOSE-TEST.word.tagged
+===== Finished tagging with model train3.pipe.ser! =====
+head first 2 lines of tagged file
+ក្រៅ_ពី|IN នោះ|DT លិខិត|NN នេះ|DT បាន|AUX បញ្ជាក់|VB យ៉ាង|RB លម្អិត|JJ ពី|IN ការ~កិបកេង|NN ប្រាក់|NN ឧបត្ថម្ភ|NN ផ្សេង|JJ ៗ|DBL ពី|IN ក្រសួង|NN សរុប|JJ ជាង|IN ២៥|CD លាន|CD រៀល|PN ផ្សេង_ទៀត|RB ។|KAN
+លោក~ជំទាវ|PRO ណោន|PN សារម្យ|PN
+===== Start evaluation on train3.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe (closed test data)  =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train3/train3.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe
+starting: testing
+finished: testing in 0.47 seconds
+Accuracy: 93.83  (9755/10397)
+ count  gold   model
+    79  PN     NN
+    55  PRO    NN
+    52  RBR    SYM
+    43  VB     IN
+    42  VB     VB_JJ
+    37  VB     AUX
+    31  VB_JJ  VB
+    27  IN     VB
+    18  PRO    VB
+    15  RB     JJ
+avg tagging: 0.0004 sec
+==========
+
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train4/train4.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train4/CLOSE-TEST.word.tagged
+===== Finished tagging with model train4.pipe.ser! =====
+head first 2 lines of tagged file
+ក្រៅ_ពី|IN នោះ|DT លិខិត|NN នេះ|DT បាន|AUX បញ្ជាក់|VB យ៉ាង|RB លម្អិត|JJ ពី|IN ការ~កិបកេង|NN ប្រាក់|NN ឧបត្ថម្ភ|NN ផ្សេង|JJ ៗ|DBL ពី|IN ក្រសួង|NN សរុប|JJ ជាង|IN ២៥|CD លាន|CD រៀល|PN ផ្សេង_ទៀត|RB ។|KAN
+លោក~ជំទាវ|PRO ណោន|PN សារម្យ|PN
+===== Start evaluation on train4.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe (closed test data)  =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train4/train4.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe
+starting: testing
+finished: testing in 0.51 seconds
+Accuracy: 93.31  (9701/10397)
+ count  gold   model
+    67  PN     NN
+    58  PRO    NN
+    55  RBR    SYM
+    50  VB     AUX
+    43  VB     IN
+    42  VB     VB_JJ
+    34  PRO    RB
+    32  VB_JJ  VB
+    24  IN     VB
+    16  RB     JJ
+avg tagging: 0.0005 sec
+==========
+
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train5/train5.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train5/CLOSE-TEST.word.tagged
+===== Finished tagging with model train5.pipe.ser! =====
+head first 2 lines of tagged file
+ក្រៅ_ពី|IN នោះ|DT លិខិត|NN នេះ|DT បាន|AUX បញ្ជាក់|VB យ៉ាង|RB លម្អិត|JJ ពី|IN ការ~កិបកេង|NN ប្រាក់|NN ឧបត្ថម្ភ|NN ផ្សេង|JJ ៗ|DBL ពី|IN ក្រសួង|NN សរុប|JJ ជាង|IN ២៥|CD លាន|CD រៀល|PN ផ្សេង_ទៀត|RB ។|KAN
+លោក~ជំទាវ|PRO ណោន|PN សារម្យ|PN
+===== Start evaluation on train5.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe (closed test data)  =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train5/train5.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe
+starting: testing
+finished: testing in 0.486 seconds
+Accuracy: 93.77  (9749/10397)
+ count  gold   model
+    79  PRO    NN
+    55  RBR    SYM
+    42  VB     IN
+    42  VB     VB_JJ
+    36  PN     NN
+    31  VB_JJ  VB
+    21  PRO    RB
+    21  IN     VB
+    18  VB     RPN
+    17  RB     VB
+avg tagging: 0.0005 sec
+==========
+
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train6/train6.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train6/CLOSE-TEST.word.tagged
+===== Finished tagging with model train6.pipe.ser! =====
+head first 2 lines of tagged file
+ក្រៅ_ពី|IN នោះ|DT លិខិត|NN នេះ|DT បាន|AUX បញ្ជាក់|VB យ៉ាង|RB លម្អិត|JJ ពី|IN ការ~កិបកេង|NN ប្រាក់|NN ឧបត្ថម្ភ|NN ផ្សេង|JJ ៗ|DBL ពី|IN ក្រសួង|NN សរុប|JJ ជាង|IN ២៥|CD លាន|CD រៀល|PN ផ្សេង_ទៀត|RB ។|KAN
+លោក~ជំទាវ|PRO ណោន|PN សារម្យ|PN
+===== Start evaluation on train6.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe (closed test data)  =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train6/train6.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe
+starting: testing
+finished: testing in 0.437 seconds
+Accuracy: 93.13  (9683/10397)
+ count  gold   model
+    77  PN     NN
+    63  PRO    NN
+    55  RBR    SYM
+    47  VB     IN
+    46  VB     VB_JJ
+    35  VB     AUX
+    33  VB_JJ  VB
+    33  IN     AUX
+    24  IN     VB
+    17  RB     VB
+avg tagging: 0.0004 sec
+==========
+
+===========
+===========
+start open testing!
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train1/train1.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train1/OPEN-TEST.word.tagged
+===== Finished tagging with model train1.pipe.ser! =====
+head first 2 lines of tagged file
+លោក~ស្រី|PRO ឃុន|PN វត្តី|PN ស្រី|PN រាជ្យនី|PN
+គាត់|PRO ឈ្មោះ|PN មឿន|PN តឿប|PN
+===== Start evaluation on /home/ye/experiment/kh-pos/final-exp/2hours/train1/train1.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe (open test data) =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train1/train1.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe
+starting: testing
+finished: testing in 0.488 seconds
+Accuracy: 90.02  (9702/10778)
+ count  gold   model
+   183  NN     PN
+    86  PN     NN
+    67  VB_JJ  VB
+    53  VB     NN
+    50  JJ     NN
+    46  PRO    NN
+    44  VB     IN
+    34  IN     AUX
+    31  VB     AUX
+    31  VB     VB_JJ
+avg tagging: 0.0004 sec
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train2/train2.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train2/OPEN-TEST.word.tagged
+===== Finished tagging with model train2.pipe.ser! =====
+head first 2 lines of tagged file
+លោក~ស្រី|PRO ឃុន|PN វត្តី|PN ស្រី|PN រាជ្យនី|PN
+គាត់|PRO ឈ្មោះ|NN មឿន|PN តឿប|PN
+===== Start evaluation on /home/ye/experiment/kh-pos/final-exp/2hours/train2/train2.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe (open test data) =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train2/train2.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe
+starting: testing
+finished: testing in 0.451 seconds
+Accuracy: 92.22  (9939/10778)
+ count  gold   model
+    77  PN     NN
+    68  PRO    NN
+    58  VB_JJ  VB
+    44  VB     IN
+    39  JJ     NN
+    35  VB     NN
+    33  VB     VB_JJ
+    29  RB     VB
+    24  NN     PN
+    23  IN     VB
+avg tagging: 0.0004 sec
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train3/train3.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train3/OPEN-TEST.word.tagged
+===== Finished tagging with model train3.pipe.ser! =====
+head first 2 lines of tagged file
+លោក~ស្រី|PRO ឃុន|PN វត្តី|PN ស្រី|PN រាជ្យនី|PN
+គាត់|PRO ឈ្មោះ|NN មឿន|PN តឿប|PN
+===== Start evaluation on /home/ye/experiment/kh-pos/final-exp/2hours/train3/train3.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe (open test data) =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train3/train3.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe
+starting: testing
+finished: testing in 0.471 seconds
+Accuracy: 92.78  (10000/10778)
+ count  gold   model
+   101  PN     NN
+    79  PRO    NN
+    51  VB_JJ  VB
+    40  VB     IN
+    40  VB     VB_JJ
+    32  VB     AUX
+    27  RB     VB
+    26  JJ     NN
+    26  VB     NN
+    23  IN     VB
+avg tagging: 0.0004 sec
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train4/train4.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train4/OPEN-TEST.word.tagged
+===== Finished tagging with model train4.pipe.ser! =====
+head first 2 lines of tagged file
+លោក~ស្រី|PRO ឃុន|PN វត្តី|PN ស្រី|PN រាជ្យនី|PN
+គាត់|PRO ឈ្មោះ|NN មឿន|PN តឿប|PN
+===== Start evaluation on /home/ye/experiment/kh-pos/final-exp/2hours/train4/train4.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe (open test data) =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train4/train4.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe
+starting: testing
+finished: testing in 0.53 seconds
+Accuracy: 92.32  (9950/10778)
+ count  gold   model
+    82  PRO    NN
+    79  PN     NN
+    60  VB     AUX
+    53  VB_JJ  VB
+    43  PRO    RB
+    42  VB     IN
+    42  VB     VB_JJ
+    28  VB     NN
+    27  IN     VB
+    25  JJ     NN
+avg tagging: 0.0005 sec
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train5/train5.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train5/OPEN-TEST.word.tagged
+===== Finished tagging with model train5.pipe.ser! =====
+head first 2 lines of tagged file
+លោក~ស្រី|PRO ឃុន|PN វត្តី|PN ស្រី|PN រាជ្យនី|PN
+គាត់|PRO ឈ្មោះ|NN មឿន|PN តឿប|PN
+===== Start evaluation on /home/ye/experiment/kh-pos/final-exp/2hours/train5/train5.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe (open test data) =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train5/train5.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe
+starting: testing
+finished: testing in 0.444 seconds
+Accuracy: 93.07  (10031/10778)
+ count  gold   model
+   102  PRO    NN
+    49  PN     NN
+    48  VB_JJ  VB
+    41  VB     IN
+    39  VB     VB_JJ
+    33  PRO    RB
+    28  VB     NN
+    28  IN     VB
+    25  RB     VB
+    24  JJ     NN
+avg tagging: 0.0004 sec
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train6/train6.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train6/OPEN-TEST.word.tagged
+===== Finished tagging with model train6.pipe.ser! =====
+head first 2 lines of tagged file
+លោក~ស្រី|PRO ឃុន|PN វត្តី|PN ស្រី|PN រាជ្យនី|PN
+គាត់|PRO ឈ្មោះ|NN មឿន|PN តឿប|PN
+===== Start evaluation on /home/ye/experiment/kh-pos/final-exp/2hours/train6/train6.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe (open test data) =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train6/train6.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe
+starting: testing
+finished: testing in 0.437 seconds
+Accuracy: 92.68  (9989/10778)
+ count  gold   model
+    92  PN     NN
+    79  PRO    NN
+    48  VB_JJ  VB
+    48  VB     VB_JJ
+    45  VB     IN
+    32  IN     AUX
+    30  VB     AUX
+    26  VB     NN
+    22  IN     VB
+    20  JJ     NN
+avg tagging: 0.0004 sec
+
+===============
+
+Preparing for evaluation:
+
+ye@DL-Box:~/experiment/kh-pos/final-exp/2hours$ ./pipe2slash-tagged-files.sh
+
+
+Evaluation:
+
+
+
+
+Evaluation for closed-test with train1:
+Accuracy: 93.01% (9670/10397)
+
+Most common mistakes:
+ឈ្មោះ/NN --> ឈ្មោះ/PN	145
+កម្ពុជា/PN --> កម្ពុជា/NN	39
+ដើម្បី/IN --> ដើម្បី/AUX	34
+បាន/VB --> បាន/AUX	33
+»/RBR --> »/SYM	28
+)/RBR --> )/SYM	16
+ជា/VB --> ជា/IN	15
+យើង/PRO --> យើង/VB	13
+ខ្លួន/PRO --> ខ្លួន/NN	12
+”/RBR --> ”/SYM	11
+
+Evaluation for closed-test with train2:
+Accuracy: 93.91% (9764/10397)
+
+Most common mistakes:
+»/RBR --> »/SYM	28
+អ្នក/PRO --> អ្នក/NN	24
+កម្ពុជា/PN --> កម្ពុជា/RB	20
+ដើម្បី/IN --> ដើម្បី/RPN	19
+កម្ពុជា/PN --> កម្ពុជា/NN	19
+)/RBR --> )/SYM	16
+គ្នា/PRO --> គ្នា/VB	14
+ជា/VB --> ជា/IN	14
+ពេញ/PN --> ពេញ/CD	13
+ខ្លួន/PRO --> ខ្លួន/NN	12
+
+Evaluation for closed-test with train3:
+Accuracy: 93.83% (9755/10397)
+
+Most common mistakes:
+កម្ពុជា/PN --> កម្ពុជា/NN	41
+បាន/VB --> បាន/AUX	37
+»/RBR --> »/SYM	28
+អ្នក/PRO --> អ្នក/NN	24
+គេ/PRO --> គេ/VB	18
+ជា/VB --> ជា/IN	15
+)/RBR --> )/SYM	13
+ពេញ/PN --> ពេញ/NN	12
+ខ្លួន/PRO --> ខ្លួន/NN	12
+មាន/VB --> JJ	12
+
+Evaluation for closed-test with train4:
+Accuracy: 93.31% (9701/10397)
+
+Most common mistakes:
+កម្ពុជា/PN --> កម្ពុជា/NN	41
+បាន/VB --> បាន/AUX	35
+»/RBR --> »/SYM	28
+គេ/PRO --> គេ/RB	26
+អ្នក/PRO --> អ្នក/NN	25
+)/RBR --> )/SYM	16
+ជា/VB --> ជា/IN	15
+អាច/VB --> អាច/AUX	14
+ខ្លួន/PRO --> ខ្លួន/NN	12
+”/RBR --> ”/SYM	11
+
+Evaluation for closed-test with train5:
+Accuracy: 93.77% (9749/10397)
+
+Most common mistakes:
+»/RBR --> »/SYM	28
+អ្នក/PRO --> អ្នក/NN	26
+បាន/VB --> បាន/RPN	18
+)/RBR --> )/SYM	16
+គេ/PRO --> គេ/AUX	15
+ជា/VB --> ជា/IN	15
+គ្នា/PRO --> គ្នា/NN	13
+ខ្លួន/PRO --> ខ្លួន/NN	12
+”/RBR --> ”/SYM	11
+ឲ្យ/VB --> ឲ្យ/IN	11
+
+Evaluation for closed-test with train6:
+Accuracy: 93.13% (9683/10397)
+
+Most common mistakes:
+កម្ពុជា/PN --> កម្ពុជា/NN	42
+ដើម្បី/IN --> ដើម្បី/AUX	33
+បាន/VB --> បាន/AUX	33
+»/RBR --> »/SYM	28
+អ្នក/PRO --> អ្នក/NN	24
+)/RBR --> )/SYM	16
+ជា/VB --> ជា/IN	15
+ខ្លួន/PRO --> ខ្លួន/NN	12
+យើង/PRO --> យើង/NN	11
+មាន/VB --> JJ	11
+
+Evaluation for open-test with train1:
+Accuracy: 90.02% (9702/10778)
+
+Most common mistakes:
+ឈ្មោះ/NN --> ឈ្មោះ/PN	158
+កម្ពុជា/PN --> កម្ពុជា/NN	37
+បាន/VB --> បាន/AUX	31
+ដើម្បី/IN --> ដើម្បី/AUX	31
+យើង/PRO --> យើង/VB	17
+អ្វី/PRO --> អ្វី/NN	13
+បាន/VCOM --> បាន/AUX	13
+ជា/IN --> ជា/VB	10
+ខ្លួន/PRO --> ខ្លួន/NN	10
+ទៅ/VB --> ទៅ/IN	9
+
+Evaluation for open-test with train2:
+Accuracy: 92.22% (9939/10778)
+
+Most common mistakes:
+អ្នក/PRO --> អ្នក/NN	33
+កម្ពុជា/PN --> កម្ពុជា/NN	24
+ដើម្បី/IN --> ដើម្បី/RPN	16
+ពេញ/PN --> ពេញ/CD	15
+កម្ពុជា/PN --> កម្ពុជា/RB	14
+គ្នា/PRO --> គ្នា/VB	13
+ជា/VB --> ជា/IN	12
+ដើម្បី/IN --> ដើម្បី/AUX	10
+ថៃ/PN --> ថៃ/NN	10
+ខ្លួន/PRO --> ខ្លួន/NN	10
+
+Evaluation for open-test with train3:
+Accuracy: 92.78% (10000/10778)
+
+Most common mistakes:
+កម្ពុជា/PN --> កម្ពុជា/NN	39
+អ្នក/PRO --> អ្នក/NN	35
+បាន/VB --> បាន/AUX	32
+គេ/PRO --> គេ/VB	16
+ពេញ/PN --> ពេញ/NN	15
+អ្វី/PRO --> អ្វី/NN	13
+ខ្លួន/PRO --> ខ្លួន/NN	10
+នឹង/AUX --> នឹង/IN	10
+ជា/VB --> ជា/IN	9
+ជា/IN --> ជា/VB	9
+
+Evaluation for open-test with train4:
+Accuracy: 92.32% (9950/10778)
+
+Most common mistakes:
+កម្ពុជា/PN --> កម្ពុជា/NN	39
+អ្នក/PRO --> អ្នក/NN	37
+បាន/VB --> បាន/AUX	29
+អាច/VB --> អាច/AUX	29
+គេ/PRO --> គេ/RB	21
+ទ្រង់/PRO --> ទ្រង់/RB	18
+អ្វី/PRO --> អ្វី/NN	13
+នឹង/AUX --> នឹង/IN	11
+ជា/IN --> ជា/VB	11
+ខ្លួន/PRO --> ខ្លួន/NN	10
+
+Evaluation for open-test with train5:
+Accuracy: 93.07% (10031/10778)
+
+Most common mistakes:
+អ្នក/PRO --> អ្នក/NN	35
+ទ្រង់/PRO --> ទ្រង់/RB	17
+គ្នា/PRO --> គ្នា/NN	13
+អ្វី/PRO --> អ្វី/NN	13
+គេ/PRO --> គេ/RB	11
+ជា/VB --> ជា/IN	10
+ខ្លួន/PRO --> ខ្លួន/NN	10
+ជា/IN --> ជា/VB	9
+ឲ្យ/VB --> ឲ្យ/IN	9
+ខ្មែរ/PN --> ខ្មែរ/NN	9
+
+Evaluation for open-test with train6:
+Accuracy: 92.68% (9989/10778)
+
+Most common mistakes:
+កម្ពុជា/PN --> កម្ពុជា/NN	38
+អ្នក/PRO --> អ្នក/NN	35
+ដើម្បី/IN --> ដើម្បី/AUX	31
+បាន/VB --> បាន/AUX	29
+ទ្រង់/PRO --> ទ្រង់/AUX	15
+អ្វី/PRO --> អ្វី/NN	13
+ជា/VB --> ជា/IN	10
+ខ្លួន/PRO --> ខ្លួន/NN	10
+ថៃ/PN --> ថៃ/NN	10
+យើង/PRO --> យើង/NN	10
+=====================================
+
+I Noticed following:
+
+»/RBR --> »/SYM	28
+អ្នក/PRO --> អ្នក/NN	24
+
+I found this error in replace shell script:
+
+perl ./ch-wordtag.pl ./CLOSE-TEST "/" t "LBR" "SYM" > ./tmptmp; rm ./CLOSE-TEST; mv ./tmptmp ./CLOSE-TEST
+perl ./ch-wordtag.pl ./CLOSE-TEST "/" t "LBR" "SYM" > ./tmptmp; rm ./CLOSE-TEST; mv ./tmptmp ./CLOSE-TEST
+
+IT SHOULD BE RBR for the 2nd line !!!!!
+
+==============
+
+
+And thus, I copied updated CLOSE* and OPEN* and make re-test and evaluation again:
+
+Testing:
+(py2.7) ye@DL-Box:~/tool/low-resource-pos-tagging-2014-master$ time ./2h-test-all.sh | tee REAL-final-2hour-test.log
+
+start closed testing!
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train1/train1.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train1/CLOSE-TEST.word.tagged
+===== Finished tagging with model train1.pipe.ser! =====
+head first 2 lines of tagged file
+ក្រៅ_ពី|IN នោះ|DT លិខិត|NN នេះ|DT បាន|AUX បញ្ជាក់|VB យ៉ាង|RB លម្អិត|JJ ពី|IN ការ~កិបកេង|NN ប្រាក់|NN ឧបត្ថម្ភ|NN ផ្សេង|JJ ៗ|DBL ពី|IN ក្រសួង|NN សរុប|JJ ជាង|RB ២៥|CD លាន|CD រៀល|PN ផ្សេង_ទៀត|RB ។|KAN
+លោក~ជំទាវ|PRO ណោន|PN សារម្យ|PN
+===== Start evaluation on train1.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe (closed test data)  =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train1/train1.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe
+starting: testing
+finished: testing in 0.487 seconds
+Accuracy: 93.54  (9725/10397)
+ count  gold   model
+   149  NN     PN
+    48  PN     NN
+    44  VB     IN
+    39  PRO    NN
+    34  IN     AUX
+    33  VB     AUX
+    26  VB_JJ  VB
+    22  PRO    VB
+    22  IN     VB
+    18  VB     VB_JJ
+avg tagging: 0.0004 sec
+==========
+
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train2/train2.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train2/CLOSE-TEST.word.tagged
+===== Finished tagging with model train2.pipe.ser! =====
+head first 2 lines of tagged file
+ក្រៅ_ពី|IN នោះ|DT លិខិត|NN នេះ|DT បាន|AUX បញ្ជាក់|VB យ៉ាង|RB លម្អិត|JJ ពី|IN ការ~កិបកេង|NN ប្រាក់|NN ឧបត្ថម្ភ|NN ផ្សេង|JJ ៗ|DBL ពី|IN ក្រសួង|NN សរុប|JJ ជាង|RB ២៥|CD លាន|CD រៀល|PN ផ្សេង_ទៀត|RB ។|KAN
+លោក~ជំទាវ|PRO ណោន|PN សារម្យ|PN
+===== Start evaluation on train2.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe (closed test data)  =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train2/train2.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe
+starting: testing
+finished: testing in 0.462 seconds
+Accuracy: 94.44  (9819/10397)
+ count  gold   model
+    66  PRO    NN
+    44  VB     IN
+    36  PN     NN
+    34  VB_JJ  VB
+    31  VB     VB_JJ
+    22  IN     VB
+    21  PN     RB
+    19  IN     RPN
+    17  PRO    VB
+    16  RB     JJ
+avg tagging: 0.0004 sec
+==========
+
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train3/train3.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train3/CLOSE-TEST.word.tagged
+===== Finished tagging with model train3.pipe.ser! =====
+head first 2 lines of tagged file
+ក្រៅ_ពី|IN នោះ|DT លិខិត|NN នេះ|DT បាន|AUX បញ្ជាក់|VB យ៉ាង|RB លម្អិត|JJ ពី|IN ការ~កិបកេង|NN ប្រាក់|NN ឧបត្ថម្ភ|NN ផ្សេង|JJ ៗ|DBL ពី|IN ក្រសួង|NN សរុប|JJ ជាង|IN ២៥|CD លាន|CD រៀល|PN ផ្សេង_ទៀត|RB ។|KAN
+លោក~ជំទាវ|PRO ណោន|PN សារម្យ|PN
+===== Start evaluation on train3.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe (closed test data)  =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train3/train3.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe
+starting: testing
+finished: testing in 0.463 seconds
+Accuracy: 94.33  (9807/10397)
+ count  gold   model
+    79  PN     NN
+    55  PRO    NN
+    43  VB     IN
+    42  VB     VB_JJ
+    37  VB     AUX
+    31  VB_JJ  VB
+    27  IN     VB
+    18  PRO    VB
+    15  RB     JJ
+    14  RB     VB
+avg tagging: 0.0004 sec
+==========
+
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train4/train4.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train4/CLOSE-TEST.word.tagged
+===== Finished tagging with model train4.pipe.ser! =====
+head first 2 lines of tagged file
+ក្រៅ_ពី|IN នោះ|DT លិខិត|NN នេះ|DT បាន|AUX បញ្ជាក់|VB យ៉ាង|RB លម្អិត|JJ ពី|IN ការ~កិបកេង|NN ប្រាក់|NN ឧបត្ថម្ភ|NN ផ្សេង|JJ ៗ|DBL ពី|IN ក្រសួង|NN សរុប|JJ ជាង|IN ២៥|CD លាន|CD រៀល|PN ផ្សេង_ទៀត|RB ។|KAN
+លោក~ជំទាវ|PRO ណោន|PN សារម្យ|PN
+===== Start evaluation on train4.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe (closed test data)  =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train4/train4.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe
+starting: testing
+finished: testing in 0.517 seconds
+Accuracy: 93.83  (9756/10397)
+ count  gold   model
+    67  PN     NN
+    58  PRO    NN
+    50  VB     AUX
+    43  VB     IN
+    42  VB     VB_JJ
+    34  PRO    RB
+    32  VB_JJ  VB
+    24  IN     VB
+    16  RB     JJ
+    15  RB     VB
+avg tagging: 0.0005 sec
+==========
+
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train5/train5.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train5/CLOSE-TEST.word.tagged
+===== Finished tagging with model train5.pipe.ser! =====
+head first 2 lines of tagged file
+ក្រៅ_ពី|IN នោះ|DT លិខិត|NN នេះ|DT បាន|AUX បញ្ជាក់|VB យ៉ាង|RB លម្អិត|JJ ពី|IN ការ~កិបកេង|NN ប្រាក់|NN ឧបត្ថម្ភ|NN ផ្សេង|JJ ៗ|DBL ពី|IN ក្រសួង|NN សរុប|JJ ជាង|IN ២៥|CD លាន|CD រៀល|PN ផ្សេង_ទៀត|RB ។|KAN
+លោក~ជំទាវ|PRO ណោន|PN សារម្យ|PN
+===== Start evaluation on train5.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe (closed test data)  =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train5/train5.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe
+starting: testing
+finished: testing in 0.465 seconds
+Accuracy: 94.30  (9804/10397)
+ count  gold   model
+    79  PRO    NN
+    42  VB     IN
+    42  VB     VB_JJ
+    36  PN     NN
+    31  VB_JJ  VB
+    21  PRO    RB
+    21  IN     VB
+    18  VB     RPN
+    17  RB     VB
+    15  RB     JJ
+avg tagging: 0.0004 sec
+==========
+
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train6/train6.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train6/CLOSE-TEST.word.tagged
+===== Finished tagging with model train6.pipe.ser! =====
+head first 2 lines of tagged file
+ក្រៅ_ពី|IN នោះ|DT លិខិត|NN នេះ|DT បាន|AUX បញ្ជាក់|VB យ៉ាង|RB លម្អិត|JJ ពី|IN ការ~កិបកេង|NN ប្រាក់|NN ឧបត្ថម្ភ|NN ផ្សេង|JJ ៗ|DBL ពី|IN ក្រសួង|NN សរុប|JJ ជាង|IN ២៥|CD លាន|CD រៀល|PN ផ្សេង_ទៀត|RB ។|KAN
+លោក~ជំទាវ|PRO ណោន|PN សារម្យ|PN
+===== Start evaluation on train6.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe (closed test data)  =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train6/train6.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/CLOSE-TEST.pipe
+starting: testing
+finished: testing in 0.427 seconds
+Accuracy: 93.66  (9738/10397)
+ count  gold   model
+    77  PN     NN
+    63  PRO    NN
+    47  VB     IN
+    46  VB     VB_JJ
+    35  VB     AUX
+    33  VB_JJ  VB
+    33  IN     AUX
+    24  IN     VB
+    17  RB     VB
+    15  RB     JJ
+avg tagging: 0.0004 sec
+==========
+
+===========
+===========
+start open testing!
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train1/train1.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train1/OPEN-TEST.word.tagged
+===== Finished tagging with model train1.pipe.ser! =====
+head first 2 lines of tagged file
+លោក~ស្រី|PRO ឃុន|PN វត្តី|PN ស្រី|PN រាជ្យនី|PN
+គាត់|PRO ឈ្មោះ|PN មឿន|PN តឿប|PN
+===== Start evaluation on /home/ye/experiment/kh-pos/final-exp/2hours/train1/train1.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe (open test data) =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train1/train1.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe
+starting: testing
+finished: testing in 0.481 seconds
+Accuracy: 90.02  (9702/10778)
+ count  gold   model
+   183  NN     PN
+    86  PN     NN
+    67  VB_JJ  VB
+    53  VB     NN
+    50  JJ     NN
+    46  PRO    NN
+    44  VB     IN
+    34  IN     AUX
+    31  VB     AUX
+    31  VB     VB_JJ
+avg tagging: 0.0004 sec
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train2/train2.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train2/OPEN-TEST.word.tagged
+===== Finished tagging with model train2.pipe.ser! =====
+head first 2 lines of tagged file
+លោក~ស្រី|PRO ឃុន|PN វត្តី|PN ស្រី|PN រាជ្យនី|PN
+គាត់|PRO ឈ្មោះ|NN មឿន|PN តឿប|PN
+===== Start evaluation on /home/ye/experiment/kh-pos/final-exp/2hours/train2/train2.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe (open test data) =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train2/train2.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe
+starting: testing
+finished: testing in 0.44 seconds
+Accuracy: 92.22  (9939/10778)
+ count  gold   model
+    77  PN     NN
+    68  PRO    NN
+    58  VB_JJ  VB
+    44  VB     IN
+    39  JJ     NN
+    35  VB     NN
+    33  VB     VB_JJ
+    29  RB     VB
+    24  NN     PN
+    23  IN     VB
+avg tagging: 0.0004 sec
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train3/train3.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train3/OPEN-TEST.word.tagged
+===== Finished tagging with model train3.pipe.ser! =====
+head first 2 lines of tagged file
+លោក~ស្រី|PRO ឃុន|PN វត្តី|PN ស្រី|PN រាជ្យនី|PN
+គាត់|PRO ឈ្មោះ|NN មឿន|PN តឿប|PN
+===== Start evaluation on /home/ye/experiment/kh-pos/final-exp/2hours/train3/train3.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe (open test data) =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train3/train3.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe
+starting: testing
+finished: testing in 0.462 seconds
+Accuracy: 92.78  (10000/10778)
+ count  gold   model
+   101  PN     NN
+    79  PRO    NN
+    51  VB_JJ  VB
+    40  VB     IN
+    40  VB     VB_JJ
+    32  VB     AUX
+    27  RB     VB
+    26  JJ     NN
+    26  VB     NN
+    23  IN     VB
+avg tagging: 0.0004 sec
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train4/train4.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train4/OPEN-TEST.word.tagged
+===== Finished tagging with model train4.pipe.ser! =====
+head first 2 lines of tagged file
+លោក~ស្រី|PRO ឃុន|PN វត្តី|PN ស្រី|PN រាជ្យនី|PN
+គាត់|PRO ឈ្មោះ|NN មឿន|PN តឿប|PN
+===== Start evaluation on /home/ye/experiment/kh-pos/final-exp/2hours/train4/train4.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe (open test data) =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train4/train4.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe
+starting: testing
+finished: testing in 0.512 seconds
+Accuracy: 92.32  (9950/10778)
+ count  gold   model
+    82  PRO    NN
+    79  PN     NN
+    60  VB     AUX
+    53  VB_JJ  VB
+    43  PRO    RB
+    42  VB     IN
+    42  VB     VB_JJ
+    28  VB     NN
+    27  IN     VB
+    25  JJ     NN
+avg tagging: 0.0005 sec
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train5/train5.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train5/OPEN-TEST.word.tagged
+===== Finished tagging with model train5.pipe.ser! =====
+head first 2 lines of tagged file
+លោក~ស្រី|PRO ឃុន|PN វត្តី|PN ស្រី|PN រាជ្យនី|PN
+គាត់|PRO ឈ្មោះ|NN មឿន|PN តឿប|PN
+===== Start evaluation on /home/ye/experiment/kh-pos/final-exp/2hours/train5/train5.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe (open test data) =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train5/train5.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe
+starting: testing
+finished: testing in 0.449 seconds
+Accuracy: 93.07  (10031/10778)
+ count  gold   model
+   102  PRO    NN
+    49  PN     NN
+    48  VB_JJ  VB
+    41  VB     IN
+    39  VB     VB_JJ
+    33  PRO    RB
+    28  VB     NN
+    28  IN     VB
+    25  RB     VB
+    24  JJ     NN
+avg tagging: 0.0004 sec
+start tagging ...
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train6/train6.pipe.ser
+Tagging data in /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.word and writing to /home/ye/experiment/kh-pos/final-exp/2hours/train6/OPEN-TEST.word.tagged
+===== Finished tagging with model train6.pipe.ser! =====
+head first 2 lines of tagged file
+លោក~ស្រី|PRO ឃុន|PN វត្តី|PN ស្រី|PN រាជ្យនី|PN
+គាត់|PRO ឈ្មោះ|NN មឿន|PN តឿប|PN
+===== Start evaluation on /home/ye/experiment/kh-pos/final-exp/2hours/train6/train6.pipe.ser model with /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe (open test data) =====
+Loading tagger model from /home/ye/experiment/kh-pos/final-exp/2hours/train6/train6.pipe.ser
+Evaluating on /home/ye/experiment/kh-pos/final-exp/2hours/OPEN-TEST.pipe
+starting: testing
+finished: testing in 0.432 seconds
+Accuracy: 92.68  (9989/10778)
+ count  gold   model
+    92  PN     NN
+    79  PRO    NN
+    48  VB_JJ  VB
+    48  VB     VB_JJ
+    45  VB     IN
+    32  IN     AUX
+    30  VB     AUX
+    26  VB     NN
+    22  IN     VB
+    20  JJ     NN
+avg tagging: 0.0004 sec
+
+======================
+
+Change pipe to slash:
+ye@DL-Box:~/experiment/kh-pos/final-exp/2hours$ ./pipe2slash-tagged-files.sh 
+
+Evaluation:
+
+ye@DL-Box:~/experiment/kh-pos/final-exp/2hours$ ./eval-2hours.sh | tee final-2hours-accuracy.log
+
+Evaluation for closed-test with train1:
+Accuracy: 93.54% (9725/10397)
+
+Most common mistakes:
+ឈ្មោះ/NN --> ឈ្មោះ/PN	145
+កម្ពុជា/PN --> កម្ពុជា/NN	39
+ដើម្បី/IN --> ដើម្បី/AUX	34
+បាន/VB --> បាន/AUX	33
+ជា/VB --> ជា/IN	15
+យើង/PRO --> យើង/VB	13
+ខ្លួន/PRO --> ខ្លួន/NN	12
+ឲ្យ/VB --> ឲ្យ/IN	10
+ឯង/PRO --> ឯង/NN	9
+អ្នក/PRO --> អ្នក/VB	9
+
+Evaluation for closed-test with train2:
+Accuracy: 94.44% (9819/10397)
+
+Most common mistakes:
+អ្នក/PRO --> អ្នក/NN	24
+កម្ពុជា/PN --> កម្ពុជា/RB	20
+កម្ពុជា/PN --> កម្ពុជា/NN	19
+ដើម្បី/IN --> ដើម្បី/RPN	19
+គ្នា/PRO --> គ្នា/VB	14
+ជា/VB --> ជា/IN	14
+ពេញ/PN --> ពេញ/CD	13
+ខ្លួន/PRO --> ខ្លួន/NN	12
+ត្រូវ/VB --> ត្រូវ/RPN	11
+យើង/PRO --> យើង/NN	11
+
+Evaluation for closed-test with train3:
+Accuracy: 94.33% (9807/10397)
+
+Most common mistakes:
+កម្ពុជា/PN --> កម្ពុជា/NN	41
+បាន/VB --> បាន/AUX	37
+អ្នក/PRO --> អ្នក/NN	24
+គេ/PRO --> គេ/VB	18
+ជា/VB --> ជា/IN	15
+ខ្លួន/PRO --> ខ្លួន/NN	12
+ពេញ/PN --> ពេញ/NN	12
+មាន/VB --> JJ	12
+ខ្មែរ/PN --> ខ្មែរ/NN	10
+ទៅ/IN --> ទៅ/VB	10
+
+Evaluation for closed-test with train4:
+Accuracy: 93.83% (9756/10397)
+
+Most common mistakes:
+កម្ពុជា/PN --> កម្ពុជា/NN	41
+បាន/VB --> បាន/AUX	35
+គេ/PRO --> គេ/RB	26
+អ្នក/PRO --> អ្នក/NN	25
+ជា/VB --> ជា/IN	15
+អាច/VB --> អាច/AUX	14
+ខ្លួន/PRO --> ខ្លួន/NN	12
+ខ្មែរ/PN --> ខ្មែរ/NN	11
+មាន/VB --> JJ	11
+ឲ្យ/VB --> ឲ្យ/IN	9
+
+Evaluation for closed-test with train5:
+Accuracy: 94.30% (9804/10397)
+
+Most common mistakes:
+អ្នក/PRO --> អ្នក/NN	26
+បាន/VB --> បាន/RPN	18
+គេ/PRO --> គេ/AUX	15
+ជា/VB --> ជា/IN	15
+គ្នា/PRO --> គ្នា/NN	13
+ខ្លួន/PRO --> ខ្លួន/NN	12
+ឲ្យ/VB --> ឲ្យ/IN	11
+គេ/PRO --> គេ/RB	10
+(/SYM --> (/IN	10
+ខ្មែរ/PN --> ខ្មែរ/NN	10
+
+Evaluation for closed-test with train6:
+Accuracy: 93.66% (9738/10397)
+
+Most common mistakes:
+កម្ពុជា/PN --> កម្ពុជា/NN	42
+ដើម្បី/IN --> ដើម្បី/AUX	33
+បាន/VB --> បាន/AUX	33
+អ្នក/PRO --> អ្នក/NN	24
+ជា/VB --> ជា/IN	15
+ខ្លួន/PRO --> ខ្លួន/NN	12
+មាន/VB --> JJ	11
+យើង/PRO --> យើង/NN	11
+ខ្មែរ/PN --> ខ្មែរ/NN	11
+(/SYM --> (/IN	10
+
+Evaluation for open-test with train1:
+Accuracy: 90.02% (9702/10778)
+
+Most common mistakes:
+ឈ្មោះ/NN --> ឈ្មោះ/PN	158
+កម្ពុជា/PN --> កម្ពុជា/NN	37
+ដើម្បី/IN --> ដើម្បី/AUX	31
+បាន/VB --> បាន/AUX	31
+យើង/PRO --> យើង/VB	17
+អ្វី/PRO --> អ្វី/NN	13
+បាន/VCOM --> បាន/AUX	13
+ខ្លួន/PRO --> ខ្លួន/NN	10
+ជា/IN --> ជា/VB	10
+ជា/VB --> ជា/IN	9
+
+Evaluation for open-test with train2:
+Accuracy: 92.22% (9939/10778)
+
+Most common mistakes:
+អ្នក/PRO --> អ្នក/NN	33
+កម្ពុជា/PN --> កម្ពុជា/NN	24
+ដើម្បី/IN --> ដើម្បី/RPN	16
+ពេញ/PN --> ពេញ/CD	15
+កម្ពុជា/PN --> កម្ពុជា/RB	14
+គ្នា/PRO --> គ្នា/VB	13
+ជា/VB --> ជា/IN	12
+ដើម្បី/IN --> ដើម្បី/AUX	10
+ខ្លួន/PRO --> ខ្លួន/NN	10
+ថៃ/PN --> ថៃ/NN	10
+
+Evaluation for open-test with train3:
+Accuracy: 92.78% (10000/10778)
+
+Most common mistakes:
+កម្ពុជា/PN --> កម្ពុជា/NN	39
+អ្នក/PRO --> អ្នក/NN	35
+បាន/VB --> បាន/AUX	32
+គេ/PRO --> គេ/VB	16
+ពេញ/PN --> ពេញ/NN	15
+អ្វី/PRO --> អ្វី/NN	13
+នឹង/AUX --> នឹង/IN	10
+ខ្លួន/PRO --> ខ្លួន/NN	10
+ជា/VB --> ជា/IN	9
+គេ/PRO --> គេ/NN	9
+
+Evaluation for open-test with train4:
+Accuracy: 92.32% (9950/10778)
+
+Most common mistakes:
+កម្ពុជា/PN --> កម្ពុជា/NN	39
+អ្នក/PRO --> អ្នក/NN	37
+អាច/VB --> អាច/AUX	29
+បាន/VB --> បាន/AUX	29
+គេ/PRO --> គេ/RB	21
+ទ្រង់/PRO --> ទ្រង់/RB	18
+អ្វី/PRO --> អ្វី/NN	13
+ជា/IN --> ជា/VB	11
+នឹង/AUX --> នឹង/IN	11
+មាន/VB --> JJ	10
+
+Evaluation for open-test with train5:
+Accuracy: 93.07% (10031/10778)
+
+Most common mistakes:
+អ្នក/PRO --> អ្នក/NN	35
+ទ្រង់/PRO --> ទ្រង់/RB	17
+គ្នា/PRO --> គ្នា/NN	13
+អ្វី/PRO --> អ្វី/NN	13
+គេ/PRO --> គេ/RB	11
+ខ្លួន/PRO --> ខ្លួន/NN	10
+ជា/VB --> ជា/IN	10
+ជា/IN --> ជា/VB	9
+បាន/VB --> បាន/RPN	9
+ហើយ/CC --> ហើយ/RB	9
+
+Evaluation for open-test with train6:
+Accuracy: 92.68% (9989/10778)
+
+Most common mistakes:
+កម្ពុជា/PN --> កម្ពុជា/NN	38
+អ្នក/PRO --> អ្នក/NN	35
+ដើម្បី/IN --> ដើម្បី/AUX	31
+បាន/VB --> បាន/AUX	29
+ទ្រង់/PRO --> ទ្រង់/AUX	15
+អ្វី/PRO --> អ្វី/NN	13
+មាន/VB --> JJ	10
+យើង/PRO --> យើង/NN	10
+ថៃ/PN --> ថៃ/NN	10
+ជា/VB --> ជា/IN	10
+ye@DL-Box:~/experiment/kh-pos/final-exp/2hours$
+
+
+=========== FIN =================
