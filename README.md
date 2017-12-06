@@ -39,11 +39,11 @@ The definitions and descriptions of POS tags are presented in detail as follow:
 10. Et Cetera  (ETC): ។ល។ is equal to et cetera (etc.) in English.
 11. Full Stop (KAN): There are two full stops in Khmer language, ។ for sentence and ៕ for paragraph.
 12. Interjection (UH): Word represents sound of animal, machine, and surprised sound. Interjections are always at the beginning of a sentence, and mostly followed by exclamation mark. For example, អូ (Oh!), ម៉េវ (Meow), អ៊ុះ (uh) etc.
-13. Measure Word (M): Measure Words are classified to describe different quality corresponding class of noun. Some of these words can not be found in English. For example: {\kh \small{ព្រះសង្គ}}/NN (monk) {\kh \small{២}}/CD (2) {\kh \small{អង្គ}}/M (person), {\kh \small{សំលៀកបំពាក់}}/NN (cloth) {\kh \small{១}}/CD (1), {\kh \small{សម្រាប់}}/M (set), {\kh \small{ ឆ្កែ}}/NN (dog) {\kh \small{១}}/CD (1) {\kh \small{ក្បាល}}/M (head) etc.
+13. Measure Word (M): Measure Words are classified to describe different quality corresponding class of noun. Some of these words can not be found in English. For example: ព្រះសង្គ/NN (monk) ២/CD (2) អង្គ/M (person), សំលៀកបំពាក់/NN (cloth) ១/CD (1), សម្រាប់/M (set), ឆ្កែ/NN (dog) ១/CD (1) ក្បាល/M (head) etc.
 
-\item Noun (NN): A noun is a word or compound word that identifies a person, an animal, an object, an idea, a thing, etc. For example: {\kh \small{ឡាន}} (Car), {\kh \small{ការអភិវឌ្ឍន៍}} (Development), {\kh \small{សកម្មភាព}} (Action), {\kh \small{ខ្មៅដៃ}} (Pencil), {\kh \small{ទឹកកក}} (Ice) etc.
+14. Noun (NN): A noun is a word or compound word that identifies a person, an animal, an object, an idea, a thing, etc. For example: ឡាន (Car), ការអភិវឌ្ឍន៍ (Development), សកម្មភាព (Action), ខ្មៅដៃ (Pencil), ទឹកកក (Ice) etc.
 
-\item Particle (PA): We consider three types of particle and they are hesitation, response and final. For the two medial particle words  {\kh \small{ក៏}} (\dquotes{so, then, but} in English) and {\kh \small{នូវ}} (\dquotes{of, with} in English) \cite{nla.cat-vn334929}, we consider them as RB and IN.
+15. Particle (PA): We consider three types of particle and they are hesitation, response and final. For the two medial particle words  ក៏ ("so, then, but" in English) and នូវ ("of, with" in English) \cite{nla.cat-vn334929}, we consider them as RB and IN.
 
 \item Hesitation Particle: {\kh \small{ខ្ញុំ}} (I) {\kh \small{គិត}} (think) …{\kh \small{អ៊ើ}}/PA (Er. . .) {\kh \small{មិន}} (not) {\kh \small{ឃើញ}} (see), (\dquotes{I er… don’t think so} in English)
 \item Response Particle: {\kh \small{អើ}}/PA (Hm, Ah) {\kh \small{ខ្ញុំ}} (I) {\kh \small{ដឹង}} (know) {\kh \small{ហើយ}} (already), (\dquotes{Hmm I already know} in English)
@@ -85,3 +85,5 @@ Vichet Chea, Ye Kyaw Thu, Chenchen Ding, Masao Utiyama, Andrew Finch and Eiichir
 [paper](http://khmernlp.org/2015/wp-content/uploads/2016/09/Paper-Khmer-Word-Segmentation-Using-.pdf)
 
 ## Reference
+
+Madeline Elizabeth. Ehrman, Kem Sos, Foreign Service Institute (U.S.), and Defense Language Institute (U.S.). Contemporary Cambodian: grammatical sketch, by Madeline E. Ehrman, with the assistance of Kem Sos. Foreign Service Institute, Dept. of State; \[for sale by the Supt. of Docs., U.S. Govt. Print. O .\] Washington, 1972.
