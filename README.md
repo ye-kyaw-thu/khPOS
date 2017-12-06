@@ -1,4 +1,4 @@
-# khPOS
+# khPOS (draft released 1.0)
 khPOS (Khmer Part-of-Speech) Corpus for Khmer NLP Research and Developments
 
 ## Lincense
