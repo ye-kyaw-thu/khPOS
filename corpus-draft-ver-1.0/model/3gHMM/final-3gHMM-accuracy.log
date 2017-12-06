@@ -1,0 +1,180 @@
+
+Evaluation for closed-test with train1:
+Accuracy: 97.64% (10152/10397)
+
+Most common mistakes:
+ជា/VB --> ជា/IN	10
+ឲ្យ/VB --> ឲ្យ/IN	9
+ហើយ/CC --> ហើយ/RB	7
+JJ --> មាន/VB	7
+JJ --> ជា/IN	6
+ជា/IN --> ជា/VB	6
+ខ្លួន/PRO --> ខ្លួន/NN	6
+ទៅ/VB --> ទៅ/IN	5
+ជូន/VB --> ជូន/IN	4
+បាន/VCOM --> បាន/AUX	4
+
+Evaluation for closed-test with train2:
+Accuracy: 97.01% (10086/10397)
+
+Most common mistakes:
+ជា/VB --> ជា/IN	14
+ឲ្យ/VB --> ឲ្យ/IN	11
+ខ្លួន/PRO --> ខ្លួន/NN	9
+ហើយ/CC --> ហើយ/RB	7
+JJ --> មាន/VB	7
+JJ --> ជា/IN	6
+បាន/VCOM --> បាន/AUX	5
+ទៅ/VB --> ទៅ/IN	5
+ជូន/VB --> ជូន/IN	5
+JJ --> ធ្វើ/VB	4
+
+Evaluation for closed-test with train3:
+Accuracy: 96.63% (10047/10397)
+
+Most common mistakes:
+ជា/VB --> ជា/IN	15
+ឲ្យ/VB --> ឲ្យ/IN	11
+ខ្លួន/PRO --> ខ្លួន/NN	9
+ហើយ/CC --> ហើយ/RB	8
+JJ --> មាន/VB	7
+JJ --> ជា/IN	6
+បាន/VCOM --> បាន/AUX	5
+ជូន/VB --> ជូន/IN	5
+ជា/IN --> ជា/VB	5
+នៅ/VB --> នៅ/IN	4
+
+Evaluation for closed-test with train4:
+Accuracy: 96.66% (10050/10397)
+
+Most common mistakes:
+ជា/VB --> ជា/IN	15
+ឲ្យ/VB --> ឲ្យ/IN	11
+ខ្លួន/PRO --> ខ្លួន/NN	9
+ហើយ/CC --> ហើយ/RB	8
+JJ --> ជា/IN	6
+បាន/VCOM --> បាន/AUX	6
+JJ --> មាន/VB	6
+ជូន/VB --> ជូន/IN	5
+ជា/IN --> ជា/VB	5
+ឡើង/VB --> ឡើង/RB	4
+
+Evaluation for closed-test with train5:
+Accuracy: 96.64% (10048/10397)
+
+Most common mistakes:
+ជា/VB --> ជា/IN	15
+ឲ្យ/VB --> ឲ្យ/IN	11
+ហើយ/CC --> ហើយ/RB	8
+ខ្លួន/PRO --> ខ្លួន/NN	7
+JJ --> ជា/IN	6
+JJ --> មាន/VB	6
+ជូន/VB --> ជូន/IN	5
+ជា/IN --> ជា/VB	5
+JJ --> ធ្វើ/VB	4
+បាន/VCOM --> បាន/AUX	4
+
+Evaluation for closed-test with train6:
+Accuracy: 96.56% (10039/10397)
+
+Most common mistakes:
+ជា/VB --> ជា/IN	15
+ឲ្យ/VB --> ឲ្យ/IN	10
+ហើយ/CC --> ហើយ/RB	8
+JJ --> មាន/VB	6
+JJ --> ជា/IN	6
+ខ្លួន/PRO --> ខ្លួន/NN	6
+ជា/IN --> ជា/VB	5
+បាន/VCOM --> បាន/AUX	5
+ជូន/VB --> ជូន/IN	5
+JJ --> ធ្វើ/VB	4
+
+Evaluation for open-test with train1:
+Accuracy: 92.53% (9973/10778)
+
+Most common mistakes:
+ជា/IN --> ជា/VB	13
+ហើយ/RB --> ហើយ/CC	10
+ខ្លួន/PRO --> ខ្លួន/NN	9
+ទៅ/VB --> ទៅ/IN	9
+នៅ/VB --> នៅ/IN	8
+ហើយ/CC --> ហើយ/RB	8
+JJ --> មាន/VB	8
+នាង/PRO --> នាង/PN	7
+បាន/VCOM --> បាន/AUX	7
+ជា/VB --> ជា/IN	7
+
+Evaluation for open-test with train2:
+Accuracy: 93.69% (10098/10778)
+
+Most common mistakes:
+ខ្លួន/PRO --> ខ្លួន/NN	10
+ជា/IN --> ជា/VB	9
+ជា/VB --> ជា/IN	9
+ទៅ/VB --> ទៅ/IN	9
+នៅ/VB --> នៅ/IN	8
+ហើយ/CC --> ហើយ/RB	8
+ឲ្យ/VB --> ឲ្យ/IN	8
+JJ --> មាន/VB	8
+ហើយ/RB --> ហើយ/CC	8
+នាង/PRO --> នាង/PN	6
+
+Evaluation for open-test with train3:
+Accuracy: 94.46% (10181/10778)
+
+Most common mistakes:
+ខ្លួន/PRO --> ខ្លួន/NN	10
+ជា/VB --> ជា/IN	9
+ជា/IN --> ជា/VB	9
+JJ --> មាន/VB	8
+ហើយ/RB --> ហើយ/CC	8
+ទៅ/VB --> ទៅ/IN	8
+ឲ្យ/VB --> ឲ្យ/IN	8
+ហើយ/CC --> ហើយ/RB	8
+នៅ/VB --> នៅ/IN	7
+បាន/VB --> បាន/AUX	6
+
+Evaluation for open-test with train4:
+Accuracy: 94.86% (10224/10778)
+
+Most common mistakes:
+ជា/VB --> ជា/IN	11
+ខ្លួន/PRO --> ខ្លួន/NN	10
+JJ --> មាន/VB	8
+ហើយ/CC --> ហើយ/RB	8
+ទៅ/VB --> ទៅ/IN	7
+ជា/IN --> ជា/VB	7
+នៅ/VB --> នៅ/IN	7
+ឲ្យ/VB --> ឲ្យ/IN	7
+ហើយ/RB --> ហើយ/CC	6
+បាន/VB --> បាន/AUX	6
+
+Evaluation for open-test with train5:
+Accuracy: 95.15% (10255/10778)
+
+Most common mistakes:
+ជា/VB --> ជា/IN	11
+ខ្លួន/PRO --> ខ្លួន/NN	9
+JJ --> មាន/VB	8
+ទៅ/VB --> ទៅ/IN	8
+ហើយ/CC --> ហើយ/RB	8
+ឲ្យ/VB --> ឲ្យ/IN	8
+ជា/IN --> ជា/VB	7
+ហើយ/RB --> ហើយ/CC	7
+នៅ/VB --> នៅ/IN	7
+បាន/VB --> បាន/AUX	5
+
+Evaluation for open-test with train6:
+Accuracy: 95.26% (10267/10778)
+
+Most common mistakes:
+ជា/VB --> ជា/IN	10
+ខ្លួន/PRO --> ខ្លួន/NN	9
+ហើយ/CC --> ហើយ/RB	8
+ជា/IN --> ជា/VB	7
+JJ --> មាន/VB	7
+ទៅ/VB --> ទៅ/IN	7
+នៅ/VB --> នៅ/IN	7
+ហើយ/RB --> ហើយ/CC	6
+បាន/VB --> បាន/AUX	6
+ឲ្យ/VB --> ឲ្យ/IN	5
