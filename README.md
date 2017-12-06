@@ -59,7 +59,6 @@ The definitions and descriptions of POS tags are presented in detail as follow:
    ម៉ាស៊ីន/NN (Machine) សម្រាប់ (for) បោក/VB\_JJ (washing) ខោអាវ/NN (cloth), washing machine in English 
    ពួកគាត់/PRO (they) អាច/VB (can) មាន/VB (have) ការងារ/NN (work) ធ្វើ/VB\_JJ (to do)
     - When Khmer Relative Pronoun is removed, the verb form keep the same as it was. It must be VB\_JJ it is no longer a Verb in subbordiante clause.
-
     សិស្ស (student) ដែល (who) មាន/VB (has) ពិន្ទុ (mark) ខ្ពស់ (hight) នឹង (will) ទទួលបាន (get) អាហារូបករណ៍ (scholarship), student who has hight mark will get a scholarship in English but when ដែល who is removed, មាន/VB (has) should become មាន/VB\_JJ (having) 
 23. Verb (VB): Verb is a word that shows the action, even, and condition. Verb is a middle part of phrase. Normally, verb always need object and sometime it also need complement. For example, ស្តាប់ (listen), មានប្រសាសន៍ (say), ស្រលាញ់ (love), ច្រៀង (sing), បើកបរ (drive) etc.
 24. Verb Complement (VCOM): Its original form is a verb, but it will turn into VCOM when two verbs in a sentence to emphasize the first verb. Especially, a compound verb is splitted by the word មិន (no or not), the first part is a verb and the second part is VCOM. For example, លក់ (sell) ដាច់/VCOM (a lot), ប្រលង (exam) មិន (no) ជាប់/VCOM (pass), ដេក/VB (sleep), មិន/RB (not) លក់/VCOM (sleep well) etc.
