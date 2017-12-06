@@ -25,11 +25,10 @@ Part of speech is a category to which a word is assigned in accordance with its 
 
 The definitions and descriptions of POS tags are presented in detail as follow:
 1. Abbreviation (AB): For example, គម or គ.ម for kilometer (km), អសប for United Nation (UN), ពស or ព.ស for ពុទ សក ជ (Buddhism era), នប or ន.ប for នគរ ល (police), អហ or អ.ហ for  វុធហត  (Police Military) etc.
-2. Adjective is a word used to modify or describe the noun. Adjective is usually at the right hand side of noun. There are very few adjectives that their positions are before noun. {\kh \small{ក្រហម}} (red), {\kh \small{កន្លះ}} (half), {\kh \small{ប្លែក}} (strange), {\kh \small{តូច}} (small), {\kh \small{ល្អ}} (good), {\kh \small{ស្អាត}} (beautiful) etc.
+2. Adjective is a word used to modify or describe the noun. Adjective is usually at the right hand side of noun. There are very few adjectives that their positions are before noun. ក្រហម (red), កន្លះ (half), ប្លែក (strange), តូច (small), ល្អ (good), ស្អាត (beautiful) etc.
+3. Adverb (RB): An adverb is a word that is used to modify verb, adjective or another adverb. For example, ណាស់ (very), ពុំ (not), ទើប (just), ពេកក្រៃ (very), ហើយ (already) etc.
 
-\item Adverb (RB): An adverb is a word that is used to modify verb, adjective or another adverb. For example, {\kh \small{ណាស់}} (very), {\kh \small{ពុំ}} (not), {\kh \small{ទើប}} (just), {\kh \small{ពេកក្រៃ}} (very), {\kh \small{ហើយ}} (already) etc.
-
-\item Auxiliary Verb (AUX): Only three groups of verbs are tagged as auxiliary verb that used to make tense.
+Auxiliary Verb (AUX): Only three groups of verbs are tagged as auxiliary verb that used to make tense.
 \begin{itemize}
   \item Past form: {\kh \small{បាន}} or {\kh \small{មាន}} + Verb
   \item Progressive form: {\kh \small{កំពុង}} + Verb
