@@ -27,21 +27,14 @@ The definitions and descriptions of POS tags are presented in detail as follow:
 1. Abbreviation (AB): For example, គម or គ.ម for kilometer (km), អសប for United Nation (UN), ពស or ព.ស for ពុទ សក ជ (Buddhism era), នប or ន.ប for នគរ ល (police), អហ or អ.ហ for  វុធហត  (Police Military) etc.
 2. Adjective is a word used to modify or describe the noun. Adjective is usually at the right hand side of noun. There are very few adjectives that their positions are before noun. ក្រហម (red), កន្លះ (half), ប្លែក (strange), តូច (small), ល្អ (good), ស្អាត (beautiful) etc.
 3. Adverb (RB): An adverb is a word that is used to modify verb, adjective or another adverb. For example, ណាស់ (very), ពុំ (not), ទើប (just), ពេកក្រៃ (very), ហើយ (already) etc.
-
-Auxiliary Verb (AUX): Only three groups of verbs are tagged as auxiliary verb that used to make tense.
-\begin{itemize}
-  \item Past form: {\kh \small{បាន}} or {\kh \small{មាន}} + Verb
-  \item Progressive form: {\kh \small{កំពុង}} + Verb
-  \item Future form: {\kh \small{នឹង}} + Verb
-\end{itemize}
-    
-\item Cardinal Number (CD): A cardinal number is a word or a number that denoting the quality. For example, {\kh \small{បី}} (three), {\kh \small{១០០}} (100), {\kh \small{ចតុ}} (four), {\kh \small{ពាន់}} (thousand), {\kh \small{លាន}} (million) etc. 
-
-\item Conjunction (CC): Conjunction is a word to connect between words, phrases, and sentences. {\kh \small{ក៏ប៉ុន្តែ}} (but), {\kh \small{ពីព្រោះ}} (because), {\kh \small{ដ្បិត}} (for, since), {\kh \small{ទម្រាំតែ}} (until), {\kh \small{ពុំនោះសោត}} (otherwise), {\kh \small{បើ}} (if) etc.
-
-\item Currency (CUR): CUR for currency symbol such as: {\kh \small{៛}}, \$, ₤, € etc.
-
-\item Determiner Pronoun (DT): In Khmer grammar, determiners are classified under pronoun unlike English. It is used to tell location or/and uncertainty of noun. They are equivalent to English words: this, that, those, these, all, every, each, some etc. For example, {\kh \small{នេះ}} (this), {\kh \small{នោះ}} (that), {\kh \small{ទាំងនេះ}} (these), {\kh \small{ទាំងអស់}} (all), {\kh \small{នានា}} (various), {\kh \small{ខ្លះ}} (some), {\kh \small{សព្វ}} (every) etc.
+4. Auxiliary Verb (AUX): Only three groups of verbs are tagged as auxiliary verb that used to make tense.
+ - Past form: {\kh \small{បាន}} or {\kh \small{មាន}} + Verb
+ - Progressive form: {\kh \small{កំពុង}} + Verb
+ - Future form: {\kh \small{នឹង}} + Verb
+5. Cardinal Number (CD): A cardinal number is a word or a number that denoting the quality. For example, បី (three), ១០០ (100), ចតុ (four), ពាន់ (thousand), លាន (million) etc. 
+6. Conjunction (CC): Conjunction is a word to connect between words, phrases, and sentences. ក៏ប៉ុន្តែ (but), ពីព្រោះ (because), ដ្បិត (for, since), ទម្រាំតែ (until), ពុំនោះសោត (otherwise), បើ (if) etc.
+7. Currency (CUR): CUR for currency symbol such as: ៛, \$, ₤, € etc.
+8. Determiner Pronoun (DT): In Khmer grammar, determiners are classified under pronoun unlike English. It is used to tell location or/and uncertainty of noun. They are equivalent to English words: this, that, those, these, all, every, each, some etc. For example, នេះ (this), នោះ (that), ទាំងនេះ (these), ទាំងអស់ (all), នានា (various), ខ្លះ (some), សព្វ (every) etc.
 
 \item Double Sign (DBL): Double sign ({\kh \small{ៗ}}) is used to remind reader to read the previous word twice. For example, {\kh \small{មនុស្ស}}/NN (people) {\kh \small{គ្រប់}}/DT (every) {\kh \small{ៗ}}/DBL {\kh \small{គ្នា}}/PRO (person), \dquotes{everybody} in English.
 
