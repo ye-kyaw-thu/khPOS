@@ -1,0 +1,19 @@
+Scanning dictionaries and corpora for vocabulary
+Reading corpus from ./train4/train4 
+ KyTea Error: Illegal tag separator in word position at ទន្ទឹម_នឹង/IN នេះ/DT ដែរ/RB ក្រុម/NN ប្រជា_ពល_រដ្ឋ/NN ប្រមាណ/NN ជាង/IN ២០០/CD នាក់/M មក_ពី/IN ខេត្ត/NN កោះកុង/PN បាន/AUX លើក/VB យក/RB បញ្ហា/NN ផ្ទាល់/JJ របស់/IN អ្នក/PRO ទាំង_នោះ/DT រួម/VB_JJ ជាមួយ_នឹង/IN បណ្តឹង/NN រាប់/DT លាន/CD ករណី/NN ប្រឆាំង/VB_JJ នឹង/IN ក្រុមហ៊ុន/NN &/SYM របស់/IN ប្រទេស/NN អង់គ្លេស/PN ដោយ/IN អះអាង/VB ថា/IN ក្រុមហ៊ុន/NN ស្ករ/NN អំពៅ/NN នេះ/DT មាន/VB ចេតនា/NN ទទួល/VB_JJ ផល/NN ចំណេញ/JJ ពី/IN ដី/NN ដែល/RPN រឹប_អូស/VB បាន/VCOM ពី/IN ប្រជា_ពល_រដ្ឋ/NN ដោយ/IN ខុស/JJ ច្បាប់/NN ។/KAN
+==========
+
+Scanning dictionaries and corpora for vocabulary
+Reading corpus from ./train5/train5 
+ KyTea Error: Illegal tag separator in word position at ទន្ទឹម_នឹង/IN នេះ/DT ដែរ/RB ក្រុម/NN ប្រជា_ពល_រដ្ឋ/NN ប្រមាណ/NN ជាង/IN ២០០/CD នាក់/M មក_ពី/IN ខេត្ត/NN កោះកុង/PN បាន/AUX លើក/VB យក/RB បញ្ហា/NN ផ្ទាល់/JJ របស់/IN អ្នក/PRO ទាំង_នោះ/DT រួម/VB_JJ ជាមួយ_នឹង/IN បណ្តឹង/NN រាប់/DT លាន/CD ករណី/NN ប្រឆាំង/VB_JJ នឹង/IN ក្រុមហ៊ុន/NN &/SYM របស់/IN ប្រទេស/NN អង់គ្លេស/PN ដោយ/IN អះអាង/VB ថា/IN ក្រុមហ៊ុន/NN ស្ករ/NN អំពៅ/NN នេះ/DT មាន/VB ចេតនា/NN ទទួល/VB_JJ ផល/NN ចំណេញ/JJ ពី/IN ដី/NN ដែល/RPN រឹប_អូស/VB បាន/VCOM ពី/IN ប្រជា_ពល_រដ្ឋ/NN ដោយ/IN ខុស/JJ ច្បាប់/NN ។/KAN
+==========
+
+Scanning dictionaries and corpora for vocabulary
+Reading corpus from ./train6/train6 
+ KyTea Error: Illegal tag separator in word position at ទន្ទឹម_នឹង/IN នេះ/DT ដែរ/RB ក្រុម/NN ប្រជា_ពល_រដ្ឋ/NN ប្រមាណ/NN ជាង/IN ២០០/CD នាក់/M មក_ពី/IN ខេត្ត/NN កោះកុង/PN បាន/AUX លើក/VB យក/RB បញ្ហា/NN ផ្ទាល់/JJ របស់/IN អ្នក/PRO ទាំង_នោះ/DT រួម/VB_JJ ជាមួយ_នឹង/IN បណ្តឹង/NN រាប់/DT លាន/CD ករណី/NN ប្រឆាំង/VB_JJ នឹង/IN ក្រុមហ៊ុន/NN &/SYM របស់/IN ប្រទេស/NN អង់គ្លេស/PN ដោយ/IN អះអាង/VB ថា/IN ក្រុមហ៊ុន/NN ស្ករ/NN អំពៅ/NN នេះ/DT មាន/VB ចេតនា/NN ទទួល/VB_JJ ផល/NN ចំណេញ/JJ ពី/IN ដី/NN ដែល/RPN រឹប_អូស/VB បាន/VCOM ពី/IN ប្រជា_ពល_រដ្ឋ/NN ដោយ/IN ខុស/JJ ច្បាប់/NN ។/KAN
+
+===========
+
+Original Sentence:
+
+ទន្ទឹម_នឹង/IN នេះ/DT ដែរ/RB ក្រុម/NN ប្រជា_ពល_រដ្ឋ/NN ប្រមាណ/NN ជាង/IN ២០០/CD នាក់/M មក_ពី/IN ខេត្ត/NN កោះកុង/PN បាន/AUX លើក/VB យក/RB បញ្ហា/NN ផ្ទាល់/JJ របស់/IN អ្នក/PRO ទាំង_នោះ/DT រួម/VB_JJ ជាមួយ_នឹង/IN បណ្តឹង/NN រាប់/DT លាន/CD ករណី/NN ប្រឆាំង/VB_JJ នឹង/IN ក្រុមហ៊ុន/NN &/SYM របស់/IN ប្រទេស/NN អង់គ្លេស/PN ដោយ/IN អះអាង/VB ថា/IN ក្រុមហ៊ុន/NN ស្ករ/NN អំពៅ/NN នេះ/DT មាន/VB ចេតនា/NN ទទួល/VB_JJ ផល/NN ចំណេញ/JJ ពី/IN ដី/NN ដែល/RPN រឹប_អូស/VB បាន/VCOM ពី/IN ប្រជា_ពល_រដ្ឋ/NN ដោយ/IN ខុស/JJ ច្បាប់/NN ។/KAN
