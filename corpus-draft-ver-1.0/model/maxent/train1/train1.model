@@ -1,0 +1,6135 @@
+#txt,maxent
+1629
+prefix=
+prefix=�
+prefix=�
+prefix=ក
+prefix=ក�
+suffix=�
+suffix=��
+suffix=ី
+suffix=�ី
+word-1=BOUNDARY
+word-2=BOUNDARY
+tag-1=BOUNDARY
+tag-1,2=BOUNDARY,BOUNDARY
+word+1=នោះ
+curword=នោះ
+tag-1=IN
+word+2=នេះ
+prefix=ល
+prefix=ល�
+suffix=�
+suffix=��
+suffix=ត
+suffix=�ត
+word-1=នោះ
+tag-1=DT
+word+1=នេះ
+word+2=បាន
+curword=នេះ
+tag-1=NN
+tag-1,2=DT,NN
+word+1=បាន
+curword=បាន
+word-1=នេះ
+tag-1,2=NN,DT
+curword=បញ្ជាក់
+word-1=បាន
+tag-1=AUX
+word-2=នេះ
+tag-1,2=DT,AUX
+word+1=យ៉ាង
+curword=យ៉ាង
+tag-1=VB
+word-2=បាន
+tag-1,2=AUX,VB
+word-1=យ៉ាង
+tag-1=RB
+tag-1,2=VB,RB
+word+1=ពី
+curword=ពី
+tag-1=JJ
+word-2=យ៉ាង
+tag-1,2=RB,JJ
+suffix=�
+suffix=��
+suffix=ង
+suffix=�ង
+word-1=ពី
+tag-1,2=JJ,IN
+curword=ប្រាក់
+word-2=ពី
+tag-1,2=IN,NN
+prefix=ឧ
+prefix=ឧ�
+word-1=ប្រាក់
+tag-1,2=NN,NN
+word+2=ៗ
+curword=ផ្សេង
+word+1=ៗ
+curword=ៗ
+tag-1,2=NN,JJ
+word-1=ៗ
+tag-1=DBL
+curword=ក្រសួង
+word-2=ៗ
+word+2=ជាង
+curword=សរុប
+word+1=ជាង
+curword=ជាង
+prefix=�
+prefix=២
+prefix=២�
+suffix=�
+suffix=��
+suffix=៥
+word-1=ជាង
+curword=លាន
+tag-1=CD
+prefix=រ
+prefix=រ�
+suffix=�
+suffix=��
+suffix=ល
+word+2=។
+tag-1=PN
+word+1=។
+word+2=BOUNDARY
+curword=។
+word+1=BOUNDARY
+curword=លោក~ជំទាវ
+prefix=ណ
+prefix=ណ�
+suffix=�
+suffix=��
+suffix=ន
+word-1=លោក~ជំទាវ
+tag-1=PRO
+tag-1,2=BOUNDARY,PRO
+prefix=ស
+prefix=ស�
+suffix=�
+suffix=��
+suffix=យ
+word-2=លោក~ជំទាវ
+tag-1,2=PRO,PN
+prefix=ប
+prefix=ប�
+suffix=�ន
+curword=ខ្ញុំ
+word+1=ឈ្មោះ
+curword=ឈ្មោះ
+word-1=ខ្ញុំ
+prefix=ថ
+prefix=ថ�
+word-1=ឈ្មោះ
+word-2=ខ្ញុំ
+tag-1,2=PRO,NN
+curword=លោក
+prefix=ដ
+prefix=ដ�
+suffix=�ង
+word-1=លោក
+curword=សុភា
+word-2=លោក
+curword=ឯក_ឧត្ដម
+suffix=�
+suffix=��
+suffix=ា
+word-1=ឯក_ឧត្ដម
+curword=លីន
+word-2=ឯក_ឧត្ដម
+prefix=ទ
+prefix=ទ�
+curword=សិទិ្ធ
+tag-1,2=BOUNDARY,NN
+curword=កុមារ
+word-1=សិទិ្ធ
+word+2=គឺ
+curword=អន្តរ_ជាតិ
+word+1=គឺ
+word+2=ត្រូវ_បាន
+curword=គឺ
+curword=ត្រូវ_បាន
+word-1=គឺ
+tag-1,2=NN,VB
+word-1=ត្រូវ_បាន
+word-2=គឺ
+tag-1,2=VB,VB
+word+2=នៅ
+curword=ឡើង
+curword=នៅ
+word+1=ថ្ងៃ_ទី
+curword=ថ្ងៃ_ទី
+word-1=នៅ
+tag-1,2=RB,IN
+word+1=១
+curword=១
+word-1=ថ្ងៃ_ទី
+word-2=នៅ
+curword=ខែ_មិថុនា
+word-2=ថ្ងៃ_ទី
+tag-1,2=NN,CD
+word+2=សុខ
+word+1=សុខ
+curword=សុខ
+word-1=សុខ
+word-2=ឈ្មោះ
+tag-1,2=NN,PN
+word+1=ចាន់
+curword=ចាន់
+curword=កញ្ញា
+curword=គង់
+word-1=កញ្ញា
+curword=សារ៉ន
+word-2=កញ្ញា
+curword=លោក~ស្រី
+curword=មួង
+word-1=លោក~ស្រី
+suffix=�ី
+curword=អ៊ឹម
+word+1=គឺ_ជា
+curword=គឺ_ជា
+tag-1,2=BOUNDARY,DT
+curword=ភោគ
+word-1=គឺ_ជា
+tag-1,2=DT,VB
+suffix=�
+suffix=��
+suffix=់
+prefix=ឆ
+prefix=ឆ�
+curword=លាង
+tag-1,2=PN,PN
+prefix=អ
+prefix=អ�
+curword=គាត់
+word-1=គាត់
+word-2=គាត់
+suffix=�ី
+suffix=��
+suffix=ោ
+prefix=ត
+prefix=ត�
+suffix=�
+suffix=��
+suffix=រ
+tag-1,2=PN,AUX
+word+2=ថា
+curword=ដូច្នេះ
+word+1=ថា
+curword=ថា
+word+1=៖
+word+2=«
+curword=៖
+word-1=ថា
+word+1=«
+curword=«
+word-1=៖
+tag-1=SYM
+word-2=ថា
+tag-1,2=IN,SYM
+word+2=ខ្ញុំ
+curword=ជីវិត
+word-1=«
+word-2=៖
+tag-1,2=SYM,SYM
+curword=ផ្លាស់_ប្តូរ
+tag-1,2=PRO,AUX
+word+2=ហើយ
+word+1=ហើយ
+curword=ហើយ
+curword=ក្រោយ_ពី
+word-1=ហើយ
+tag-1,2=RB,RB
+curword=គេ
+curword=កាប់
+word-1=គេ
+tag-1,2=IN,PRO
+word+2=នោះ
+tag-1,2=PRO,VB
+curword=មក
+word-2=នោះ
+curword=ឃឹម
+word+1=ពេល
+word+2=ដែល
+curword=ពេល
+tag-1,2=BOUNDARY,IN
+word+1=ដែល
+curword=ដែល
+curword=សកម្ម_ជន
+word-1=ដែល
+tag-1=RPN
+word-2=ពេល
+tag-1,2=NN,RPN
+word+2=ទាំង
+curword=បឹង_កក់
+curword=ទាំង
+word+2=នាក់
+curword=៧
+word-1=ទាំង
+word+1=នាក់
+curword=នាក់
+word-2=ទាំង
+tag-1,2=DT,CD
+curword=មួយ
+word+1=ថ្ងៃ
+curword=ថ្ងៃ
+word-1=មួយ
+word-2=នាក់
+word+1=មុន
+curword=មុន
+tag-1,2=CD,NN
+curword=ស្ត្រី
+word+1=ទាំង
+curword=បី
+word-1=នាក់
+tag-1=M
+tag-1,2=CD,M
+word+2=មួយ
+prefix=យ
+prefix=យ�
+suffix=�់
+tag-1,2=VB,CD
+curword=រួច
+word-2=មួយ
+tag-1,2=NN,RB
+word+2=និង
+curword=ចោទ_ប្រកាន់
+tag-1,2=RB,VB
+word+1=និង
+curword=និង
+curword=ផ្តន្ទា_ទោស
+word-1=និង
+tag-1=CC
+tag-1,2=VB,CC
+word+1=នៅ
+word-2=និង
+tag-1,2=CC,VB
+tag-1,2=VB,IN
+word+1=ឆ្នាំ
+curword=ឆ្នាំ
+prefix=ព
+prefix=ព�
+suffix=�
+suffix=��
+suffix=៍
+suffix=�៍
+word-2=ឆ្នាំ
+word+2=ជា
+word+1=ជា
+curword=ជា
+curword=ព្រះ~រាជ
+word-1=ជា
+curword=បុត្រ
+word-1=ព្រះ~រាជ
+word-2=ជា
+tag-1,2=VB,JJ
+word+2=នៃ
+prefix=ច
+prefix=ច�
+tag-1,2=JJ,NN
+curword=នៃ
+suffix=�
+suffix=��
+suffix=ម
+word-2=នៃ
+curword=(
+suffix=�ា
+suffix=�ត
+curword=)
+curword=ត្រូវ
+word-1=ត្រូវ
+word-2=ត្រូវ
+suffix=�
+word+1=ទ្រង់
+curword=ទ្រង់
+word+1=ទៅ
+curword=ទៅ
+word-1=ទ្រង់
+word-2=ហើយ
+tag-1,2=RB,PRO
+word-1=ទៅ
+curword=ប្រាសាទ
+word-2=ទៅ
+tag-1,2=VB,NN
+prefix=ជ
+prefix=ជ�
+suffix=�
+suffix=��
+suffix=ស
+curword=សង
+curword=លាក់
+word-2=លោក~ស្រី
+curword=អ្នក~នាង
+suffix=�ី
+word-1=អ្នក~នាង
+curword=សេចក្តី~ព្រាង
+word+1=ច្បាប់
+curword=ច្បាប់
+word-1=សេចក្តី~ព្រាង
+word+1=ត្រូវ_បាន
+word+1=ទាំង_នោះ
+curword=ទាំង_នោះ
+curword=ត្រូវតែ
+word-1=ទាំង_នោះ
+word+2=ដោយ
+suffix=�ង
+word-2=ទាំង_នោះ
+word+1=ដោយ
+word+2=មាន
+curword=ដោយ
+word+1=មាន
+curword=មាន
+word-1=ដោយ
+suffix=�់
+word-1=មាន
+word-2=ដោយ
+tag-1,2=IN,VB
+word-2=មាន
+suffix=�យ
+tag-1,2=NN,IN
+tag-1,2=NN,CC
+suffix=�
+suffix=��
+suffix=ព
+suffix=�ព
+word+2=លើ
+word-2=ដែល
+tag-1,2=RPN,VB
+word+1=លើ
+curword=លើ
+suffix=�
+suffix=��
+suffix=ច
+word-1=លើ
+curword=សំខាន់
+curword=គ្រប់
+curword=ក្រុម
+word-1=គ្រប់
+tag-1,2=IN,JJ
+curword=ពាក់ព័ន្ធ
+curword=ប៉ះ_ពាល់
+prefix=ម
+prefix=ម�
+curword=ហួត
+prefix=ហ
+prefix=ហ�
+suffix=�
+suffix=��
+suffix=ូ
+word+2=លោក
+word+1=លោក
+suffix=�ា
+word+1=ធ្វើ
+curword=ធ្វើ
+suffix=�ល
+word-1=ធ្វើ
+curword=ភស្តុតាង
+word-2=ធ្វើ
+word+2=ដើម្បី
+curword=ដើម្បី
+curword=ដាក់
+word-1=ដើម្បី
+curword=ជូន
+word-2=ដើម្បី
+curword=គណៈ_កម្មាធិការ
+word-1=ជូន
+word+1=សិទ្ធិ
+word+2=មនុស្ស
+curword=សិទ្ធិ
+word+1=មនុស្ស
+curword=មនុស្ស
+word-1=សិទ្ធិ
+word+1=ថៃ
+curword=ថៃ
+tag-1,2=PN,RPN
+word+1=មួយ
+curword=កំពុង
+word-1=កំពុង
+tag-1,2=CD,AUX
+word+2=ពី
+word+2=របស់
+curword=សកម្មភាព
+word+1=របស់
+word+2=ក្រុមហ៊ុន
+curword=របស់
+word+1=ក្រុមហ៊ុន
+curword=ក្រុមហ៊ុន
+word-1=របស់
+suffix=�រ
+word-1=ក្រុមហ៊ុន
+word-2=របស់
+word+1=កម្ពុជា
+curword=កម្ពុជា
+suffix=�ី
+suffix=�ង
+curword=អាជីវកម្ម
+tag-1=VB_JJ
+tag-1,2=NN,VB_JJ
+suffix=�
+suffix=��
+suffix=ែ
+tag-1,2=VB_JJ,NN
+curword=មាស
+suffix=�រ
+word+1=រង
+curword=រង
+word+1=ខេត្ត
+curword=ខេត្ត
+word-1=ខេត្ត
+curword=ជន_ជាតិ
+tag-1,2=PN,CC
+curword=ចិន
+tag-1,2=CC,NN
+curword=រួម
+curword=នឹង
+curword=មន្ត្រី
+word-1=នឹង
+curword=អាជ្ញាធរ
+word-1=មន្ត្រី
+word-2=នឹង
+word+2=ម្នាក់
+curword=មូលដ្ឋាន
+word+1=ម្នាក់
+curword=ម្នាក់
+curword=ផង
+suffix=�
+suffix=��
+suffix=ប
+curword=បន្ទាប់_ពី
+word-2=ត្រូវ_បាន
+prefix=ខ
+prefix=ខ�
+word-1=ច្បាប់
+word+1=រយៈ_ពេល
+curword=រយៈ_ពេល
+word-2=ច្បាប់
+word+2=ឆ្នាំ
+curword=២០
+word-2=ជាង
+tag-1,2=IN,CD
+curword=សូម
+word-1=សូម
+word-1=បញ្ជាក់
+curword=៤
+suffix=�ត
+tag-1,2=RPN,AUX
+word+1=មក
+word+2=ប្រទេស
+curword=ប្រទេស
+word-1=ប្រទេស
+word-2=កម្ពុជា
+curword=៣
+word+2=(
+suffix=�់
+word-1=(
+word+1=ពីរ
+word+2=ស្រី
+curword=ពីរ
+tag-1,2=SYM,NN
+word-1=ពីរ
+word+2=)
+word+1=ទៀត
+curword=ទៀត
+word-1=ទៀត
+tag-1,2=DT,RB
+word-2=ទៀត
+curword=ភាគ
+curword=តិច
+word-1=ភាគ
+curword=រស់
+word+1=នៅ_ក្នុង
+curword=នៅ_ក្នុង
+word+1=ប្រទេស
+word-1=នៅ_ក្នុង
+prefix=ភ
+prefix=ភ�
+word-2=នៅ_ក្នុង
+prefix=ឈ
+prefix=ឈ�
+suffix=�ម
+suffix=�
+suffix=��
+suffix=ក
+suffix=�់
+prefix=ឡ
+prefix=ឡ�
+suffix=�ង
+curword=សាំង
+word+1=ឡេង
+curword=ឡេង
+curword=គីម
+suffix=�ា
+prefix=ធ
+prefix=ធ�
+curword=ធី
+word-2=គឺ_ជា
+tag-1,2=VB,PN
+curword=គឹម
+curword=អន
+word-1=គឹម
+suffix=�ន
+curword=រដ្ឋា
+curword=ច័ន្ទ
+curword=ពន្លឺ
+word-1=ច័ន្ទ
+curword=ប្រធាន
+word+2=កីឡា
+curword=សហ_ព័ន្ធ
+word-1=ប្រធាន
+curword=កីឡា
+word-2=ប្រធាន
+curword=បាល់_ទាត់
+curword=កាល_ពី
+tag-1,2=PN,IN
+curword=មិន
+curword=ទទួល_បាន
+word-2=មិន
+curword=ឱកាស
+word-1=ទទួល_បាន
+word+2=»
+curword=»
+curword=ក្នុង
+suffix=�
+suffix=��
+suffix=ៃ
+word-1=ក្នុង
+tag-1,2=SYM,IN
+word+1=សម្រាប់
+curword=សម្រាប់
+word-2=ក្នុង
+curword=ព្រឹត្តិ_ការណ៍
+word-1=សម្រាប់
+word-2=សម្រាប់
+word+2=ឡើយ
+suffix=�
+suffix=��
+suffix=២
+word-1=ឆ្នាំ
+curword=ឡើយ
+curword=បដិសេធ
+tag-1,2=CC,AUX
+word+2=ខ្លួន
+word+1=ខ្លួន
+curword=ខ្លួន
+word-2=ខ្លួន
+tag-1,2=NN,AUX
+word+1=ប្រាក់
+curword=ឃុន
+prefix=វ
+prefix=វ�
+suffix=�ី
+word+1=ស្រី
+curword=ស្រី
+word-1=ស្រី
+curword=ទ្រី
+suffix=�
+suffix=��
+suffix=ំ
+suffix=�ំ
+suffix=�
+suffix=��
+suffix=ធ
+suffix=�ធ
+suffix=�់
+curword=ផុន
+curword=ទូច
+word+2=ចាន់
+curword=ឌឿន
+word-1=ចាន់
+curword=របាយការណ៍
+word+2=ចំនួន
+word+1=ចំនួន
+curword=ចំនួន
+word-1=ចំនួន
+word-2=ចំនួន
+word+1=អង្គការ
+curword=អង្គការ
+curword=,
+curword=បង្ហាញ
+word+1=នូវ
+curword=នូវ
+word-1=បង្ហាញ
+suffix=�ន
+word-1=នូវ
+word-2=បង្ហាញ
+word+2=រាជ
+word-2=នូវ
+word+2=រដ្ឋាភិបាល
+curword=រាជ
+word+1=រដ្ឋាភិបាល
+word+2=ក្នុង
+curword=រដ្ឋាភិបាល
+word-1=រាជ
+word+1=ក្នុង
+word-2=រដ្ឋាភិបាល
+curword=ការពារ
+curword=ផ្តល់
+curword=ពល_រដ្ឋ
+curword=នយោបាយ
+curword=ដូច
+curword=ចែង
+curword=ភ្លន់
+curword=នុច
+curword=អ៊ីម
+prefix=ឃ
+prefix=ឃ�
+curword=ចន្នី
+prefix=ន
+prefix=ន�
+suffix=�ា
+curword=នាយក
+curword=រដ្ឋ_មន្ត្រី
+word-1=នាយក
+curword=ហ៊ុន
+word+1=សែន
+curword=សែន
+curword=ហៅ
+suffix=�
+suffix=��
+suffix=ើ
+word+2=គណបក្ស
+word+1=គណបក្ស
+curword=គណបក្ស
+word+2=ឲ្យ
+curword=ឲ្យ
+word-1=ឲ្យ
+curword=តំបន់
+word-2=ឲ្យ
+word+1=តំបន់
+curword=រឿង
+tag-1,2=IN,IN
+curword=ផាន់
+suffix=�ន
+word+1=ឲ្យ
+word-2=គេ
+curword=និស្សិត
+curword=ទទួល
+word-1=មក
+curword=សញ្ញាបត្រ
+word-1=ទទួល
+word-2=មក
+curword=នៅ_លើ
+suffix=�ា
+word-1=នៅ_លើ
+curword=រូប
+word+1=នៃ
+suffix=�ល
+word-1=នៃ
+word+1=ពួក_គេ
+curword=ពួក_គេ
+curword=ទាំងអស់
+curword=គ្នា
+curword=ទោះបី_ជា
+word-2=គ្នា
+word+2=ត្រូវ
+word+1=ច្រើន
+curword=ច្រើន
+curword=ក៏_ដោយ
+curword=ព្រោះ
+curword=វា
+word-1=វា
+tag-1,2=CC,PRO
+curword=ពិធី
+word+1=ដ៏
+curword=ដ៏
+word-1=ដ៏
+tag-1,2=CD,IN
+curword=ទី
+curword=សុជា
+word-2=អ្នក~នាង
+curword=ឈប់
+curword=ឯ
+curword=ចៅ
+word-1=ឯ
+word+2=ក៏
+curword=ក៏
+word-1=ក៏
+word+2=“
+word-2=ក៏
+word+1=“
+curword=“
+word+1=ខ្ញុំ
+word-1=ចៅ
+curword=មែន
+curword=”
+word+2=កម្ពុជា
+curword=ធំ
+word-1=កម្ពុជា
+curword=ក្រោយ
+curword=ចាញ់
+word+1=ក្រុម
+word+2=១
+word+1=.
+curword=.
+curword=០
+word-1=.
+tag-1,2=CD,SYM
+suffix=�ា
+curword=៥
+curword=ម៉ឺន
+curword=នាំ_គ្នា
+curword=ពេញ
+word+1=ជាតិ
+curword=ជាតិ
+curword=ស្រែក
+tag-1,2=RB,AUX
+word-1=គ្នា
+word+1=ជម្រើស_ជាតិ
+curword=ជម្រើស_ជាតិ
+word-1=ក្រុម
+word-2=«
+word-2=ក្រុម
+curword=ស្ថិត
+tag-1,2=PN,VB
+curword=ចិត្ត
+word+2=យើង
+word+1=យើង
+curword=យើង
+curword=បទ
+tag-1,2=NN,SYM
+word+1=»
+suffix=�
+curword=ទៅ_កាន់
+prefix=គ
+prefix=គ�
+word-1=ទៅ_កាន់
+word+1=វិញ
+curword=វិញ
+suffix=�ន
+suffix=�ង
+curword=ហេង
+curword=ឡុង
+suffix=�ល
+suffix=�ន
+suffix=�ច
+curword=គម្រោង
+curword=បញ្ហា
+word+1=នឹង
+suffix=�ា
+word+2=ឬ
+curword=តម្លៃ
+word+1=ឬ
+curword=ឬ
+word-1=ឬ
+word-2=ឬ
+suffix=�ំ
+tag-1,2=PRO,IN
+word-1=កាល_ពី
+word+1=២
+curword=២
+curword=សុវណ្ណ
+curword=ធ្លាប់
+tag-1,2=PN,RB
+curword=ពិន្ទុ
+curword=កីឡា_ករ
+word-1=កីឡា_ករ
+curword=ម្តង
+curword=ប៉ុន្តែ
+curword=កាល
+curword=ប្រាប់
+curword=ដោយសារ_តែ
+word+2=មិន
+word-1=មិន
+curword=លើក
+word+1=ពេញ
+curword=តែ
+tag-1,2=JJ,RB
+word+1=មិន
+word+1=អាច
+curword=អាច
+word-1=អាច
+curword=ដដែល
+curword=ប៉ុណ្ណោះ
+tag-1,2=IN,PN
+word+2=ដល់
+word+1=ដល់
+curword=ដល់
+curword=កម្រិត
+word-1=ដល់
+prefix=១
+prefix=១�
+curword=ភាគ_រយ
+curword=យ៉ាង_ណា
+curword=ប្រជា_ពល_រដ្ឋ
+prefix=៥
+prefix=៥�
+suffix=�
+suffix=��
+suffix=០
+curword=នៅ_តែ
+curword=ទទួល_រង
+curword=នៅ_ឡើយ
+suffix=�ង
+curword=រួម_ទាំង
+curword=ការ
+curword=សេវា
+suffix=��
+suffix=ះ
+suffix=�
+suffix=��
+suffix=ិ
+suffix=�ិ
+word+1=ក៏
+curword=ដូច_ជា
+word-1=»
+curword=នី
+word+1=ម៉េង
+curword=ម៉េង
+curword=គ័ង
+word-1=ម៉េង
+prefix=ង
+prefix=ង�
+suffix=�ម
+curword=នាង
+word-1=នាង
+curword=ការ~ចាប់_ខ្លួន
+curword=កើត_ឡើង
+curword=ការ~តវ៉ា
+curword=សាលា
+curword=រាជ_ធានី
+word+1=ភ្នំ_ពេញ
+curword=ភ្នំ_ពេញ
+word-1=រាជ_ធានី
+curword=កន្លែង
+curword=សមាជិក
+curword=សហគមន៍
+word-1=សមាជិក
+curword=អំពាវនាវ
+word+1=អាជ្ញាធរ
+word+1=ដើម្បី
+curword=ទឹក
+curword=ចេញ
+word-1=ចេញ
+word+1=ផ្ទះ
+curword=ផ្ទះ
+word+2=អ្នក
+word+1=អ្នក
+word+2=ទាំង_នោះ
+curword=អ្នក
+word-1=អ្នក
+word+1=ទី
+word-1=លើក
+word-1=ទី
+word-2=លើក
+word-2=ទី
+word+2=នឹង
+curword=ពិនិត្យ
+word+2=ទី
+suffix=�
+suffix=��
+suffix=៣
+suffix=�
+suffix=��
+suffix=៧
+suffix=�
+suffix=��
+suffix=៨
+curword=ខែ_មិនា
+tag-1,2=CD,PN
+curword=២០១៥
+tag-1,2=PN,NN
+word+1=ទីក្រុង
+curword=ទីក្រុង
+suffix=�
+suffix=��
+suffix=វ
+word+1=លីកាដូ
+curword=លីកាដូ
+word-1=អង្គការ
+word+2=នូវ
+suffix=�ក
+prefix=ផ
+prefix=ផ�
+suffix=�
+suffix=��
+suffix=ៈ
+curword=តូច
+suffix=�
+curword=សាវី
+word+1=ជា_ច្រើន
+curword=ជា_ច្រើន
+curword=នា
+word-1=នា
+word+1=ថ្មី
+curword=ថ្មី
+suffix=�
+suffix=��
+suffix=៩
+curword=ខែ_កញ្ញា
+word+2=២០១៤
+word+1=២០១៤
+curword=២០១៤
+suffix=��
+suffix=ៅ
+word-1=ដាក់
+word-2=ដាក់
+word-2=លើ
+word-1=គណបក្ស
+word-2=គណបក្ស
+word+2=ដ៏
+curword=ដីធ្លី
+curword=យូរ
+word+1=មួយ_ចំនួន
+curword=មួយ_ចំនួន
+curword=ជួយ
+word-2=អាច
+curword=វគ្គ
+curword=ចុង_ក្រោយ
+suffix=�ន
+suffix=�ា
+word-2=កីឡា_ករ
+suffix=�ិ
+curword=លី
+suffix=�ង
+curword=ឈឿង
+suffix=�់
+suffix=�យ
+suffix=�ម
+curword=មេធាវី
+curword=ជន
+curword=អំពើ_ហិង្សា
+word+1=ទាំង_នេះ
+curword=ទាំង_នេះ
+curword=អំឡុង
+curword=ភ្លាម
+curword=ចៅក្រម
+curword=សាន
+curword=សម្បត្តិ
+curword=អ៊ុន
+curword=ផារី
+curword=តំណាង
+word+2=ការងារ
+word+1=ការងារ
+curword=ការងារ
+word-1=ក្រសួង
+tag-1,2=NN,PRO
+suffix=�ត
+curword=យក
+word-1=យក
+word+2=ទៅ
+tag-1,2=DT,IN
+word+2=ធ្វើ
+curword=រស្មី
+curword=នូ
+tag-1,2=VB_JJ,IN
+curword=វៀតណាម
+curword=ឃុំ
+curword=ស្រុក
+suffix=�យ
+word+1=យក
+curword=ណា_មួយ
+curword=ថន
+curword=ឆើត
+curword=មាត្រា
+suffix=�
+suffix=��
+suffix=៦
+word-1=មាត្រា
+curword=បើ
+suffix=�ី
+curword=ប្ដឹង
+curword=ទេ
+curword=តុលាការ
+tag-1=PA
+word+1=ប្រជា_ជន
+curword=ប្រជា_ជន
+curword=វ័យ
+curword=៣០
+curword=ឱ្យ
+curword=បញ្ចប់
+curword=ប្រើ
+curword=អស់
+curword=ម៉ោង
+word-1=១
+prefix=៣
+prefix=៣�
+suffix=�
+suffix=��
+suffix=១
+suffix=�ី
+word+1=៤
+word+2=នៅ_ក្នុង
+curword=ព្រឹទ្ធ_សភា
+suffix=�ង
+curword=ប្រឆាំង
+curword=គាំទ្រ
+curword=អនុ
+suffix=�ូ
+curword=ទេព
+curword=សួន
+curword=លុះ
+curword=យល់
+curword=ខ្លួន_ឯង
+tag-1,2=VB,PRO
+curword=ព្រះ~ពិស្ណុការ
+curword=រក
+word+2=មក
+curword=ធ្វើ_ជា
+curword=អ្នក~ស្រី
+suffix=�ល
+tag-1,2=SYM,PRO
+word+1=មែន
+curword=យុត្តិធម៌
+curword=សង្គម
+word+2=ទេ
+word+1=ទេ
+word+2=តែ
+tag-1,2=IN,RB
+word-2=តែ
+suffix=�យ
+curword=គិត
+tag-1,2=PA,SYM
+curword=យោង
+word+1=តាម
+curword=តាម
+word-1=តាម
+curword=បង្កើត
+curword=ប្រព័ន្ធ
+word-1=បង្កើត
+curword=ទំនាក់ទំនង
+curword=រវាង
+curword=សន្តិសុខ
+suffix=�ន
+curword=ផ្នែក
+word-1=ផ្នែក
+curword=អំពី
+curword=អាពាហ៍_ពិពាហ៍
+word-1=អំពី
+word-2=១
+word-1=យើង
+curword=រៀន
+curword=ពួក_គាត់
+curword=គ្រួសារ
+curword=បន្ត
+word-1=បន្ត
+curword=មុខ
+curword=៕
+curword=សៅ
+suffix=��
+suffix=ញ
+suffix=�ះ
+curword=ដើម
+curword=រដូវ
+curword=ធ្វើ_ឲ្យ
+suffix=�វ
+word-1=ធ្វើ_ឲ្យ
+curword=ដំណាំ
+curword=កសិ^កម្ម
+suffix=�រ
+word+1=ខ្មែរ
+curword=ខ្មែរ
+word-2=ខេត្ត
+curword=ប្រសិន_បើ
+curword=គ្មាន
+word-1=គ្មាន
+tag-1,2=RB,NN
+curword=ខាង_មុខ
+suffix=�ង
+curword=ផល្លា
+curword=ស៊ីម
+curword=ការ~ប្រកួត
+word-2=ការ~ប្រកួត
+curword=ប្រភេទ
+curword=ទម្ងន់
+word+2=៣
+word+1=៣
+curword=ជើង
+suffix=�់
+suffix=�ន
+curword=ខេង
+curword=ប្រកួត
+curword=ខណៈ
+word+2=២
+tag-1,2=JJ,CD
+curword=កន្លង_មក
+word-2=ពួក_គេ
+word+2=ប៉ុន្តែ
+curword=ដូច_គ្នា
+tag-1,2=JJ,CC
+curword=ឈ្នះ
+curword=ដឹង
+suffix=�ច
+word+1=អាមេរិក
+curword=អាមេរិក
+curword=ម៉ម
+curword=សុម៉ាលី
+curword=ពិភព_លោក
+word+1=កាល_ពី
+word-2=ប្រាក់
+curword=បញ្ញា
+curword=បុរស
+curword=កិច្ចការ
+tag-1,2=PRO,RB
+suffix=�ះ
+curword=ខ្លាំង
+curword=រត់
+curword=ណា
+word-2=អ្នក
+tag-1,2=PRO,DT
+curword=ឃើញ
+curword=ដី
+word+1=គេ
+curword=ចែក
+curword=បិទ
+curword=កែវ
+curword=តារា
+curword=ចំប៉ា
+curword=គ្រាប់
+curword=ចោល
+tag-1,2=JJ,VB
+curword=ហេតុ
+suffix=�ា
+curword=សព្វ
+word-1=សព្វ
+suffix=�ញ
+tag-1,2=DT,PRO
+suffix=�
+word+2=ដី
+word+2=ទៀត
+curword=អ្វី
+word+1=ជាមួយ
+curword=ជាមួយ
+word-1=ឡើយ
+curword=ឮ
+curword=ហើយ_ក៏
+curword=ខ្នង
+curword=រួច_ហើយ
+word+2=ថ្ងៃ
+curword=១៥
+word-2=ថ្ងៃ
+curword=រង_របួស
+curword=ឆាយ
+word+1=ថ្លែង
+curword=ថ្លែង
+word+2=៖
+word-1=ថ្លែង
+curword=ក្រៅ
+curword=កូន
+word-2=ការងារ
+word-1=ទេ
+tag-1,2=DT,PA
+curword=ក្លិប
+word+2=ខេត្ត
+curword=ចូល_រួម
+curword=ក្រោម
+suffix=�ញ
+suffix=�ស
+curword=អង់គ្លេស
+curword=១០
+curword=ផ្ទាល់
+curword=សិទ្ធ
+curword=និយាយ
+curword=ចំពោះ
+word-1=ចំពោះ
+word-2=ប៉ុន្តែ
+word+1=ទៅ_លើ
+curword=ទៅ_លើ
+word-1=ទៅ_លើ
+curword=សេដ្ឋ^កិច្ច
+curword=ពួក
+curword=ខៀវ
+tag-1,2=CC,IN
+curword=ព័ត៌មាន
+word+1=ឲ្យ_ដឹង
+curword=ឲ្យ_ដឹង
+word-1=ឲ្យ_ដឹង
+curword=ជួប
+tag-1,2=JJ,AUX
+curword=មន្រ្តី
+word-1=ជាមួយ
+word+2=អង្គការ
+curword=ស៊ីវិល
+word-2=អង្គការ
+word+1=បញ្ហា
+word+1=ស្តី_ពី
+curword=ស្តី_ពី
+curword=សមាគម
+word-1=ស្តី_ពី
+suffix=�
+suffix=��
+suffix=ទ
+curword=ដទៃ
+tag-1,2=RB,SYM
+curword=១៩
+curword=នគរបាល
+suffix=�ត
+suffix=�ត
+curword=ទៅ_ដល់
+word-2=នាង
+suffix=�ង
+curword=ពស់
+prefix=ឌ
+prefix=ឌ�
+word-1=និយាយ
+curword=ចំបាប់
+curword=ទើប
+word-1=ទើប
+curword=ខែ
+curword=ប្រើប្រាស់
+word+2=បន្ត
+curword=ករណី
+curword=ព្រៃ_ឈើ
+curword=ថ្លៃ
+tag-1,2=BOUNDARY,CC
+suffix=�ន
+curword=កុំ
+curword=បឿន
+word+1=គឹម
+curword=ប៊ុន
+word-1=ប៊ុន
+suffix=�ៃ
+curword=ម៉ៃ
+word+2=ខ្មែរ
+curword=មាន_ប្រសាសន៍
+curword=ឡាយ
+curword=ស្រេង
+curword=សមធម៌
+curword=ផល_ប៉ះ_ពាល់
+curword=ដោយសារ
+word-1=ដោយសារ
+curword=អំពៅ
+curword=២០១២
+tag-1,2=BOUNDARY,CD
+word-2=.
+curword=សឿង
+curword=រិទ្ធ
+curword=ពន្ធនាគារ
+curword=៦
+word+1=ដុល្លារ
+curword=ដុល្លារ
+curword=ហ៊ុយ
+curword=សេរី
+curword=រតនា
+word+2=អាយុ
+curword=អាយុ
+word-1=អាយុ
+word-2=អាយុ
+word+1=ស្រុក
+word+2=ថ្លែង
+suffix=�
+suffix=��
+suffix=ុ
+word+1=ទាំងអស់
+tag-1,2=RPN,RB
+curword=សិស្ស
+word+2=សម្រាប់
+curword=ថ្នាក់
+curword=ផែនទី
+curword=ចាប់ផ្តើម
+curword=[
+curword=សាយ
+curword=]
+curword=ជឿ
+curword=សមត្ថ^ភាព
+curword=ធានា
+curword=កម្ម_ករ
+suffix=�ម
+word-2=យើង
+curword=តាម_រយៈ
+curword=ដើរ
+word-1=ខ្លួន
+word-2=ឲ្យ_ដឹង
+curword=វប្បធម៌
+curword=ផង_ដែរ
+word-1=ផង_ដែរ
+curword=របប
+curword=ប្រជា_ធិបតេយ្យ
+word+1=(
+curword=ចូល
+curword=បដិវត្តន៍
+suffix=��
+suffix=េ
+word+2=ល្អ
+word+1=ល្អ
+curword=ល្អ
+curword=ណាស់
+curword=សម័យ
+curword=លុយ
+curword=អំណាច
+curword=ស្វែង_រក
+curword=សរ
+word+1=ដី
+curword=ឥត
+word+1=តែ
+word-1=តែ
+curword="
+word-1="
+curword=ពុំ
+word-1=ពុំ
+curword=សុំ
+curword=សប្តាហ៍
+curword=អ្នក~ភូមិ
+curword=ស្រ៊ុន
+suffix=�
+suffix=��
+suffix=ណ
+curword=រឺ
+curword=សង្កាត់
+curword=ខាង
+curword=លំនៅ
+curword=ស
+curword=បើក
+curword=លេខ
+curword=ឡៃ
+word+2=ភ្នំ_ពេញ
+curword=ជាប់
+curword=ព្រះ~ឥន្ទ្រ
+word+1="
+word+1=ឯង
+curword=ឯង
+curword=?
+word+2=ជាតិ
+word-1=ជាតិ
+word+2=អាច
+curword=គោ
+curword=ចុះ
+curword=រៀបចំ
+curword=ខ្លះ
+curword=ការ~គ្រប់គ្រង
+curword=សំណុំ_រឿង
+curword=ឈុន
+prefix=៤
+prefix=៤�
+suffix=�០
+curword=បទ_ល្មើស
+curword=ឆ្លើយ
+curword=សត្វ
+curword=ព្រៃ
+curword=ភាសា
+prefix=ញ
+prefix=ញ�
+suffix=�ម
+curword=ម្សិល_មិញ
+curword=ចំណោម
+word-1=ប៉ុន្តែ
+curword=អះអាង
+word+2=រូប
+tag-1,2=CC,RB
+curword=ហាស់
+curword=១២
+word+2=យ៉ាង
+curword=ហិង្សា
+word+2=ក្រុម
+curword=រោង_ចក្រ
+curword=ស្លាប់
+curword=២០០៧
+word-1=ផ្តល់
+curword=ផល
+curword=បំផុត
+curword=ម៉ាប់
+curword=វុធ
+curword=យុវ_ជន
+suffix=�ល
+curword=មក_ដល់
+curword=ពេល_នេះ
+curword=វណ្ណ
+word+2=កាល_ពី
+curword=ក្លាយ_ជា
+word+1=ទាន់
+curword=ទាន់
+curword=ចាប់_តាំង_ពី
+curword=វិស័យ
+curword=នាំ
+curword=ព្យាយាម
+curword=តំណាង_រាស្រ្ត
+curword=រដ្ឋ_សភា
+curword=ពី_សំណាក់
+curword=ត្រឹម
+curword=ចលនា
+curword=គម្រប
+curword=លក្ខណៈ
+curword=ច្បាស់
+curword=ត្រឡប់
+curword=ព្រះ~អង្គ
+curword=គីន
+curword=យ៉ា
+curword=ដែរ
+word+1=រូប
+suffix=�៍
+curword=សាកល_វិទ្យាល័យ
+curword=លើស
+curword=រហូត_ដល់
+curword=ការ~សិក្សា
+curword=ឡើង_វិញ
+curword=សម្បទាន
+word-1=ដី
+curword=បារាំង
+curword=ខឹម
+curword=ដំបូង
+suffix=��
+suffix=គ
+curword=រូបភាព
+curword=-
+curword=មើល
+curword=អ្នក~ស្រុក
+curword=រដ្ឋ
+curword=ស្ថានភាព
+curword=មូលហេតុ
+curword=គួរ
+curword=បង្ខំ
+curword=ព្រហ្ម_ទណ្ឌ
+word+2=គឺ_ជា
+curword=ធ្វើ_ឡើង
+word+2=សង្គ្រោះ
+word+1=សង្គ្រោះ
+curword=សង្គ្រោះ
+word-1=សង្គ្រោះ
+curword=ក្រុម_គ្រួសារ
+curword=ចេះ
+word-1=កូន
+curword=សោះ
+curword=គំនិត
+curword=តើ
+word+1=បន្ត
+curword=រដ្ឋ_មន្រ្តី
+curword=សៀក
+curword=ចាប់_ខ្លួន
+curword=ក្រុង
+curword=សំឡេង
+curword=ការ~រំលោភ_បំពាន
+curword=ភាគី
+curword=ព្រម_ទាំង
+curword=ណុប
+curword=ធីតា
+suffix=�ម
+curword=ដារ៉ា
+curword=ពិចារណា
+word-2=បន្ត
+curword=ជម្លោះ
+curword=ជាមួយ_នឹង
+word-1=ជាមួយ_នឹង
+curword=នារី
+curword=ប្ដី
+curword=ប្រពន្ធ
+suffix=�ា
+tag-1=VCOM
+curword=សូន
+suffix=�យ
+curword=ការ~ចោទ_ប្រកាន់
+curword=សវនាការ
+word-2=កាល_ពី
+curword=រឿន
+curword=បាល់
+curword=ម្ចាស់
+curword=ព្រឹក
+curword=ទទួល_បន្ទុក
+curword=លៀង
+curword=វាយ
+curword=សយ
+curword=សម្ផស្ស
+curword=ធ្វើ_ដំណើរ
+curword=លទ្ធផល
+curword=បុគ្គលិក
+curword=សហ
+curword=ប្រជា_ជាតិ
+curword=រថ_យន្ត
+curword=ក្បាល
+curword=!
+curword=ខំ
+curword=ព្រះ~មហា_ក្សត្រ
+curword=អ្នក~ដឹក_នាំ
+curword=ពាក្យ
+suffix=�រ
+word+1=អប់រំ
+curword=អប់រំ
+curword=ទាក់ទង
+curword=ឧកញ៉ា
+curword=៩
+curword=គ្រប់_គ្រាន់
+curword=គួរ_តែ
+curword=និមល
+curword=មេដាយ
+word-1=ម្ចាស់
+curword=ភ្លេច
+curword=អញ
+curword=តាំងយូ
+curword=កាន់
+word-1=អញ
+curword=តវ៉ា
+curword=ការ~ចូល_រួម
+curword=ការ~កើន_ឡើង
+curword=ហុង
+curword=បែប
+curword=ឡា
+curword=ការ~បោះ_ឆ្នោត
+curword=កម្មវិធី
+curword=ការ~ប្រើប្រាស់
+curword=ជា_ពិសេស
+curword=ជៀម
+curword=ឈិន
+curword=យេ
+curword=វត្ត
+word-2=វា
+curword=វ៉ាន់
+curword=ប្រចាំ
+curword=ពៅ
+curword=កាន់តែ
+curword=រមាស
+curword=យាង
+curword=ផ្លូវ
+curword=វង្ស
+curword=លីម
+curword=ក្បួន
+curword=១១
+curword=ពេជ្រ
+curword=លោក~គ្រូ
+curword=ចាប់
+curword=វាំង
+curword=ភ្នំ
+curword=៨
+curword=មក_ពី
+curword=ទោស
+curword=ស្នើ_សុំ
+curword=រស់_នៅ
+suffix=�ា
+curword=សុភ័ណ្ឌ
+curword=ម៉ៅ
+curword=អ៊ិក
+suffix=�ង
+curword=សំណង
+curword=ចុះ_ហត្ថលេខា
+word-2=រយៈ_ពេល
+curword=ព្រែក
+curword=ទិត្យ
+curword=ខ្ពស់
+curword=ប្រគល់
+curword=ក្រម
+curword=ពិត_ជា
+curword=សាធារណៈ
+curword=ចាម
+curword=មុនី
+curword=កំណត់
+curword=ឈរ
+curword=ឈើ
+curword=ប្រមាណ
+curword=គ្រឿង
+curword=ម៉ែត្រ
+curword=ក្ដី
+curword=សាច់
+curword=៦០
+curword=ឪពុក
+curword=គ្រាន់_តែ
+curword=ដំណាក់កាល
+curword=ទំហំ
+curword=កម្មករ
+curword=វីដេអូ
+curword=ចំណែក
+curword=ការ~បង្កើត
+curword=វិញ្ញាសា
+word+2="
+curword=សហជីព
+curword=ផ្ទាំង
+curword=ស៊ិន
+curword=ហើយ_និង
+curword=សីហា
+curword=ម្ដាយ
+curword=ម៉ែ
+curword=បក្ស
+curword=ពាង
+20
+IN
+DT
+NN
+AUX
+VB
+RB
+JJ
+DBL
+CD
+PN
+KAN
+PRO
+SYM
+RPN
+M
+CC
+VB_JJ
+PA
+VCOM
+QT
+11 0 1 2 4 5 6 8 9 11 15 16 
+11 0 1 2 4 5 6 8 9 11 15 16 
+10 0 1 2 4 5 6 9 11 15 16 
+5 0 2 4 6 9 
+5 0 2 4 6 9 
+3 0 2 9 
+3 0 2 9 
+3 0 2 9 
+1 0 
+9 0 1 2 4 5 8 9 11 15 
+13 0 1 2 3 4 5 6 8 9 11 12 15 16 
+9 0 1 2 4 5 8 9 11 15 
+9 0 1 2 4 5 8 9 11 15 
+2 0 2 
+1 1 
+11 0 1 2 3 4 5 6 8 9 11 12 
+4 0 1 2 4 
+4 2 4 6 9 
+4 2 4 6 9 
+6 2 4 5 6 9 16 
+6 2 4 5 6 9 16 
+6 2 4 5 6 9 16 
+3 2 6 9 
+5 0 2 4 5 17 
+14 0 1 2 3 4 5 6 8 10 11 12 13 15 17 
+2 2 8 
+9 0 1 2 4 5 6 8 9 11 
+1 1 
+16 0 1 2 3 4 5 6 8 9 10 11 12 13 15 16 17 
+2 1 2 
+8 1 2 4 5 6 9 11 13 
+3 3 4 18 
+7 0 2 3 4 5 10 11 
+11 0 2 3 4 5 8 10 11 13 15 17 
+1 4 
+4 0 2 4 10 
+1 4 
+6 0 2 4 5 9 11 
+1 4 
+2 2 4 
+1 5 
+14 0 1 2 4 5 6 8 9 10 11 12 15 17 18 
+6 0 2 4 5 6 11 
+4 0 2 4 5 
+1 6 
+15 0 1 2 3 4 5 6 8 10 11 12 13 15 17 18 
+5 0 2 4 5 6 
+3 2 4 6 
+1 0 
+15 0 1 2 3 4 5 6 7 8 9 10 11 13 15 17 
+1 0 
+2 0 4 
+7 0 2 4 5 6 9 16 
+7 0 2 4 5 6 9 16 
+7 0 2 4 5 6 9 16 
+2 2 9 
+1 2 
+2 2 4 
+2 2 9 
+2 0 2 
+15 0 1 2 3 4 5 6 8 9 10 11 12 13 15 16 
+1 2 
+1 2 
+1 2 
+15 0 1 2 3 4 5 6 8 9 10 11 12 13 15 16 
+1 2 
+1 6 
+1 6 
+1 7 
+10 0 1 2 4 5 6 7 8 10 15 
+1 0 
+1 0 
+1 2 
+2 2 4 
+1 2 
+1 6 
+1 6 
+2 0 5 
+1 8 
+1 8 
+1 8 
+1 8 
+1 8 
+1 8 
+1 8 
+1 8 
+12 0 1 2 3 4 5 8 9 10 12 14 15 
+4 2 4 6 9 
+4 2 4 6 9 
+4 0 2 4 9 
+4 0 2 4 9 
+4 0 2 4 9 
+10 0 1 2 4 5 6 8 9 11 17 
+14 0 1 2 3 4 5 6 8 9 10 11 12 13 15 
+11 1 2 4 5 6 8 9 11 12 17 18 
+13 0 1 2 4 5 6 8 9 10 11 12 17 18 
+1 10 
+4 2 9 10 12 
+1 11 
+1 9 
+1 9 
+5 2 4 5 6 9 
+5 2 4 5 6 9 
+5 2 4 5 6 9 
+1 9 
+15 0 1 2 3 4 5 6 9 10 11 12 13 15 16 17 
+4 2 3 4 9 
+5 2 4 6 9 16 
+5 2 4 6 9 16 
+4 2 4 6 9 
+4 2 4 6 9 
+4 2 4 6 9 
+1 9 
+1 9 
+6 2 4 5 6 9 16 
+6 2 4 5 6 9 16 
+1 9 
+1 11 
+1 11 
+1 2 
+3 2 4 5 
+2 2 9 
+2 2 9 
+1 9 
+2 4 9 
+2 2 9 
+1 11 
+3 2 4 9 
+3 2 4 9 
+2 2 9 
+5 2 3 4 5 9 
+1 9 
+5 0 2 3 4 9 
+1 11 
+5 2 4 5 9 11 
+5 2 4 5 9 11 
+5 2 4 5 9 11 
+1 9 
+1 9 
+1 9 
+6 0 2 4 5 6 9 
+6 0 2 4 5 6 9 
+1 2 
+7 0 1 2 4 6 8 9 
+1 2 
+1 2 
+1 2 
+1 2 
+3 1 2 6 
+1 2 
+2 0 4 
+1 4 
+3 0 2 4 
+4 0 2 4 5 
+1 4 
+2 2 4 
+8 0 2 4 5 6 11 15 18 
+3 0 2 4 
+2 4 5 
+3 0 4 5 
+1 0 
+1 2 
+3 0 2 9 
+2 2 4 
+1 2 
+1 8 
+1 8 
+3 2 8 9 
+1 9 
+1 9 
+9 0 2 4 5 9 10 12 14 15 
+1 11 
+2 2 11 
+1 9 
+1 9 
+1 9 
+11 0 1 2 3 4 5 6 9 10 13 15 
+2 9 11 
+1 9 
+1 11 
+2 4 9 
+1 9 
+1 9 
+1 9 
+1 11 
+1 9 
+1 9 
+1 9 
+1 9 
+1 1 
+1 4 
+1 4 
+1 9 
+2 2 9 
+4 0 2 4 9 
+6 2 4 5 6 9 16 
+6 2 4 5 6 9 16 
+6 2 4 5 6 9 16 
+1 9 
+1 9 
+1 9 
+8 0 2 3 4 5 9 10 15 
+5 2 4 6 9 11 
+4 2 4 6 9 
+1 11 
+2 2 4 
+1 9 
+1 9 
+1 9 
+1 9 
+5 2 4 5 6 9 
+5 2 4 5 6 9 
+4 2 4 6 9 
+4 2 4 6 9 
+4 2 4 6 9 
+1 4 
+6 0 2 3 4 5 11 
+1 5 
+3 2 4 5 
+1 0 
+1 0 
+1 0 
+1 12 
+5 0 2 4 11 12 
+1 12 
+1 12 
+1 12 
+10 0 2 4 5 8 9 10 11 12 15 
+7 0 2 4 5 9 11 12 
+2 2 12 
+1 12 
+1 2 
+2 2 11 
+2 2 11 
+2 2 11 
+1 4 
+1 4 
+4 0 2 4 8 
+5 1 2 4 5 9 
+2 5 15 
+1 0 
+4 0 2 4 11 
+4 0 2 4 5 
+1 11 
+1 4 
+1 4 
+8 0 1 3 4 5 9 10 15 
+3 0 2 4 
+5 0 2 4 5 11 
+4 0 4 5 17 
+4 2 4 10 11 
+1 9 
+1 0 
+6 0 2 4 6 8 9 
+1 2 
+1 2 
+6 1 2 5 6 9 11 
+1 13 
+1 2 
+5 2 3 4 5 11 
+5 2 3 4 5 11 
+1 2 
+4 2 3 4 5 
+2 0 2 
+1 9 
+1 1 
+2 1 2 
+1 8 
+2 2 8 
+1 8 
+1 14 
+2 2 14 
+1 14 
+1 8 
+3 0 1 8 
+1 2 
+3 0 2 5 
+2 2 4 
+1 2 
+2 0 6 
+8 0 2 4 5 6 9 10 15 
+1 2 
+2 2 11 
+1 8 
+1 4 
+2 0 4 
+2 0 4 
+3 0 2 4 
+2 2 9 
+2 2 9 
+2 2 4 
+1 2 
+1 5 
+4 0 2 4 5 
+8 0 2 4 5 6 10 11 15 
+5 0 2 4 8 9 
+1 4 
+5 0 2 4 5 11 
+5 2 4 6 8 9 
+1 15 
+1 4 
+4 0 2 4 6 
+8 0 2 3 4 5 6 9 11 
+2 2 4 
+3 2 4 8 
+7 0 2 4 5 6 9 16 
+3 0 2 4 
+8 0 2 4 5 6 9 11 12 
+4 0 2 8 9 
+1 2 
+5 2 4 6 9 11 
+5 2 4 6 9 11 
+3 2 4 9 
+2 2 9 
+2 2 9 
+1 2 
+3 0 2 10 
+7 0 2 4 5 9 11 15 
+8 0 1 2 4 5 9 11 13 
+4 0 4 9 16 
+1 6 
+4 2 6 8 9 
+1 2 
+1 2 
+6 0 2 4 5 6 9 
+2 0 2 
+3 0 2 4 
+6 0 2 4 6 9 16 
+6 0 2 4 6 9 16 
+6 0 2 5 6 9 11 
+1 0 
+4 2 4 6 9 
+4 2 4 6 9 
+4 2 4 6 9 
+3 0 2 9 
+1 12 
+2 2 9 
+1 9 
+1 12 
+1 4 
+1 4 
+2 0 2 
+3 2 4 9 
+1 5 
+1 11 
+4 2 4 5 11 
+4 0 4 5 17 
+1 4 
+3 0 2 4 
+1 4 
+3 2 4 5 
+1 2 
+3 0 2 5 
+13 0 1 2 4 5 6 8 9 10 11 13 15 16 
+6 2 4 5 6 9 16 
+6 2 4 5 6 9 16 
+3 2 6 9 
+3 2 6 9 
+3 2 6 9 
+1 9 
+1 9 
+1 9 
+1 11 
+1 9 
+1 9 
+1 2 
+1 2 
+1 2 
+1 2 
+3 1 2 9 
+2 2 11 
+1 1 
+1 4 
+1 4 
+3 0 2 4 
+1 4 
+1 4 
+2 2 4 
+9 0 1 2 4 5 6 8 11 15 
+1 0 
+8 0 1 2 4 5 11 13 15 
+2 4 16 
+2 2 4 
+2 2 4 
+2 2 4 
+2 0 2 
+3 0 2 4 
+8 0 1 2 4 5 6 11 16 
+3 2 4 9 
+8 0 2 4 6 8 9 11 12 
+2 2 4 
+1 2 
+1 2 
+1 2 
+1 2 
+2 0 4 
+5 0 2 4 6 11 
+3 0 2 4 
+1 2 
+1 0 
+5 2 4 5 6 9 
+4 2 4 5 9 
+4 2 4 5 9 
+1 2 
+1 6 
+1 6 
+1 2 
+1 2 
+1 2 
+1 4 
+1 4 
+3 2 5 9 
+3 2 5 9 
+1 9 
+2 2 9 
+2 2 9 
+2 2 9 
+2 2 9 
+2 2 9 
+3 2 4 9 
+4 0 2 4 15 
+1 9 
+2 3 4 
+1 4 
+2 2 4 
+1 2 
+1 2 
+2 0 2 
+1 2 
+1 0 
+1 4 
+1 4 
+2 0 4 
+3 0 2 4 
+1 2 
+1 2 
+1 2 
+1 2 
+2 2 9 
+2 2 4 
+1 2 
+1 2 
+1 2 
+1 9 
+1 4 
+2 2 6 
+1 3 
+1 4 
+1 4 
+4 0 2 3 4 
+4 0 2 4 15 
+1 2 
+2 2 6 
+1 2 
+1 0 
+1 0 
+1 2 
+3 2 9 11 
+2 2 9 
+1 9 
+8 0 1 2 4 5 9 10 15 
+2 0 2 
+1 9 
+2 2 9 
+2 2 9 
+1 2 
+4 0 1 2 5 
+4 0 1 2 5 
+1 2 
+1 2 
+1 2 
+3 0 1 2 
+1 2 
+3 2 4 9 
+1 2 
+1 6 
+2 0 2 
+1 2 
+1 9 
+1 2 
+1 2 
+1 9 
+7 0 1 2 4 6 9 16 
+1 6 
+2 0 3 
+1 2 
+2 2 4 
+1 2 
+1 2 
+3 0 2 4 
+1 2 
+1 2 
+1 2 
+1 1 
+1 5 
+4 2 4 6 9 
+4 2 4 6 9 
+4 2 4 6 9 
+1 0 
+2 0 4 
+4 2 4 6 9 
+4 2 4 6 9 
+1 0 
+1 0 
+1 2 
+1 2 
+3 0 2 8 
+1 8 
+1 2 
+1 2 
+1 4 
+1 4 
+1 0 
+1 8 
+3 2 4 9 
+1 4 
+2 2 4 
+2 2 4 
+1 2 
+1 9 
+2 2 4 
+1 8 
+1 2 
+3 2 4 9 
+1 2 
+1 2 
+2 2 11 
+1 8 
+2 2 8 
+1 2 
+1 2 
+2 1 6 
+1 5 
+2 0 4 
+2 4 5 
+2 2 4 
+1 2 
+1 6 
+1 6 
+2 4 9 
+2 2 4 
+1 0 
+1 0 
+1 2 
+2 2 9 
+2 2 9 
+2 2 9 
+1 9 
+1 9 
+1 9 
+3 2 4 9 
+3 2 4 9 
+3 2 4 9 
+3 2 4 9 
+1 9 
+1 9 
+2 2 9 
+1 9 
+1 9 
+1 9 
+1 9 
+2 2 9 
+1 9 
+1 9 
+1 9 
+1 9 
+1 9 
+1 9 
+1 9 
+1 9 
+1 9 
+1 9 
+1 9 
+1 9 
+1 9 
+1 2 
+1 2 
+1 2 
+1 2 
+1 2 
+1 2 
+1 2 
+1 0 
+2 2 4 
+1 5 
+1 4 
+3 0 2 4 
+1 2 
+1 2 
+1 2 
+1 12 
+1 0 
+2 2 9 
+2 2 9 
+2 2 9 
+1 2 
+1 2 
+1 2 
+1 0 
+6 0 1 2 8 9 16 
+1 2 
+1 2 
+1 2 
+1 2 
+1 8 
+1 8 
+1 8 
+1 8 
+1 17 
+1 4 
+1 4 
+2 2 4 
+1 0 
+2 2 11 
+2 2 4 
+1 4 
+1 4 
+1 9 
+3 2 4 9 
+3 2 4 9 
+2 2 9 
+1 9 
+1 9 
+1 9 
+1 9 
+3 2 4 9 
+3 2 4 9 
+3 2 4 9 
+2 2 9 
+2 2 9 
+2 2 9 
+2 2 9 
+2 2 9 
+2 2 9 
+1 9 
+1 9 
+1 11 
+1 9 
+1 9 
+1 2 
+1 2 
+1 2 
+1 2 
+1 8 
+2 2 14 
+1 0 
+1 2 
+1 12 
+1 4 
+1 4 
+1 0 
+1 0 
+3 2 4 9 
+1 2 
+1 2 
+1 2 
+2 0 2 
+1 0 
+1 6 
+1 6 
+4 0 2 4 6 
+1 2 
+1 2 
+5 2 4 6 8 9 
+1 2 
+1 4 
+1 4 
+1 2 
+1 2 
+1 6 
+1 4 
+1 9 
+1 9 
+1 9 
+1 9 
+1 9 
+1 9 
+3 2 4 9 
+3 2 4 9 
+2 2 9 
+1 2 
+1 2 
+1 2 
+1 9 
+1 9 
+1 9 
+1 4 
+1 2 
+1 2 
+1 2 
+2 2 4 
+2 0 2 
+1 2 
+3 2 3 4 
+2 0 4 
+3 2 4 11 
+1 2 
+3 0 2 4 
+1 0 
+1 2 
+1 2 
+1 9 
+1 9 
+3 2 4 5 
+3 0 2 4 
+1 2 
+1 4 
+1 4 
+1 2 
+1 2 
+2 0 2 
+1 0 
+2 2 9 
+1 2 
+2 2 14 
+2 2 8 
+1 2 
+1 2 
+1 0 
+1 11 
+1 1 
+1 11 
+1 15 
+1 2 
+1 2 
+1 2 
+1 6 
+1 5 
+1 15 
+1 11 
+2 4 5 
+1 4 
+1 2 
+1 2 
+1 5 
+1 6 
+2 2 4 
+2 2 9 
+1 9 
+1 9 
+1 4 
+1 0 
+1 2 
+1 2 
+1 2 
+1 5 
+2 3 4 
+1 4 
+3 0 2 4 
+1 0 
+1 12 
+1 12 
+1 1 
+1 5 
+1 12 
+2 0 2 
+1 6 
+4 0 3 4 5 
+2 0 6 
+1 4 
+2 0 4 
+1 2 
+1 8 
+1 12 
+1 8 
+1 8 
+2 2 8 
+2 2 9 
+1 8 
+1 8 
+1 5 
+1 6 
+2 2 16 
+1 2 
+1 4 
+1 4 
+1 0 
+1 2 
+1 2 
+1 2 
+2 2 4 
+1 2 
+1 4 
+3 0 2 4 
+1 2 
+1 2 
+2 0 2 
+1 11 
+1 2 
+2 2 10 
+1 2 
+2 2 9 
+1 0 
+3 2 4 9 
+3 2 4 9 
+1 2 
+1 2 
+1 5 
+1 9 
+1 9 
+1 9 
+1 9 
+1 9 
+1 9 
+1 9 
+1 2 
+1 2 
+3 2 4 9 
+2 2 9 
+1 2 
+1 2 
+1 2 
+1 0 
+1 2 
+1 2 
+3 2 4 9 
+2 2 4 
+1 2 
+1 2 
+1 8 
+1 9 
+1 5 
+1 4 
+1 2 
+1 2 
+1 9 
+1 5 
+1 15 
+1 0 
+1 4 
+1 15 
+4 0 2 4 9 
+4 3 4 5 6 
+2 2 4 
+1 2 
+1 5 
+3 0 5 10 
+4 2 4 5 11 
+2 5 11 
+1 4 
+1 4 
+1 5 
+1 6 
+2 2 4 
+1 4 
+2 2 4 
+1 0 
+1 2 
+1 2 
+1 8 
+1 8 
+1 2 
+1 11 
+1 2 
+1 8 
+1 8 
+1 8 
+1 8 
+1 8 
+1 5 
+1 4 
+1 5 
+1 2 
+1 6 
+1 2 
+1 2 
+3 2 4 9 
+3 2 4 9 
+2 2 9 
+2 2 9 
+2 2 9 
+1 2 
+3 1 2 9 
+1 0 
+1 10 
+1 9 
+1 9 
+1 9 
+1 9 
+1 9 
+1 9 
+1 9 
+1 9 
+2 9 11 
+1 9 
+1 2 
+1 4 
+1 2 
+1 2 
+1 2 
+1 2 
+1 9 
+1 9 
+1 2 
+1 2 
+1 2 
+1 2 
+1 4 
+1 0 
+1 2 
+1 2 
+2 4 17 
+1 0 
+1 0 
+1 2 
+2 2 4 
+2 0 4 
+1 0 
+1 11 
+3 1 4 16 
+1 2 
+1 2 
+1 8 
+1 8 
+1 0 
+2 2 4 
+1 4 
+2 0 2 
+1 8 
+1 8 
+1 8 
+1 8 
+1 8 
+1 8 
+1 8 
+1 8 
+1 8 
+1 9 
+1 2 
+1 8 
+3 2 8 9 
+1 0 
+1 2 
+2 2 9 
+2 2 9 
+2 2 9 
+1 2 
+1 9 
+3 2 6 9 
+1 4 
+2 2 4 
+3 2 4 9 
+3 2 4 9 
+2 2 9 
+2 2 9 
+2 2 9 
+1 6 
+3 2 4 9 
+1 9 
+1 2 
+1 6 
+1 0 
+1 2 
+1 2 
+1 6 
+1 8 
+1 8 
+1 8 
+1 9 
+1 9 
+1 2 
+1 8 
+2 2 9 
+2 2 9 
+1 2 
+1 0 
+2 0 2 
+2 2 16 
+1 2 
+1 2 
+1 2 
+1 6 
+1 2 
+1 1 
+1 4 
+1 2 
+1 2 
+1 6 
+1 9 
+1 9 
+1 9 
+1 9 
+1 9 
+1 9 
+1 9 
+3 2 4 9 
+2 2 9 
+1 2 
+1 2 
+1 2 
+1 2 
+1 2 
+1 1 
+1 0 
+1 5 
+1 2 
+1 9 
+1 9 
+1 9 
+1 9 
+1 2 
+1 2 
+1 2 
+1 2 
+1 2 
+5 0 1 4 5 9 
+1 9 
+1 4 
+1 2 
+3 2 4 11 
+2 2 4 
+2 2 5 
+1 9 
+1 9 
+1 2 
+1 9 
+1 2 
+1 2 
+2 2 4 
+1 4 
+1 1 
+1 9 
+1 9 
+1 2 
+1 8 
+1 8 
+1 8 
+1 8 
+1 15 
+2 2 9 
+1 4 
+1 17 
+1 2 
+5 0 2 5 10 12 
+1 2 
+1 2 
+1 2 
+1 8 
+1 0 
+1 4 
+1 4 
+1 5 
+1 2 
+2 0 2 
+1 8 
+1 8 
+1 8 
+1 8 
+1 8 
+1 2 
+1 2 
+1 2 
+1 2 
+3 2 4 9 
+1 16 
+1 4 
+1 6 
+1 9 
+1 9 
+1 9 
+1 0 
+1 4 
+1 11 
+4 0 4 5 9 
+1 9 
+1 4 
+1 2 
+1 4 
+1 11 
+1 4 
+1 4 
+1 5 
+1 2 
+1 2 
+1 2 
+2 1 2 
+1 4 
+2 2 4 
+1 2 
+1 2 
+1 4 
+1 10 
+1 4 
+1 4 
+1 0 
+1 2 
+1 4 
+1 2 
+1 2 
+1 2 
+1 0 
+1 2 
+1 2 
+1 2 
+1 2 
+1 0 
+1 2 
+1 2 
+1 2 
+1 4 
+1 4 
+1 11 
+1 2 
+1 4 
+1 4 
+1 2 
+1 10 
+1 9 
+3 2 4 9 
+3 2 4 9 
+1 2 
+1 2 
+1 2 
+1 4 
+1 2 
+1 2 
+1 2 
+1 2 
+1 2 
+1 2 
+1 9 
+1 3 
+1 15 
+1 5 
+1 2 
+4 0 1 2 5 
+1 2 
+1 9 
+1 9 
+1 9 
+1 2 
+1 2 
+1 2 
+1 2 
+1 2 
+1 2 
+1 2 
+1 6 
+1 9 
+1 9 
+2 4 16 
+1 2 
+1 2 
+1 2 
+1 6 
+1 4 
+1 2 
+1 6 
+1 2 
+1 4 
+1 4 
+1 2 
+1 2 
+1 9 
+1 9 
+1 9 
+1 2 
+1 2 
+1 9 
+1 9 
+1 2 
+1 2 
+1 4 
+1 4 
+1 6 
+1 4 
+2 9 11 
+3 2 4 8 
+2 4 8 
+1 4 
+1 2 
+2 2 4 
+1 4 
+1 4 
+1 9 
+1 9 
+1 9 
+1 2 
+1 5 
+2 0 2 
+1 2 
+2 2 5 
+1 1 
+1 2 
+1 4 
+1 4 
+1 2 
+1 2 
+2 2 8 
+1 11 
+1 4 
+1 0 
+1 10 
+1 4 
+1 5 
+1 2 
+1 5 
+1 2 
+1 8 
+1 2 
+1 4 
+1 9 
+1 3 
+1 4 
+1 4 
+1 0 
+1 6 
+1 2 
+1 2 
+1 10 
+1 10 
+1 2 
+1 2 
+1 4 
+1 0 
+1 2 
+1 2 
+1 9 
+1 8 
+1 6 
+1 9 
+1 4 
+1 0 
+1 2 
+1 4 
+1 4 
+1 0 
+1 2 
+1 2 
+1 2 
+1 9 
+1 2 
+1 2 
+1 3 
+1 4 
+1 0 
+1 4 
+1 4 
+1 2 
+1 2 
+1 2 
+1 2 
+1 2 
+1 4 
+1 2 
+1 0 
+1 2 
+1 2 
+1 2 
+1 2 
+1 2 
+1 6 
+1 10 
+1 8 
+1 2 
+1 9 
+1 9 
+1 4 
+1 4 
+1 2 
+1 2 
+1 9 
+1 9 
+1 0 
+1 2 
+1 5 
+1 4 
+1 2 
+1 4 
+1 11 
+1 2 
+1 2 
+1 2 
+1 11 
+1 2 
+1 5 
+1 9 
+1 9 
+1 9 
+1 9 
+1 9 
+1 9 
+1 2 
+1 4 
+1 9 
+1 9 
+1 2 
+1 2 
+1 15 
+1 2 
+1 2 
+1 8 
+1 12 
+1 2 
+1 9 
+1 9 
+1 2 
+1 8 
+1 8 
+1 9 
+1 9 
+1 9 
+1 9 
+1 9 
+1 2 
+1 8 
+1 2 
+1 0 
+1 9 
+1 2 
+1 2 
+1 2 
+1 2 
+1 4 
+1 2 
+1 2 
+1 2 
+1 2 
+1 4 
+1 12 
+1 9 
+1 12 
+1 4 
+1 2 
+1 4 
+1 2 
+1 2 
+2 2 4 
+1 0 
+1 4 
+1 0 
+1 2 
+1 2 
+1 5 
+1 10 
+1 2 
+1 2 
+1 2 
+1 4 
+1 2 
+1 9 
+1 9 
+1 4 
+1 2 
+1 6 
+1 5 
+1 2 
+1 2 
+1 2 
+1 4 
+1 9 
+1 0 
+1 5 
+1 4 
+1 2 
+1 12 
+2 2 10 
+1 5 
+1 4 
+1 4 
+1 2 
+1 2 
+1 9 
+2 2 9 
+2 2 9 
+2 2 9 
+1 0 
+1 2 
+1 2 
+1 2 
+1 9 
+1 4 
+1 2 
+1 9 
+1 0 
+2 4 16 
+1 2 
+1 0 
+1 2 
+1 11 
+1 12 
+1 2 
+1 2 
+1 2 
+1 2 
+1 4 
+1 4 
+1 1 
+1 2 
+1 2 
+1 9 
+1 8 
+1 8 
+1 8 
+1 2 
+1 4 
+1 2 
+1 2 
+1 2 
+1 9 
+1 9 
+1 9 
+1 2 
+1 2 
+1 11 
+1 4 
+1 2 
+1 4 
+1 9 
+1 8 
+1 4 
+1 2 
+1 2 
+1 2 
+1 4 
+1 8 
+1 2 
+1 2 
+1 5 
+1 9 
+1 9 
+1 2 
+1 2 
+1 4 
+1 5 
+1 9 
+1 2 
+1 4 
+1 5 
+1 5 
+1 0 
+1 2 
+1 4 
+1 4 
+1 2 
+1 2 
+1 0 
+1 0 
+1 2 
+1 2 
+1 2 
+1 6 
+1 4 
+2 2 11 
+1 9 
+1 9 
+1 5 
+1 8 
+1 2 
+1 2 
+1 6 
+1 0 
+1 2 
+1 5 
+1 2 
+1 2 
+1 9 
+1 9 
+1 6 
+1 2 
+1 2 
+1 2 
+1 12 
+1 4 
+1 2 
+1 2 
+1 2 
+1 2 
+1 4 
+1 4 
+1 2 
+1 2 
+1 4 
+1 2 
+1 2 
+1 16 
+1 2 
+1 2 
+1 4 
+1 11 
+1 17 
+1 2 
+1 19 
+1 3 
+1 2 
+1 9 
+1 4 
+1 2 
+1 2 
+1 2 
+1 2 
+1 0 
+1 9 
+1 9 
+1 9 
+1 9 
+1 4 
+1 2 
+1 2 
+1 0 
+1 2 
+1 2 
+1 2 
+1 2 
+1 9 
+1 10 
+1 9 
+1 9 
+1 2 
+1 2 
+1 2 
+1 9 
+1 2 
+1 2 
+1 2 
+1 16 
+1 9 
+1 4 
+1 9 
+1 9 
+1 4 
+1 2 
+1 2 
+1 6 
+1 2 
+1 2 
+1 2 
+1 12 
+1 4 
+1 2 
+1 2 
+1 2 
+1 2 
+1 2 
+1 2 
+1 16 
+1 11 
+1 8 
+1 6 
+1 4 
+1 9 
+1 2 
+1 2 
+1 4 
+1 11 
+1 2 
+1 4 
+1 4 
+1 4 
+1 2 
+1 2 
+1 9 
+1 2 
+1 9 
+1 2 
+1 2 
+1 2 
+1 5 
+1 9 
+1 9 
+1 9 
+1 2 
+1 4 
+1 9 
+1 6 
+1 9 
+1 5 
+1 2 
+1 4 
+1 2 
+1 9 
+1 9 
+1 2 
+1 8 
+1 9 
+1 2 
+1 4 
+1 2 
+1 2 
+1 8 
+1 0 
+1 2 
+1 4 
+1 4 
+1 9 
+1 9 
+1 9 
+1 9 
+1 9 
+1 2 
+1 4 
+1 2 
+1 2 
+1 9 
+1 6 
+1 4 
+1 2 
+1 5 
+1 2 
+1 9 
+1 9 
+1 4 
+1 4 
+1 2 
+1 2 
+1 2 
+1 2 
+1 17 
+1 2 
+1 8 
+1 2 
+1 5 
+1 2 
+1 2 
+1 2 
+1 9 
+1 2 
+1 2 
+1 2 
+1 2 
+1 2 
+1 2 
+1 9 
+1 15 
+1 9 
+1 2 
+1 2 
+1 2 
+1 2 
+2853
+2.9730470677872209428
+2.6382362052248100603
+3.6041275261149090525
+-1.0666831539363337278
+2.5927115567337852831
+2.4350326487422830901
+19.959636249810319697
+4.2400817850550787114
+3.5183980668438157302
+2.8627651553513895344
+1.5135730889900929075
+4.552564030224634628
+4.7839797591775115038
+10.849058258116153652
+-0.74556269764010418832
+3.8718429345470029013
+3.501160615322262526
+3.3091992134693528627
+4.3810331174495713569
+3.8548009882718181629
+4.8320488041898714826
+1.8956927737572957238
+20.411709813209757414
+21.204188888847024685
+7.1985525817973083917
+25.352633419201641374
+19.896009705343519869
+20.225032044659570829
+13.252512409947199146
+20.935665630774355606
+21.170865516793018202
+24.60898597462530546
+6.2186895299620914557
+8.1796420531635138929
+6.3594334536896228727
+6.8234811600960716405
+7.6507962642589006919
+6.2186895299620914557
+8.1796420531635138929
+6.3594334536896228727
+6.8234811600960716405
+7.6507962642589006919
+2.0468856745731249802
+8.5739583021183474187
+9.0500987046602805464
+2.0468856745731249802
+8.5739583021183474187
+9.0500987046602805464
+2.0468856745731249802
+8.5739583021183474187
+9.0500987046602805464
+30.467851837641607204
+4.0985287829838821239
+2.8800520264751647836
+4.8373278588489867502
+3.9447847243014182439
+4.2175591053297196709
+3.0629942741399029948
+4.9159752376125274154
+4.1335514421104289084
+6.412401053237158699
+6.3639343308250913012
+-0.9016115118364541603
+5.1994621290211098241
+5.0506245725469600671
+5.7597570586303508122
+7.0009224119127066999
+6.1765911245601907709
+0.30073724170452215132
+2.9412311954636520817
+5.3413666531258510162
+7.8207929338847934631
+-1.1088016842595249667
+8.8364182808146374271
+4.0985287829838821239
+2.8800520264751647836
+4.8373278588489867502
+3.9447847243014182439
+4.2175591053297196709
+3.0629942741399029948
+4.9159752376125274154
+4.1335514421104289084
+6.412401053237158699
+4.0985287829838821239
+2.8800520264751647836
+4.8373278588489867502
+3.9447847243014182439
+4.2175591053297196709
+3.0629942741399029948
+4.9159752376125274154
+4.1335514421104289084
+6.412401053237158699
+12.103472621872645831
+16.964823954658225347
+31.816134761148649801
+8.5759198193798464871
+10.358977969534331365
+0.77183349238182064056
+8.3197702573858762776
+10.099515700975070231
+10.125260423660998654
+10.320032156622298558
+3.2655783478397606423
+8.5093184362292237921
+10.069987450263356621
+2.4006243622280014627
+19.064398883482866154
+9.3058672740729946327
+12.965309803609418537
+21.019730701959186803
+7.2163503251638072555
+7.4761501262876350893
+6.716100407695921426
+7.5340074477773768535
+7.2163503251638072555
+7.4761501262876350893
+6.716100407695921426
+7.5340074477773768535
+2.9854213318064206639
+4.7729427916193198911
+9.2458774838237562932
+1.1672023577591243981
+4.2961458209200920066
+4.3451409876881559313
+8.1442924031373653548
+4.8482803018399209805
+3.3803596650307978777
+1.2391711567516843218
+4.7574214355909907326
+4.3851236962390789387
+4.5227248593017677081
+3.5281279287013433965
+1.1900384807071229254
+10.912210919319287328
+4.2288275659398557593
+2.7984515982302990977
+4.1237325883166624507
+12.441598816024146856
+8.6035121875044584527
+13.502117814659767348
+12.367830756954665716
+14.652404732300531975
+19.221435761696998412
+18.188953731757646182
+14.54941487606292938
+21.072969351796167814
+7.6844420621543321204
+15.874971762346573811
+14.581412837420117512
+13.8813426059315006
+22.460768458756565025
+11.168038558154712803
+-4.3721113151058279556
+10.010970618925412623
+10.419385623925283113
+-0.21814793324955578102
+11.473033715524222131
+12.075516555500648508
+18.058621345063400554
+11.603305213708019039
+8.4805620046328566985
+-0.63273998864500236028
+9.0000617629191985714
+7.3768281519043421568
+7.854631508860292044
+8.0879705982987157853
+2.6110016879218300723
+8.5880520714142249972
+6.2410702827110373647
+35.162940824919729721
+8.2891568064945158056
+10.244161800747072277
+8.12775217005013495
+8.7387820656259300733
+11.53682415864317079
+9.3895993872686265291
+10.636385869826447959
+5.7215166216716184522
+8.781577666362538892
+1.1389758771978077956
+9.9489436094779044595
+3.7600365746535993061
+-0.6796800857576634769
+0.57408774870826773107
+12.327799607872343302
+10.76253913585686206
+2.3971736686067521838
+17.360547877849757725
+3.3162692277373384542
+5.0765352615502745692
+4.2990888653333776404
+9.8340921462809820497
+7.298065444578543115
+7.574732055837436917
+4.8506770581157105937
+2.495889653042289158
+18.664356251251913221
+10.801446944171910758
+18.456081049900738833
+5.7620838202135731265
+8.1874462808719776774
+7.7607180917290472522
+7.2290022843473007441
+8.4280513586060763487
+-0.23360445862254627936
+2.2694775447511075228
+7.2671986328831685853
+9.185995383419774285
+6.3710536409038045491
+7.8134018579879374045
+4.2767332665287289828
+9.2238894769715997768
+-0.83766404301790042819
+17.85381634069874579
+1.3049038478586334477
+17.094478645886614032
+-2.054165044282694641
+11.961461031439247549
+9.4562192757156644518
+10.156720404163197102
+8.8596693576875455989
+-0.3930070660871538557
+27.258171075815599949
+16.161863647842285019
+15.523821380264541503
+14.234315521341807553
+12.060515650830877732
+4.9769006126451591498
+14.471570469330053754
+2.5530532807963584041
+9.3995974951150049748
+9.2670968094457411013
+17.969252942458656008
+8.9672186929157220447
+10.527135156398413685
+-0.0937974298892732955
+8.8389915459558796584
+10.263986810455836718
+11.321988808658801418
+4.3406294037479140613
+8.6489255610408743991
+-7.4267109581641115312
+9.1834808381014170209
+10.516468649146718306
+9.1414385284583161706
+10.98589812264649801
+10.587280808726433179
+0.31546871135940712794
+8.6762510732507696076
+6.5929383794967071353
+8.8334259336036886623
+7.5455780441926432189
+7.426804892762669752
+24.537795139978488379
+25.54220662589126789
+18.893305578553434287
+16.958892240427029918
+11.083896599522274684
+13.63120343998731343
+15.303781593307961728
+15.305697200010866865
+17.170099316433987013
+16.115693977623678279
+15.961356917264769351
+16.933765764233601914
+4.3394238103623239411
+-1.210339145598973154
+15.705905793237896262
+7.2975026837237644273
+-2.5563556645175395943
+14.320504390523700167
+16.915900739051629387
+17.294872169349741142
+9.8094100390155798408
+3.5117348345017451727
+11.391632846534697876
+11.668980708679100644
+8.8557178655088968355
+19.573875593026908604
+17.915799105452148154
+25.551291198741232336
+19.01853769955055995
+13.645101022505933486
+13.908659144952681075
+10.219419437069014123
+8.2623181287336002754
+13.286655027307107346
+15.584969512321849905
+15.043919022964674426
+6.5778757781468764065
+7.7772179305035642471
+12.439272221571803456
+-3.0572688874302795803
+13.44337652301247843
+-2.3880926899247709727
+6.5182770661999587247
+13.062842434124743107
+3.490443596395764736
+10.487746407645461844
+10.671224839717153188
+-2.1529376892977385438
+4.5675066979161211833
+9.435282702746819794
+8.4724685894381455142
+1.4799269292936838571
+5.9630220610333131148
+-0.18198070956693085387
+6.3185619966109065615
+4.9668352248559504147
+1.371258180652922043
+1.2619908021898396111
+4.6672246988614327634
+2.7714808023288854955
+5.2030637511110491289
+6.3185619966109065615
+4.9668352248559504147
+1.371258180652922043
+1.2619908021898396111
+4.6672246988614327634
+2.7714808023288854955
+5.2030637511110491289
+11.769597523615903611
+11.968482668548642067
+10.718851665780492866
+26.699312536429953724
+20.116216439207494915
+15.98864002811185614
+15.898863373121571385
+11.198277210911273372
+13.084307577151296442
+14.25649838835000871
+12.117183311766034137
+14.761448330353886149
+11.660040953095087701
+12.024550845196204207
+14.313382767570809406
+14.057256349399768425
+6.6626231659359413939
+13.947950312029904651
+3.7458361471325121173
+12.808908117593867715
+8.8273831255271240082
+1.7361889174181088791
+21.098549650610799233
+13.058684501127377331
+7.2722054015621697687
+7.2722054015621697687
+11.460131675205261104
+10.718769344678834798
+8.9305692340065725432
+11.407845012153270403
+8.5991605395002839174
+8.5843194924651502475
+10.755697504275005372
+10.106084287126661181
+0.23945095875823310672
+9.7062965055522845148
+-2.139172096282289548
+8.5673618296550930751
+16.575318160048869487
+0.23168548420436194113
+17.423841589129761331
+8.3718957083230716165
+12.208660757530681806
+9.9594881648849558076
+11.597948623159402004
+29.615018974687821185
+19.350376677960429816
+8.889307487544829911
+23.551200046204371574
+20.639786639686850123
+18.638474132676506656
+19.812196719912265053
+10.931371254192045583
+15.848138080369579939
+-1.203393372465832778
+11.098113239424650445
+3.2617341313351353449
+3.2617341313351353449
+15.463082441826445645
+17.13246830157639522
+15.305984819626866411
+10.099477620713360082
+14.27737256367029417
+11.052109974092315881
+13.858905831133416342
+13.502902565105989297
+16.825738560130215404
+5.4721051262689019978
+5.3083901921884653063
+1.3254265060429921697
+1.3254265060429921697
+1.3254265060429921697
+8.884758021697344077
+18.827537988228964849
+6.280627970374542457
+-0.72102899618359583833
+11.715289761942358382
+8.578430664424798735
+10.620088435332572629
+9.1325228920817433931
+7.2229847480262385773
+11.666461043569491096
+-2.7393591784213162654
+11.915426789914960182
+6.0058149083257994505
+-0.91269356301608484117
+8.0932694040997823492
+7.4103007186922420502
+7.1907101088180436221
+8.7407875188161785474
+8.0932694040997823492
+7.4103007186922420502
+7.1907101088180436221
+8.7407875188161785474
+7.9510924992549583123
+5.8331085902184112157
+4.8806392038012269552
+6.0859388217708545454
+7.9510924992549583123
+5.8331085902184112157
+4.8806392038012269552
+6.0859388217708545454
+7.9510924992549583123
+5.8331085902184112157
+4.8806392038012269552
+6.0859388217708545454
+9.6963609208041567911
+10.096749950514118055
+10.30275725510444218
+9.1289056014791079008
+9.4811079190458631416
+9.2414859275565728325
+11.555157349655379662
+8.6555744413405300008
+4.5735634386556744957
+15.938493463086158997
+8.6948790636701058787
+10.395639826945197726
+8.655032390777314788
+7.5090754606690071071
+10.399859235621168096
+8.5370355978999050706
+10.583162986119871718
+4.9226442820850513371
+9.7844834696090963178
+0.028300208410330998654
+10.14807295311368307
+2.3505684165217295423
+-1.7985852537110071925
+6.9975961989936532603
+5.5713468502922571801
+8.4313458275917927409
+7.5372292546849477546
+8.5249580885743885261
+5.4061475661930744607
+5.2598887325369227952
+3.6860579704778668741
+8.5861124516769393722
+4.4293483675854510295
+5.1842672026690399534
+1.7614556177012230531
+6.5908876807087617422
+-0.23120017818741173121
+4.8730248989544202587
+5.7260174640579784011
+5.2261947499613512491
+7.3906795684385908629
+4.4981202882198880744
+9.4706364600592731762
+3.3338952885116830416
+2.1704038367049882652
+9.3161326821256817965
+10.270922906950259446
+10.683883687182765598
+38.278441499278216043
+4.55758656112939331
+11.685947790421666426
+19.770244797714955354
+5.7831747753115605448
+21.818724519041190035
+5.0694709600257130688
+5.0694709600257130688
+4.1319157882375296964
+2.9640434716903842904
+3.1353911696844596335
+3.128495476955406307
+4.3536967167613669361
+4.1319157882375296964
+2.9640434716903842904
+3.1353911696844596335
+3.128495476955406307
+4.3536967167613669361
+4.1319157882375296964
+2.9640434716903842904
+3.1353911696844596335
+3.128495476955406307
+4.3536967167613669361
+11.294739072341977604
+7.5602890476617572446
+1.0700433100784689788
+7.7907046424062098566
+7.6899046896134581885
+7.273812090621584403
+9.3217261139851146368
+5.6738182938682744094
+6.8094508820769572566
+-4.1192386100411217953
+9.4601716346503064159
+1.6505109064222085458
+-2.8849983338593210291
+8.6180751840397107344
+2.0150614289399917389
+9.919642815374679401
+18.630081482789655922
+14.750287402320875429
+19.931355936683825547
+22.237804660561756975
+11.683719685783822584
+11.729920708431251342
+10.777132760590566463
+12.254636745263868036
+9.977185689457222395
+11.683719685783822584
+11.729920708431251342
+10.777132760590566463
+12.254636745263868036
+9.977185689457222395
+4.9225923638272295335
+4.1882723875002598746
+4.1271230358852237785
+4.4581040916877832103
+4.9225923638272295335
+4.1882723875002598746
+4.1271230358852237785
+4.4581040916877832103
+4.9225923638272295335
+4.1882723875002598746
+4.1271230358852237785
+4.4581040916877832103
+1.8410420479744342703
+15.642245810229681524
+9.1165770625779174452
+9.5663033585100460954
+8.659515673814468073
+8.4761189179671099225
+8.9559654282431999661
+8.959419017238417382
+9.1165770625779174452
+9.5663033585100460954
+8.659515673814468073
+8.4761189179671099225
+8.9559654282431999661
+8.959419017238417382
+12.004578181917421986
+28.714366204255547643
+13.990294679326018112
+29.376292974932820101
+13.231441611738535613
+12.117219050610909648
+8.897326516215775527
+7.7568146439097453992
+10.704093937489377097
+7.7568146439097453992
+10.704093937489377097
+21.772834976728134393
+16.32309219139215628
+6.5765951365192600875
+17.486035786070345921
+11.680539958735121076
+29.683499259551890503
+7.773986303655904706
+8.403521089409318634
+4.058975720160841405
+7.773986303655904706
+8.403521089409318634
+4.058975720160841405
+15.768531930235790028
+35.992195399886931284
+11.603335405606479469
+15.129504829589775383
+10.02880679674543174
+7.575795522946285665
+13.427733810045564766
+8.1404618129918109304
+9.8733018788586690562
+0.39513691246445770133
+7.8905292143373513269
+1.9736414948584017903
+8.1617689235446082563
+21.822314979727497786
+5.8847043117749189278
+4.5548386122279085342
+4.3641697890418038597
+5.1744164334978570707
+5.1376427241316520167
+5.8847043117749189278
+4.5548386122279085342
+4.3641697890418038597
+5.1744164334978570707
+5.1376427241316520167
+5.8847043117749189278
+4.5548386122279085342
+4.3641697890418038597
+5.1744164334978570707
+5.1376427241316520167
+16.650476308974354822
+0.23835986533993130942
+2.3516101848614354708
+6.0909011467205056434
+6.260053666640982506
+5.5735308823558282754
+5.7398148139325808614
+5.6776446437705505588
+6.3159877349085062903
+6.0909011467205056434
+6.260053666640982506
+5.5735308823558282754
+5.7398148139325808614
+5.6776446437705505588
+6.3159877349085062903
+18.855695678072713406
+11.418264468634228948
+20.102165739160099633
+15.969360693016415809
+12.848171799599926501
+13.34218305155685691
+15.042615743899800052
+4.4689384811348871196
+12.749752952066607747
+9.1666003527887802704
+9.387187622913851115
+23.96536048252214357
+5.610234505570404373
+10.570124089205535256
+17.959249266664141231
+7.2953054372625407709
+13.406081495713088714
+15.43148570342899184
+16.460872366568754188
+3.053109440704036448
+3.9093264457022263159
+9.6670941919953996546
+14.75200994243189534
+24.85978936951046947
+17.513557219555117683
+15.170399458594681974
+14.820822820320239899
+4.3668661875254581872
+3.2855661160878684157
+18.286886346767282419
+24.668637778577288344
+18.683564989190330152
+17.137268877766519637
+15.677117767258378578
+17.538386604134409197
+17.860547720617837797
+14.447019712209113962
+7.5125233967368965082
+13.921429436404498148
+8.1920733288787754844
+11.959086285355533974
+13.15730516863624544
+20.16371689106109244
+13.980661833526495386
+15.792651742528788006
+9.1735026836884099311
+17.991655164579938742
+22.179465550852473399
+15.107385031131565611
+17.453810144444418029
+12.215846080134202367
+4.9686550791511008285
+11.760702932205296278
+25.274813100969879542
+10.69967454751988889
+8.03078316722268859
+7.4780480460240212892
+8.0885533701688476782
+14.150754591963085716
+12.270520005045213452
+4.6685791186550629206
+-0.78693104265503344141
+2.0882004906721025606
+5.4166972231840642138
+7.7227684885100620349
+-0.99225705332510816259
+-0.043600985888585568062
+5.6698812544407273251
+15.065648006481403343
+0.92698900053426458445
+1.2064193520152022288
+1.4706330003460450495
+12.66080338626644064
+3.3197289246646648486
+10.719138366208291302
+6.613047537689833888
+6.7897229222443833407
+5.2377658584207686943
+6.6526565386312883632
+5.9379533011956624478
+8.5488124533352412016
+6.0973979650574827716
+6.207278872938993608
+5.7925059520829549342
+0.19261673758298988868
+8.8316605572187931728
+14.197505353170450704
+7.6585013057792501456
+5.9499259124074308502
+19.919251592250684979
+9.8372967545328151573
+9.5737174673882421416
+12.171841923769319394
+2.1043755291608836622
+3.3203082561921388738
+19.84156983779156036
+0.2258743580416824881
+13.154098290591914378
+2.4368317212697165886
+0.86052468103525958654
+14.389796218930731797
+15.431377511266981983
+12.307435096306676314
+0.40280526585372067316
+14.134678203802105045
+34.705116885387020886
+14.473134907011111494
+23.064213777644379633
+16.310846942187268382
+5.914145342604313349
+7.687238416511066319
+3.1739043181854018627
+4.5875818409968740497
+3.8297458776041910511
+4.9760396063525744736
+3.9316256228185384458
+2.8162830037307977626
+5.288916776674546405
+4.8297794779785956365
+5.1024212241505360055
+5.5527321455491414071
+4.2915603352380431446
+2.8162830037307977626
+5.288916776674546405
+4.8297794779785956365
+5.1024212241505360055
+5.5527321455491414071
+4.2915603352380431446
+7.106973902001216814
+7.0724360524006666395
+8.5797973639399724988
+15.021557066277070547
+16.313836988562425034
+11.670822747148301701
+14.069066392305577651
+2.5345931878190461894
+16.856386581291268101
+-1.5036295043353860024
+13.112159569254439262
+-0.48375746776046790742
+2.6496378006989060871
+3.6877426088991800412
+19.322750975644950699
+14.043549914937315748
+23.900061589347000535
+19.35658189090178638
+17.633199065869128219
+5.7126156101596974324
+29.436728705305100107
+0.15752643003603020166
+14.417779873079409114
+6.1217121640146405781
+6.7134766272174042356
+8.199457045594575888
+8.199457045594575888
+4.0915471786794483933
+6.9124173006241074191
+12.667072398991818361
+9.5202268820735795885
+6.0077360852115901935
+11.412124986828407813
+7.3035320373475638434
+3.7489607592803921854
+7.5235913054413581236
+6.6345446862397485788
+4.8361261710551826098
+4.508786654999733301
+4.0933819961862685233
+5.0591289755846924336
+4.8361261710551826098
+4.508786654999733301
+4.0933819961862685233
+5.0591289755846924336
+4.8361261710551826098
+4.508786654999733301
+4.0933819961862685233
+5.0591289755846924336
+6.0530490977819955134
+21.444939593654240184
+15.197044168526176122
+23.250667107661111999
+15.730566468071891961
+22.236790562848369746
+17.004589267676447406
+14.934752542502291561
+15.227945239608169814
+18.469049637749002102
+24.218268770459747685
+22.53402961713123176
+9.0393550590670717071
+3.0671135198947823142
+20.362117356865876872
+15.1459479397703074
+11.034681155129380414
+9.3965441183355036259
+2.3800294696114954185
+10.894561625915104131
+5.8714042919908626672
+24.286700844728173365
+7.9657224051075674609
+6.5029799284171563301
+8.2667184453947122336
+7.7141813417666700303
+8.5723814339194053247
+0.26241647489665759219
+8.8727430206751609632
+-3.0651388144555258286
+7.9703684467459057217
+1.8205208310276759232
+5.7720371078427294975
+8.5496912250955219292
+7.3914370340848725149
+7.704640893250328304
+8.9652070880271477193
+8.7530303630035160012
+9.8410480625006826472
+2.880300897868891763
+15.07998972836588969
+6.4777550000317649648
+3.2924436504105956125
+7.339902241994984422
+3.701758178435698543
+4.1737642397839982422
+8.2341485309107458335
+3.3949063356098219124
+1.2795673174533253036
+3.4409624744493050308
+8.9220102757452277586
+3.8960598797187935283
+9.4467997442467606106
+12.540171680720661129
+9.4704627498372424554
+4.2398148182086901059
+2.6235783510426289311
+7.5129280724365727906
+7.2518670549772004108
+16.360969226642772867
+12.218265203991865775
+18.916419191642368958
+19.985783226823329528
+16.985878449598345696
+12.537767063926272826
+5.2244670595987834361
+13.77388010503367255
+8.180094468609897973
+9.0085885337577806808
+6.0350460806214503151
+9.9169395673991740381
+9.5465120198616819636
+23.100952375956790519
+14.280534484205468004
+12.585183531513509436
+7.4050304212365603007
+7.4156451889627739149
+12.86170886760467269
+13.565205671530357279
+9.0094146846321230271
+11.306557049743128474
+0.97087546467714536114
+0.1207958874972181601
+9.1235742452845887129
+9.2176680243757811439
+11.451172106462522038
+12.514389030695372895
+19.800684806935564097
+12.642615053689574722
+12.253409906073978064
+13.177547800774362941
+17.478752739933323568
+17.035425174821902772
+16.059146545305875264
+18.126281978214944246
+8.51373179483348963
+11.175688292653292777
+0.69160132407108698693
+10.988078869652587954
+0.2527236592658078651
+10.471691172568144523
+7.7917236263317697365
+6.1679510677980111666
+7.4247144284890866928
+8.0020183650270713116
+6.9047826634423330461
+8.6298416350978701672
+20.936220304269735237
+26.823076879145894225
+10.06837373438193417
+11.219559290146152719
+11.249412880366643108
+11.300473866540031054
+12.068419061211098864
+4.2876544571001966588
+41.291259508164799286
+13.387973468769184038
+3.9893199688739646724
+8.0523119314568099014
+11.240789070528578009
+7.6762291728874494368
+5.4012860693632012143
+5.2420228331837819269
+8.0587542716008400134
+7.1083964057096684641
+10.459015373545657468
+5.4136292775299024171
+9.6490622597697068841
+10.008191963096196631
+6.3960049569227219735
+7.1447027180272737468
+-1.133844905158236438
+16.252461012607046342
+11.080166876941413889
+16.515594297422858006
+25.413627504581729255
+15.067553476889010255
+8.2076088756041940542
+16.624281084557249955
+21.669128108721405823
+15.731475780507860662
+12.376190761463005785
+17.627772083167691619
+6.3769698155613268042
+3.4367579658375597695
+4.7934653651826533149
+32.232022781865858008
+10.397085052683562978
+16.723009780114935552
+12.387925719317593121
+24.442513184959075545
+29.27689300045417653
+19.61258428278867072
+15.184695126129588161
+17.58030241882940814
+22.250470221609511157
+3.8843302913483941374
+16.15189727305064693
+15.984855686615453862
+9.7858688776132467524
+10.465500242021860799
+8.5672147795669122416
+12.12722046472874915
+9.6527929628855826394
+10.600456672428324012
+0.28552300412139719477
+19.323020060104756368
+15.443212686255174404
+7.9046794170066938534
+10.752346469000169549
+23.241547470015930799
+11.986403200598324759
+3.6873032339850171368
+3.2193349934341348728
+3.6873032339850171368
+3.2193349934341348728
+7.458010110415457028
+10.15644642123022301
+12.777581873308863081
+7.05501952479128569
+8.7283261179333315738
+7.05501952479128569
+8.7283261179333315738
+17.474911493973806387
+14.973444035330874868
+12.809036227096383342
+14.82389537526088219
+5.75436432534746789
+6.0332763791233334771
+5.878176004291605139
+9.3918316104120282972
+10.338056499997067661
+9.5953843751169962673
+10.012346872381835183
+11.102591326832781604
+8.7829357239990617501
+1.4252463082134783079
+1.7138780956438122161
+10.878235443786852699
+10.893249853450610587
+9.262831948355959355
+8.8294737917547188033
+10.459988678078461888
+6.7891969846777353581
+3.2056308311205206074
+13.758481992679156392
+20.51208295004251525
+14.689182521378860713
+10.403138349292733622
+12.679923588787207933
+11.41175056002770738
+10.031676176074379114
+9.9943435223013210589
+10.222507542723208829
+9.3395266085974011361
+40.407367478431780228
+14.640246666352911831
+13.986832820602687733
+10.678031984360719875
+8.6108967679480681312
+19.634996196973244054
+3.3082789022272947044
+10.227919410965617075
+10.873558292740904463
+10.799633096725830939
+13.491898518022852116
+2.1786228646745464665
+2.7752155028334892783
+4.3094258815450565692
+0.37805633731032334266
+15.652083531392989357
+6.5487119447471329181
+11.372716620757193695
+22.539943022220366942
+2.4297722303617805828
+8.0565709393581137476
+5.9450898619474150664
+10.44997068070831503
+7.0772432207708071417
+10.05320045552065622
+7.2011206726012684243
+24.205826982158804128
+22.323065548674065894
+12.858891603363231226
+5.0859901634267146164
+14.415719060710776134
+5.5746239386048523912
+5.7522621252046990392
+4.9770769866590995889
+3.7759013528013931627
+2.5840086973057081465
+4.0686006252136310835
+7.2011270121396693256
+4.6420542646179487889
+15.015730310047512575
+12.125159166008067757
+19.546198605484626398
+7.7037707190089159681
+7.234925935025183108
+7.7520110903625729648
+7.8027162418914501885
+6.6034247507024641521
+7.7037707190089159681
+7.234925935025183108
+7.7520110903625729648
+7.8027162418914501885
+6.6034247507024641521
+7.7795421619998705864
+10.095340730391175299
+2.7957328748316894185
+10.646323526863993081
+13.83591437630123977
+10.646323526863993081
+13.83591437630123977
+15.011410526157874301
+8.1763952051490011996
+6.4868819660731347199
+1.050610851076379415
+4.8335803377704245065
+6.8328852588470621043
+7.3814462645188863021
+5.297654338994168377
+8.1320145616316903414
+8.689183362059297977
+1.3255912521551709293
+5.5700007047913677738
+-0.037272590989058856925
+6.8289969337406182248
+8.3760953913983655639
+8.1169718157156598437
+10.627706403144355107
+1.9605748765152997137
+1.6094176565874533935
+16.068322102357925019
+14.024910194052059964
+13.328807742375783363
+13.399716063635743524
+14.417849368528347753
+13.816967285702709489
+11.25490242395221685
+13.128723844983026581
+10.589361480542129001
+1.6971941575300475424
+15.689220113455050409
+7.9726926146456307265
+8.1972155491398215332
+9.3114696718087675009
+9.2708914316188462124
+10.21065066623309292
+8.0054261296851390028
+10.983304926143679481
+19.816558593229295582
+13.783347856184668956
+17.685024961772331409
+15.435344104865359682
+7.4301272737189156814
+8.6690446474358999751
+8.569780158331962383
+7.4417669462493583055
+6.7699219386942948162
+7.7320670852033659415
+7.4301272737189156814
+8.6690446474358999751
+8.569780158331962383
+7.4417669462493583055
+6.7699219386942948162
+7.7320670852033659415
+12.23392064843621263
+12.733819319428413053
+13.242423746325769685
+11.574493125214571521
+9.3839109275555774303
+10.797645509931639296
+20.636183430500395275
+6.5777019808066254924
+6.0200644966552019355
+6.0901061493825547899
+7.3348325072904732025
+6.5777019808066254924
+6.0200644966552019355
+6.0901061493825547899
+7.3348325072904732025
+6.5777019808066254924
+6.0200644966552019355
+6.0901061493825547899
+7.3348325072904732025
+7.9674193517672735609
+7.9040145188767798601
+8.6232393305336803024
+22.677045759455726426
+9.7399825496176895001
+12.288419499036567828
+16.1347425094663528
+22.369955585958567923
+15.327070239951346764
+13.962846434389811989
+11.083313356107478143
+12.227116221217006142
+20.755943877716273249
+4.0864601879370079374
+13.524698368148490246
+11.45967589903232664
+24.008119876665716674
+9.7342274735145846165
+10.432488104437867449
+11.013549535812819258
+8.9333510710348367212
+16.821794451362180212
+13.808297188659917509
+13.743948078606367247
+16.564005124330122953
+10.117846141320145037
+6.9700212245878407913
+11.826467175822887867
+8.7529378392703112155
+15.50444699338815191
+5.2052357345995678983
+9.1968067348474704659
+3.3253371472595238956
+13.864558120400154451
+7.650022969840152065
+10.478179427423748749
+13.600484282449830431
+13.804177881921058102
+10.650473626638229163
+13.034548849681311111
+10.972596153763030102
+12.395276515477480217
+11.474552299901317198
+6.5848696219164555288
+11.9156603934138694
+4.1321729970065677051
+-0.79573299747156844841
+-1.2966620274989395512
+19.684513122011502162
+11.342540804559261503
+9.2472727517982917789
+9.3475079780403831364
+8.8083409150039759794
+8.6211285084391438005
+8.6000230911189152749
+8.161811555529260076
+9.2472727517982917789
+9.3475079780403831364
+8.8083409150039759794
+8.6211285084391438005
+8.6000230911189152749
+8.161811555529260076
+5.7433607494883718303
+4.3449009953841510878
+5.7079705161879239483
+5.7433607494883718303
+4.3449009953841510878
+5.7079705161879239483
+5.7433607494883718303
+4.3449009953841510878
+5.7079705161879239483
+1.7394756971696501147
+0.356548025977803551
+2.3144181767224925039
+19.921916307113558986
+0.18658099866406840928
+12.691205836230883719
+5.8303342147410255336
+14.31588131370109096
+14.70735539742316611
+2.8160636731448245307
+5.706056386004613401
+12.261098774953389068
+29.908662739443876433
+9.2226394252265322393
+7.3275975801496739948
+29.791227819888682404
+11.75802113624419043
+10.333982755163008349
+20.97131284288034081
+13.710155997578326037
+14.462824139674820501
+15.352521763226821605
+14.744641204249580468
+19.829738846372571004
+17.359791230368095682
+22.737255884906971914
+21.244552982342472802
+23.441419869134403342
+22.088854134159518594
+22.380380834314866689
+22.248653355166801759
+17.002931667069894672
+15.772300259323955629
+21.860992469849197306
+20.196740637102791993
+7.4277925044798616128
+-0.12944137513874515166
+7.4768462517026508252
+6.373848768575998136
+9.6858423366802934851
+8.5388831967458624916
+4.9972165457364958741
+10.243388098948932097
+17.906323679880983946
+16.637875385697554975
+17.457929826906575244
+17.81990408332366016
+14.96353760967667057
+14.448311410769880681
+26.085511288322226875
+21.978499649797004878
+13.959859852968811822
+16.074285830754188709
+11.100250950459871646
+17.620378205148071515
+12.041271984225218716
+8.1483662624213586412
+2.9817563047311286262
+7.7535817387063783457
+7.6264290629290831802
+7.467703183588665361
+8.404399606563933034
+20.767252172861812909
+8.3110467959003777594
+9.9855296247040659097
+9.3974476274936353803
+10.081868454155546999
+7.5509576840258230135
+14.511776020437467949
+6.7344030083672423714
+8.2284005563458109123
+4.9317111806437949895
+3.0204890214728052911
+7.1957799785792690983
+5.3155417767859116651
+16.648814328510823657
+18.928984786850772792
+9.2156842767196014421
+9.2156842767196014421
+9.2156842767196014421
+3.1545167674891287923
+9.3468297717595500984
+2.9958278926411829879
+10.621107542627811426
+11.224112024860767534
+12.103545535017959267
+19.982902016763194553
+9.2100426226960241394
+22.296260990005407621
+27.226386278348602588
+20.63173149629649572
+11.839678745791500702
+19.981279579238098165
+5.869765501215598924
+12.724470945813669331
+9.4558791853941901451
+12.445678716576022538
+6.6769454850887104413
+9.5849294208140403128
+5.5780141674268470808
+6.7252943394035415992
+8.6814087767177259281
+9.5849294208140403128
+5.5780141674268470808
+6.7252943394035415992
+8.6814087767177259281
+8.4192092119263062244
+14.364439215214142465
+13.342086318328881589
+16.59745366721729809
+13.297185927333012856
+9.1655121618274026929
+10.820998774935823405
+9.2565810805796076011
+9.6744017213392083931
+7.6159470788537140251
+9.9049934000795349931
+9.6744017213392083931
+7.6159470788537140251
+9.9049934000795349931
+0.24151157615838286796
+5.9179489777349090218
+10.626071628558747761
+5.9179489777349090218
+10.626071628558747761
+5.3896843309516704323
+4.9761434017292334175
+5.3896843309516704323
+4.9761434017292334175
+5.3896843309516704323
+4.9761434017292334175
+7.5640693153204665578
+4.6075808909645301625
+7.0155381348164738142
+12.802976456677692241
+11.609210212461860579
+12.634322038692271661
+21.484106470423011359
+4.9109090038723577365
+12.04167763428261928
+11.650254609456593968
+14.820158863633082547
+24.383462686988679025
+26.277411615810510881
+17.227669088432989497
+8.8033120945385121559
+14.396710985507930047
+12.428790563054716856
+8.7956356218824609527
+20.896576815444923625
+18.814467641089816397
+16.792123145339491685
+14.250161052202756196
+12.942487382314890709
+3.2782898003763771833
+6.1386927100355999087
+4.1651437273105775816
+10.205345103163955045
+13.291841884138413832
+12.65698569990315292
+6.0404472179730479553
+18.328878244722737634
+9.9115557371991478419
+11.105606889345157384
+17.660181348255605371
+21.18795508924369031
+7.7549791250112463104
+8.699677801999582627
+18.293929969865374119
+5.6154528481237333537
+12.161529508235151553
+12.217933535177211368
+19.321860064228783216
+1.8273655922670779539
+0.74718692836178290939
+8.146068796600426154
+8.4032915190550987461
+12.827738012762178954
+8.3072406616126706069
+13.575718588268546938
+9.110352890123754932
+13.599699007125078509
+20.778434985571706761
+22.611580700713737713
+12.161153113460420272
+11.267500042126801674
+5.5556210196734170381
+23.956920737724029635
+4.62221839317975558
+22.846379739776381257
+16.70710273868861151
+20.954119011029213482
+11.559071179492901749
+13.71006207424537493
+5.6732931081939135254
+17.25274833074283265
+11.832609588690704783
+5.4626972193134513134
+12.079733947796547966
+9.941949201443593509
+11.315478071519109449
+8.65570106852143617
+1.1766148888661340788
+3.4191749695845374823
+7.4899629001986491872
+9.7209414309027586398
+24.126457046100981074
+2.3452360730233250408
+0.27598128125455950732
+11.060137823847304261
+5.0651416917458718103
+14.346568718488272864
+15.015419505899599173
+21.933862926272343685
+15.036371798833615188
+16.827718519209792447
+8.7260005847464228168
+-4.1284794355944036681
+9.088120037146543595
+7.5083307525704068297
+7.6684868012510571944
+5.2004782463672771797
+5.2004782463672771797
+22.227057522622420294
+20.618052791709168048
+16.571282518355662461
+16.535833173006057706
+18.268356534295453031
+14.441349236654478005
+14.744516899752632355
+9.5156011717519657367
+14.885796437542174075
+4.435456467488572585
+14.505962695122548212
+23.638751384144860879
+16.038087951294116351
+12.8290871113355891
+19.649479377448244577
+16.797366461914933211
+9.4497566265494441495
+9.4707665961110265584
+10.252290372676476693
+8.4462214290305333009
+8.2786642732092783348
+5.4604137045887410906
+9.0378945635558718408
+15.278466668183336097
+18.890724351466932518
+24.970334886720408463
+17.341600241355234147
+9.2902769793063999515
+1.0023906837182541274
+15.251207797854659631
+11.108913071380065674
+13.393197924041102098
+17.134122136465403941
+15.104886530731640448
+3.1863234051587849827
+16.009987363234849056
+6.2737186863623604083
+24.991717912459694872
+18.264498543696767285
+6.8393937016248465
+6.1190316115248633011
+6.1026482851767962501
+6.9083542993550857148
+6.8393937016248465
+6.1190316115248633011
+6.1026482851767962501
+6.9083542993550857148
+6.8393937016248465
+6.1190316115248633011
+6.1026482851767962501
+6.9083542993550857148
+16.598559648116477661
+9.0048049610251261754
+3.6210631163207844807
+8.6076289060207837878
+8.0471844159153143039
+7.7485169038748082926
+8.9316636188178630817
+8.6076289060207837878
+8.0471844159153143039
+7.7485169038748082926
+8.9316636188178630817
+5.9342683334845274246
+10.902687555127227981
+9.9693658192969252241
+4.4349011650808813911
+8.3576279416741261485
+8.107722370064653461
+10.428349822045973383
+16.254151838680598985
+3.9536405779285881401
+13.772733882614133449
+16.038895150890414953
+8.6709707120449301954
+1.3916900785333390367
+23.719886655579575319
+14.379383161246826361
+16.597709313773435724
+14.867653964530147093
+2.8086191573976870828
+10.124894427514581352
+10.469662941060647654
+6.3174046461664898899
+8.1477583305196272789
+14.449782189779947217
+16.619384350037570641
+3.3226450194714818309
+9.3894054501689936387
+26.869499786111603612
+9.4522345421970168644
+16.847701227758939524
+11.619028340975610547
+13.587000500563744865
+4.3088414154290344271
+5.7625520337690154804
+2.8662345784622935696
+2.2319712642181839257
+19.802372010562866222
+14.848233369756666633
+8.6808959064901038971
+16.030531344904385804
+2.2350258075854698703
+3.1405414361572021598
+11.497525436574280278
+19.796941331839086331
+27.057851193619185892
+23.641251589310954273
+9.8002114290299111588
+15.350666671900343729
+6.7615722432851868007
+2.1728653232019694563
+18.879606521476883785
+4.6332985756898930063
+6.8805669648596552435
+4.2064922360037613203
+2.1441600099437598814
+12.47007254375784413
+11.908242505690374458
+17.407169070245235076
+11.73951071605341312
+13.58515017526756985
+9.751047974787478978
+7.9208628244114311912
+9.751047974787478978
+7.9208628244114311912
+10.022935446289828576
+8.6570072630266121649
+2.2912945408698237593
+2.2912945408698237593
+13.716159309628837448
+6.1319489637950033156
+2.6253860401791011547
+12.861133131856909984
+7.6423207611942203243
+8.0412089533576303069
+4.4111784558860334116
+7.6423207611942203243
+8.0412089533576303069
+4.4111784558860334116
+12.302850760108716699
+13.075756521831880974
+11.536397314431519945
+3.2277971377886083282
+3.2277971377886083282
+13.965698517926789179
+17.628745751539998565
+0.29450188492942891427
+18.415919810555145375
+8.107419320576610744
+6.9214301758030645217
+10.464563816940056995
+7.557868737352484878
+2.3860309753919413112
+2.3860309753919413112
+1.8789649236707712809
+6.0025177908925160253
+12.348549416204443574
+12.083373614224942827
+0.20374582486038306239
+2.1826993160546050987
+5.496536647328700731
+7.993701451251047807
+6.681080555353886119
+0.2594452008557717182
+2.5745428798226841494
+20.302826331108498437
+13.141936787890257321
+17.201908455361515138
+5.7574463367878321307
+18.467401074474970812
+17.368363385889203698
+11.872989346764713403
+18.358541102614463369
+22.461427194359757209
+19.597516838228795422
+26.334525644054338045
+15.66097741132957033
+4.779220021340616853
+7.2311252092850999418
+6.3590958730171340818
+10.807336229724924692
+7.3297757721377410078
+3.550112027468676601
+24.285783512174731413
+23.536469710738764149
+17.766919507443965642
+3.2512011250747669955
+-1.873010004533602002
+5.8766710608445285047
+-1.873010004533602002
+5.8766710608445285047
+20.140664700300007439
+16.630179984300635709
+10.887132248965952996
+23.582431379043025998
+9.0223771437534292517
+9.7923455130332808238
+9.1889813884363107377
+12.890750002344409708
+9.3262055165217443431
+8.3489771095788611888
+17.184300723631466212
+7.0556059671107638209
+13.062004448131368406
+7.482593597837788657
+1.4279590441213851904
+1.4279590441213851904
+1.4279590441213851904
+21.174229312036604966
+21.475309377539787192
+9.9545479244123651341
+0.7753373903062937833
+13.952660281426764399
+15.002754211682784558
+2.6069297183896211756
+18.532384337793395446
+29.881765811356338247
+3.5728960257402895273
+2.7664576912946228227
+5.1586597999160641592
+13.783286739662518272
+7.6601347443995972952
+8.5333618009944380844
+8.8154124588195550416
+8.7183175611198535648
+8.5333618009944380844
+8.8154124588195550416
+8.7183175611198535648
+3.3188397013761887777
+0.41796526315944010355
+15.868561629447517802
+12.787690594785653175
+6.8897302628507608446
+20.439045595553491097
+5.5268925619823807693
+5.3341673490716638995
+6.1281402108898435088
+5.5340567938538578474
+5.3373461694632222674
+6.0936023612892800116
+5.5340567938538578474
+5.3373461694632222674
+6.0936023612892800116
+13.631762071007999637
+22.616329506826950535
+5.3888865165622874542
+4.7471138696387749079
+5.3925090972991887028
+4.7308415371648555592
+5.3925090972991887028
+4.7308415371648555592
+6.2722945999938470862
+-4.1488622959861416462
+15.126344121126004794
+11.241292965344367616
+2.47705569576389939
+11.080211390448402753
+1.5635315474548336923
+8.6198106681102579785
+8.4490328319590126682
+15.279102320601609222
+11.757853546349911866
+13.252342398605687634
+34.268463473919858586
+9.8604924400309865717
+23.948728052127208343
+16.659149947909778433
+6.749059885976610218
+21.961654459081650259
+22.884120148244068815
+18.738363351567635107
+13.352037335208203572
+17.531607388641443634
+3.2210120490652975889
+12.493657077758506091
+11.038248076736271841
+12.117907093962294596
+13.795147667220131638
+0.57653242682426697474
+10.378443391886147396
+1.1835021714663527259
+7.1957386267403098401
+2.762670024199746166
+9.6531800610252869177
+7.5803604612561050757
+8.4980803111936378258
+6.1363396154778229175
+8.1663646008338819371
+2.5935418047359402038
+20.159477186629068513
+10.10720381362556175
+7.9039184081849915842
+8.8969211364179532353
+9.5652020902385590517
+6.8092890058588766422
+9.242577673817498507
+5.1535872028033420378
+13.075709939600780984
+14.553505136237573581
+2.6145578985448727494
+11.554475451118007001
+15.00980940921497897
+11.802762377302764563
+0.53579392717398732771
+0.46980947476163054111
+0.61549330065641272292
+1.6069873159232379578
+1.6069873159232379578
+1.8502320001634533497
+6.1815123972912662254
+6.4113814216522282408
+4.5320875908959799006
+6.1815123972912662254
+6.4113814216522282408
+4.5320875908959799006
+11.637939059553243482
+14.808098455042626895
+25.135019454889896195
+14.701041883125084198
+9.2804595886938709981
+12.154879599312366167
+7.0076039542591912479
+12.742842809852168884
+13.188324186605449029
+5.6923918831502291482
+5.6923918831502291482
+5.6923918831502291482
+1.777689543949829698
+7.6593510745424246977
+5.5236929718577094661
+6.4854022026874602602
+15.474740358626799974
+11.099742591498337418
+19.247283950768999006
+17.528109464350805524
+17.485535080151407783
+13.85681199158337229
+11.522091067975312129
+10.904724873198793134
+7.1062979469977252123
+15.377921289641300007
+13.343386317272438291
+7.2465681736600480178
+6.0490565366531932057
+7.6225128176586443018
+11.642175383535111166
+13.565279595797667511
+2.1068774736648725465
+10.050655825868469506
+9.5145670515972948778
+9.3410146240784559524
+9.168902833721956469
+2.0372106265301535011
+-0.2115003907080299228
+5.3084827080931065169
+15.233402672146015178
+13.449413880362305562
+10.416395169192982806
+13.590327996392348453
+15.026091390326801189
+3.8392564105306696831
+6.1450255395505921641
+18.660935809015040121
+13.334520436183344927
+14.903038000284663411
+12.056383788099632071
+21.091393320346977447
+34.093905932447476914
+20.423594846949107762
+5.7003973321066441216
+11.228312630915741721
+15.042538769559614664
+4.6529855720892570048
+24.920284178680276455
+26.099576791963475131
+28.934502911426296379
+17.003936563902396273
+6.0369125567868771043
+5.1337350644770571861
+5.9058678879743462531
+19.305254158233569939
+16.176399361974951319
+20.335787227409038991
+23.337092869290341213
+11.304899625225504067
+17.748191903305613693
+12.777927125641815209
+2.6782436151729336338
+10.029790290292099897
+17.808310530043595321
+10.229691756452021778
+15.930455932229607541
+13.137417214075613359
+18.844432596079219167
+15.435275042049161343
+0.2106012008896379073
+1.9658777050605931169
+13.407699800543836588
+18.563776648624234156
+17.979877491549686397
+2.5386180756450231755
+16.536692016391164373
+21.156613985211855322
+12.090403554484298709
+11.952696410914365188
+10.817683696808062521
+8.5021436741893712252
+3.0811039215742024311
+1.8130237533022393048
+2.6190736114087793673
+23.775268582497417924
+3.5115214986895155747
+2.1866307784377081447
+13.360969241472700375
+22.710133926585633901
+8.2830302786301874818
+15.716083190284626525
+15.47354143682453298
+5.5186516239253915472
+14.407877883450540324
+10.776479323766137597
+9.0383318022403535963
+13.660436908603220019
+11.558559054729876436
+13.542673806725138874
+10.756413419575725499
+7.0825923324306820916
+20.463952514217950807
+10.672870569955902553
+17.120298223650571856
+5.7491124815395462377
+8.3237746704451502922
+4.7624697379079021786
+9.0431227908822577888
+25.836351176003592656
+18.158661936603252229
+11.895805508078456825
+17.887527653994972354
+17.336496208121438656
+13.74335661078971782
+5.2194994528745617401
+6.7747172272535536308
+12.994515019514608412
+14.653088063699222232
+2.8656877285685999901
+8.3862227439613938884
+2.0436670506253040713
+6.3132802844455051527
+16.823351646563224904
+1.8816153438316580715
+2.9330189099201713354
+7.1286343601631694256
+14.916850730873324693
+9.4885953986038078511
+19.480556922484669968
+9.5005239563599594987
+12.557878134957604743
+14.546465784707336866
+6.6804150332940066548
+8.2583043483390614625
+29.412648491704779019
+14.989673849182480581
+18.588337337602748534
+0.8597887002097949205
+9.9754874707790435195
+15.16731428423570982
+18.898138016949349804
+15.837059643993285363
+6.4282748318769460383
+5.4718128604579501228
+5.9045260928688723112
+6.4282748318769460383
+5.4718128604579501228
+5.9045260928688723112
+10.47920087766440389
+17.759231734191150309
+21.141697357000722945
+10.080549344618210839
+12.256567444663135191
+18.449977455985507646
+17.655326502159205404
+2.0406298944834695419
+15.868006488579094793
+8.6276747611998718668
+19.430396506152678882
+17.428720959331961637
+9.5994833466259201771
+10.385952430666623769
+11.950827615396272918
+8.2956169164069279987
+20.71423241735825016
+9.8052530807905746713
+20.715488353002687205
+17.486868276335403749
+20.119316261211626085
+14.989091115916815866
+12.057028918416826002
+0.96372315838198396865
+1.7882560425214946154
+1.5673256719190846731
+6.2894005955134710817
+3.9356537221252385628
+8.9196689013734999918
+6.7968622361360822026
+26.681373524147701914
+18.304422024231211452
+22.702960136359838117
+12.102352112404771489
+15.964490114307437807
+19.137488762271139819
+18.336145631910394371
+15.363354585519759965
+27.200538891084480753
+18.969566283447839794
+13.479957379091857206
+26.307944913722728586
+10.045312754556546153
+9.171172608481430899
+9.0127055845964907377
+10.927953388544256796
+10.498714099438176461
+14.662071541375922834
+15.897801594267050973
+15.650616758226940206
+5.0451899243069266987
+11.925116038923423645
+3.0738798311998829504
+14.156346064212678826
+5.7601545476660138689
+8.8512883853087505059
+0.53991840681761127385
+4.6859666036316136584
+11.829051865708562374
+11.280245218954007669
+4.3587617478663736037
+3.6209828057575097482
+7.1857636400372371099
+14.849574635185350147
+14.576375742332198016
+17.046358222461059029
+15.168332696279433591
+5.505726829385728216
+7.8092718646320120612
+14.948021685705512596
+17.593678185618987442
+16.119304193211323906
+23.96255073199682073
+15.273633259817879448
+9.1106380218758005185
+4.2315417282847063163
+4.2315417282847063163
+16.571213904323006005
+22.801884894919385971
+14.998916024340431363
+2.0550795875553133918
+2.0550795875553133918
+3.6064590918140351228
+3.6064590918140351228
+3.6064590918140351228
+19.41723456206415932
+11.549227710583444662
+16.046238692528895342
+12.466417716014722927
+17.149473137383985488
+15.774250693666708401
+12.808017265667631435
+0.87545439034405181378
+8.945457859538331391
+4.0431766605750132371
+0.87545439034405181378
+8.945457859538331391
+4.0431766605750132371
+6.4821760392551297514
+4.1283614382303541746
+6.4821760392551297514
+4.1283614382303541746
+6.4821760392551297514
+4.1283614382303541746
+5.8358747323728730194
+1.7881746580872865948
+9.7957096534233887297
+10.187220755227727409
+18.488481839686684793
+1.8932618524325264264
+8.3450092285897579103
+14.171045968783396063
+7.4290613000025143009
+0.95369322876283224577
+1.3851916853477574954
+8.2773360419088444218
+8.2773360419088444218
+0.89948925942202717643
+5.8308559453457817767
+19.014252071782699716
+11.555513997294390549
+13.30318797496616412
+15.083892206240705036
+8.6094816209511098037
+12.833028553062327148
+8.6000471158101277069
+7.0806965325168595982
+16.156835464068155517
+4.7100851147505533589
+14.5914998758476262
+16.143900474084340146
+12.4334152701852787
+6.0228990325781879278
+6.4727419157718451004
+6.04122611677335275
+25.414545899622133618
+17.079455992606845882
+14.010786743307736657
+21.447320986171920509
+15.470893275050249471
+9.3419482528698747359
+13.501288447871747422
+7.0177883214030440939
+1.8661373513911667654
+-0.49124761363730179431
+10.542530651770547934
+3.4353925080534986058
+23.666956602841434432
+16.604113377617309766
+10.386424462167569871
+22.129862009675093759
+25.148175052497027337
+4.5050056835039029579
+14.543519045873949835
+2.4700663532682285428
+14.581658431533504938
+11.256760412041673547
+15.889034390434082056
+2.6941965718862781465
+8.2854431591219039888
+7.2372376786295733453
+1.8209703620234169996
+1.8209703620234169996
+1.8209703620234169996
+1.3235155461621512796
+1.3235155461621512796
+1.3235155461621512796
+1.5026219119151285053
+1.5026219119151285053
+1.5026219119151285053
+12.482787763245481116
+11.809210781968941362
+4.5509629982400019443
+11.021423224356743376
+6.5583696226239620586
+12.351198908115321728
+7.0959071364782566604
+12.762500003974460938
+4.4663766282578984956
+7.3281066510065686614
+4.4663766282578984956
+7.3281066510065686614
+4.4663766282578984956
+7.3281066510065686614
+2.3734817220768724688
+22.354704357529019632
+5.9369792034734008013
+2.3776211431553280207
+4.8771506396171897535
+13.566668352504915873
+8.1395437617971211353
+8.0200157953277901868
+6.8076667322837822738
+6.38371242853592058
+6.7780765918060676967
+6.8076667322837822738
+6.38371242853592058
+6.7780765918060676967
+5.5365549109642095971
+5.65466985586953097
+5.5365549109642095971
+5.65466985586953097
+5.5365549109642095971
+5.65466985586953097
+10.472687244439011778
+4.2263151633052808975
+4.1079227943498315412
+4.9315576637644609193
+0.21524541998136470511
+8.9888532027911445255
+14.332656475981133681
+14.858337880006109444
+7.9450110734541263824
+6.0689205231546043962
+12.413339239719633156
+1.2237891973190115902
+1.2237891973190115902
+1.2237891973190115902
+8.4795785537364025686
+8.9883917263857249225
+2.8458148418628828047
+5.0425785573771628734
+9.3840863124381961313
+11.456731968123696319
+9.3840863124381961313
+11.456731968123696319
+9.4384896396027802012
+10.523415918835654637
+8.8428814092773908584
+17.909345238001954215
+4.8404670908707609911
+9.8328272976107378156
+2.9321023405956312402
+6.6951062957397935449
+11.846844079554857743
+14.448799907777539531
+8.2088525706970134621
+23.579756485494414164
+13.209718626815483589
+7.8165254278975089264
+9.6024716633162743307
+15.344050776156512583
+6.5095120500245418071
+0.63300477022380208236
+15.301571801404360684
+25.665483081460845227
+13.384418665619586264
+17.078229715265081268
+2.1053323742974168198
+20.624439046022029487
+16.866914353579829822
+16.591097144360436033
+13.487433575367488103
+15.7123402879040448
+14.645785935684376255
+16.553300559929486013
+19.290353454696308688
+15.161340530466848264
+12.421594058000257732
+26.227949281554458594
+4.2591020087062823052
+16.172567921891477738
+24.135706783339944792
+12.176530286519701818
+0.29649773834132792105
+2.6634422468838816478
+0.19228932050058322734
+13.936829997785961766
+7.4964866581424738357
+6.8764646962275683961
+18.55643210291353995
+12.115414363394295449
+13.992803067482654455
+24.492150304401413052
+14.738760022931144178
+9.0454436089239766972
+12.88224601647475076
+8.3601429187888047778
+16.744366955577934419
+13.019099904334932916
+10.175311197596617063
+10.014342334181451477
+9.5342406645927297859
+9.4334438935265918502
+4.4895639398951345811
+5.9326205411316346172
+15.476068921993034522
+0.49522361138739628972
+0.90094638363719814489
+15.622268788397111194
+17.136919986713650133
+15.381019357762582445
+16.686188385012609814
+10.515416295775592559
+13.942541940005376944
+12.210052270119881257
+21.359746653737857969
+1.745893952554222528
+0.2637404163868558582
+11.193304126567372947
+1.4918373528263479955
+1.4918373528263479955
+1.4918373528263479955
+8.207682767538361901
+26.51833911509460151
+7.1380040078694131367
+7.5014021509610548932
+10.709764303636561067
+22.535925990054753498
+14.092382902223835828
+8.5663212119614904339
+6.3427781593000824856
+15.459326336633619547
+-1.3342794040397842892
+20.593865110228136928
+3.6801070529748143301
+19.144900955557304201
+13.654336361061869098
+20.897062756634653624
+17.598013504141704288
+5.0671973702776584858
+12.685733702569134351
+14.282081154131279987
+10.881708040516000935
+17.027350382278584107
+27.74961259617820275
+1.776852910821192566
+1.6192223522113335932
+2.141088800505995593
+2.141088800505995593
+2.141088800505995593
+14.655976885490469286
+13.432896813799803937
+3.8914508601741548688
+10.249900017196102553
+9.942790635814358069
+10.390706893811499256
+4.5035568328115873626
+12.787878855444452242
+10.844283035368727397
+17.486270556297071721
+13.571977386000050103
+7.6372920531334571592
+8.328479186649079935
+18.70588777321740892
+11.406558435117208461
+21.837809937196368537
+11.406746303298398004
+13.724387587968063684
+12.590900243831191219
+5.4025438345791876316
+17.38583447789916292
+11.917444691678696245
+19.556114597688672774
+12.096983814184012473
+18.739152136931139125
+20.116628059290761144
+13.579798408567675949
+2.7363848380441635477
+13.868640865684097818
+8.690595254226456845
+4.1881043125942953864
+1.3014033688724684357
+9.73348011638553956
+5.0625854331121065144
+6.1109977267672981327
+6.0900227435597260595
+7.0412553690946477758
+11.512621075557042616
+16.34568252299221669
+0.65762127253591295961
+9.743950846956122902
+8.5483603951305635604
+18.338751855408382596
+17.188406166243904494
+11.142346320779985547
+11.403165843461884776
+8.3852886026136470576
+12.410464224219394325
+16.742194665250860197
+15.22527049563041146
+12.453522074142359344
+15.213739195397915083
+5.4282866311627868683
+16.511265431840460138
+15.0736724460846645
+9.2692522927887814888
+5.3184115931622644169
+12.566498167400455443
+17.892399055580614942
+20.449259810380230107
+17.971224349610984916
+11.17084374157384552
+9.3344462171515978355
+15.53710847481817936
+25.154363778033534516
+19.074791508762409364
+4.7727100010622498516
+4.3166481218936407771
+4.0505271866996777064
+4.7727100010622498516
+4.3166481218936407771
+4.0505271866996777064
+10.57761558030273541
+14.799003579552545418
+16.45410453372102566
+13.715780590115834059
+9.6110197341098295709
+9.8083959127303099734
+9.7057920672174624599
+12.45557838562276487
+14.152223162656914823
+10.721382243174527815
+16.869942054274734033
+2.6149371262602199018
+20.572439833322029301
+13.828029286297519818
+8.5293838294163446534
+13.722542442323883094
+23.763567227706818841
+16.670346498799073487
+19.982240629843186497
+3.9566042941041428271
+21.96660601257070411
+0.40076631723687089481
+0.69801718288505631982
+12.471742984781757357
+10.164315041072415013
+15.756479620779270334
+10.618108072724805169
+9.3764593821160104881
+12.504292040083031523
+15.913470545367699671
+18.244335793983012195
+12.702786768738191014
+11.98689666243816454
+9.8530090809775678906
+17.639027823003821993
+13.727648356385577344
+6.2425157539055255995
+22.731745375298800127
+13.866477113465945692
+8.1091133213916197775
+7.5767934108424057627
+15.057628125592197321
+9.6587999315975334724
+14.103955171988648232
+20.147169565746072095
+17.910502864988636418
+8.8825548737637181063
+20.966994218765730551
+5.6707241904748917349
+0.63126199856293796486
+13.848507353761178251
+7.5951168486188569418
+5.5438844727512490707
+0.47315623423192065822
+19.749877592043254992
+16.878214500856902447
+14.221653872120137763
+10.365653026103903045
+11.445564001497354312
+7.3191463534521252754
+0.62447655534129287158
+19.294719409006710009
+9.6567929346195580109
+9.6894961065211244744
+6.881017164873187042
+6.1554235922793978375
+7.3314220831037273385
+7.8103486221121407596
+15.239127243963425329
+2.4840848502301375866
+3.8121050650022132444
+10.801739372875642786
+8.8578853905766070653
+6.9401959444547083322
+0.67217313593203076305
+0.29389482191380672527
+14.985218095434746033
+14.577436349407857819
+19.019090739873604434
+36.103391009852167315
+17.92844679957863363
+12.677851273477227068
+13.827466979065892616
+13.892415572509834831
+3.1040214167542488077
+5.0842112591966781565
+10.798974794628922069
+18.652247041840784192
+11.82883713073672638
+6.1276218925213523647
+3.2794290640489713873
+23.353531702344920262
+14.235342286676939239
+19.117238159182708301
+0.99320144137281385355
+16.799115884920734487
+15.518140231984069999
+28.693707764161096918
+18.245850416987487108
+11.539669208808255974
+19.286117635785242186
+4.7842754233165036837
+5.5541756731926081869
+2.1710958679397989179
+6.9972244554095706093
+5.542304859111816917
+8.4633908175017076303
+1.7317807925322319385
+14.906403516797176678
+23.825867993883495188
+11.887590432667451523
+1.4468090915160567445
+0.86568886599014371885
+15.140292702938301872
+8.573177882326548982
+6.0341066713261621857
+15.616559915622838517
+13.494974087279029362
+7.3590857157796172316
+16.583581421822081836
+22.37305431990457194
+15.992365232274615039
+0.46801405595597317388
+17.132676115085548219
+19.082682561421329126
+7.8501655884833088095
+6.8705273321758379979
+14.800625861408176931
+17.256281840023707019
+16.075494027853043377
+12.640828638163851494
+15.768279965922710417
+0.79541258991682028956
+18.548840810885611319
+15.044668606820399859
+3.1696490834474624343
+15.522835368494897423
+1.895904763705282825
+8.6115841819315992467
+0.75950644254719001935
+16.011351761287556883
+9.2933201361358150905
+7.9092428314065967854
+11.596729012089516786
+7.4220380036847322103
+5.8285191052483993346
+3.4240513332652788847
+15.929840644935106653
+9.975729780730963725
+10.529322216343862451
+6.2675956018045111406
+6.2675956018045111406
+6.2675956018045111406
+5.5370418896337767478
+0.65627060841484652354
+19.624377665317183528
+10.236618446048415976
+22.401001302481855504
+1.5848365099319154936
+12.406773280408195603
+11.338478648420656114
+12.561016675723521985
+13.408381186518466777
+6.3264692235030439704
+6.3264692235030439704
+1.7495416777183172563
+8.9546747932599917164
+17.118299152513444028
+13.750095803002995609
+8.9327483804572569426
+20.699500413794666542
+1.8226233920454697479
+17.413960575908109973
+15.070216241294300374
+11.23764040002397735
+5.2424614848428827685
+15.566209152236202939
+15.943868749325185163
+0.28389170909147387611
+11.736374064625920255
+1.2709684808371757292
+1.4745343478606152132
+0.24134973656772043538
+12.536647309849803023
+12.877990168198609311
+3.3698286344895627131
+0.15661705652514007481
+7.89970471741280722
+1.546369463140840006
+17.683571944295227496
+18.149591072686565241
+19.450992127264203901
+15.169155725096517884
+3.9119386673292337875
+5.022085479316563017
+7.9147799386012236411
+13.976687596639333577
+1.1745957575560987962
+14.824339382845588275
+22.821072049433478668
+6.8894161328070273598
+13.274336050897964867
+11.643985030229792699
+12.460527853124009567
+1.8822959955015658995
+8.3931778100374838658
+10.517474581045135551
+6.6354913315935215579
+2.5135598220499724142
+13.324592528246586909
+8.0315879019106972692
+4.2670070001143116656
+4.2670070001143116656
+4.2670070001143116656
+11.895340970420507531
+18.058567544646006553
+17.227665989380781753
+4.8250006094497841502
+12.803403338841039982
+12.065465007392296215
+12.227678417237457964
+21.205288230773479796
+13.90957058309924399
+20.851203290716110672
+10.799141678952160817
+12.387173823576848264
+14.525596798778844132
+22.540934689611596298
+19.18316288696052041
+6.6992167502679462743
+13.412268091257335101
+17.020988085373929266
+13.200095919124791521
+15.975261896428341046
+10.569537626060862223
+14.064232810623877867
+15.539234100759179213
+0.67397783792726362329
+7.715100146727063013
+12.608844963186228938
+10.965559930990135484
+13.901599142869892844
+36.638958282597450022
+11.037393132087721881
+11.037393132087721881
+9.918662970960347991
+3.8474772228130054152
+14.214993200287057817
+14.74824303178889906
+2.6653254870427622869
+6.7720065983968318335
+7.5187805711947168774
+12.478174519814174914
+14.362381909858125795
+6.5864858374561983112
+14.214811113519768782
+7.5428290906563164597
+9.579262611271452954
+23.572139606228102338
+5.6284871430176171003
+0.60426309462045524334
+14.778308185239593442
+11.93664100887736268
+10.324037578705160811
+8.3086230816302641955
+11.495809363734100117
+1.8459302127306602692
+5.3407437239301351894
+4.0880367641111661214
+5.3407437239301351894
+4.0880367641111661214
+5.3407437239301351894
+4.0880367641111661214
+19.076532889283171812
+13.04037478221406765
+18.160207860728348805
+15.992534986617416237
+13.903745532165457277
+5.7005750043386873571
+15.066867015906476368
+4.024823584099375573
+3.0668581579353304534
+10.740745598010432715
+15.311631966861222409
+16.46816048825338541
+1.7985906854918953801
+7.5774657096293074332
+28.476727389358572395
+23.190354530866741811
+4.1937499388065342387
+4.3972254643757997528
+10.709965123832111189
+16.490054972015940393
+12.796629111969654247
+13.322985517781665621
+24.49188747382175535
+9.9388256833122525791
+16.681615098293910648
+8.1808146358130553466
+1.2813657566477105743
+1.2813657566477105743
+1.6573014313922103113
+4.358348349901558727
+8.0550017297512148673
+14.65245633386486368
+16.010042428035589523
+13.221472009475768061
+8.7804776525807746168
+8.7804776525807746168
+3.5470024375824351637
+13.612779463587230566
+0.66917823933778841639
+5.2455409523061744537
+1.1215231910340370813
+9.1797473600088945744
+4.6933863065606074017
+1.7381474818615820777
+15.187654494236792146
+10.500932236729630276
+17.933049755504107736
+4.5292348299026423675
+13.101508914447006049
+15.325525802929657715
+4.7627848905934584423
+5.9699902433432203708
+16.04707648917121432
+15.102759048320791635
+0.46980947476163054111
+0.29743473094863359663
+10.566380333806892011
+19.046712901245459904
+20.092588631978813396
+13.369311141891843775
+2.1810916436313179112
+10.29754421877788495
+0.71346318554503285192
+6.9895190297017553149
+13.005400141076497889
+17.117817048762439924
+18.191612717774116703
+11.430607576973351058
+0.43933553388576040977
+11.788406605098581181
+8.9145126274890991169
+12.276833490015246042
+16.285367212480501564
+7.9510663768935314621
+9.1106817700387043857
+6.6539101417756008061
+13.599330315524582602
+10.558763139294072175
+14.322826555327983655
+15.436018469804004383
+0.27717706884972087567
+7.405131638529051763
+24.107765075726515391
+2.117722811005937178
+13.674868313023207378
+9.6572840518011435762
+10.843020707374900979
+17.922384965584747363
+11.479858693926626501
+16.967574495155414382
+4.8302241938471697225
+4.7476460899463459597
+7.7573952946630759797
+1.7921965970488953346
+13.258308476335180615
+2.468008554884827177
+2.468008554884827177
+14.444113624523875927
+20.047522417599378031
+11.851916938741675622
+20.386311380112946523
+22.857839838732608939
+9.8883141206545825952
+9.1611616782854259355
+14.876276255604761189
+9.4806191457275055257
+11.209733659183720889
+11.994614883200789279
+11.051898495400042322
+3.3745649414387046683
+2.2761944321463838392
+7.8085563852281456576
+1.9514342862629041608
+11.033441870004713437
+12.470932260612645592
+10.727293997373129386
+16.991666720053903106
+14.982150938690949715
+17.758140892488519569
+8.2905262472447702748
+14.10624879125952269
+0.37902884302593742305
+1.4232510359328427452
+10.71269660221759068
+14.456794232458335614
+12.635656084584260483
+14.88189032210494922
+19.107896403878847025
+2.6492431723641036712
+1.066546354984045708
+10.149230938523396972
+2.6354684157504979503
+10.760734835157832023
+6.7342427742234924892
+13.941749475345247333
+19.1207599319668482
+5.7619499660695572274
+9.8263451361371636494
+15.772682710839667664
+17.604695491545843566
+2.6211888488804939712
+0.7475743821252335275
+1.7764442471406274304
+7.834312424592488
+9.8063912808005859745
+16.495000622728866801
+11.352535460893555808
+2.6424908980956929305
+13.20135990476127219
+16.962524515047853413
+18.947084815765109056
+17.595037039325674755
+1.7897135260123284706
+15.095914391419348988
+2.1073313679513656638
+0.48785015735998632502
+10.518400782981881747
+16.708918139550615223
+9.1444861559339631896
+12.940248474128644318
+7.2990694800255049302
+16.721412270787460841
+16.09867817447102567
+15.875556713076459658
+11.922110427794937237
+14.5104404796055384
+15.515262854220761568
+19.038936205334493934
+14.182927899587602028
+7.5626281102217216556
+12.005953986945874234
+14.509018605363920074
+16.645000007854495294
+17.717749716275225325
+13.774989820271402508
+14.038125789916350072
+0.2459761782435832822
+14.330080472741288489
+6.607461851901701877
+12.261627447766647592
+24.077033054635087694
+13.765576578044257161
+13.29571575172537834
+11.314644111641605662
+14.943908574408386158
+4.3623656421938141747
+13.058996628110788762
+2.4543031566575281843
+16.93004126376212426
+0.46344326344245645455
+9.287895178754490999
+12.697032935565202294
+16.070681462381774196
+15.350065792544915766
+2.6482745352564980301
+2.108306506159901339
+0.29456704024882901516
+13.057969890738752028
+11.624904733920082833
+12.161027453507799123
+16.763696836508991339
+11.196743693003835318
+15.090319607890201326
+13.944439768451411865
+10.089324096327343838
+11.809398988649416395
+0.22783480897995936343
+1.1201187837423374205
+14.071899979357290533
+9.2183385530567143462
+17.766806790504723779
+21.283905697838960691
+11.639303471856386807
+7.9183871865663997269
+12.556530322617140527
+19.264615166879252683
+17.935066702745999123
+13.841099074806505698
+10.374938632563173613
+8.870117171330436534
+13.808370581484744832
+0.27332743269023873633
+7.7154243281775745089
+2.1067585643859461086
+14.498096271632856968
+3.0779386094765635029
+11.452341300075337571
+7.1606752256517944843
+13.373039952584074186
+0.45097806994807693171
+18.398791364324466713
+12.685162150804231374
+1.1549970431910665525
+14.954362820986789373
+11.289303134346351243
+19.716358290254142105
+0.30841422586158412367
+0.71032738724554245202
+13.228441221220817781
+12.599403194659791083
+15.830586740108456567
+13.035410446922275796
+15.994879029249833735
+26.732881714811146168
+18.132565756048943939
+23.278401776780327737
+22.893969993856298828
+14.111762010762461728
+2.1270071338567952957
+8.0338911279413292021
+11.869825074924676755
+22.239023015105104264
+14.911440376511039929
+8.650543953793103924
+17.139558305860354892
+8.5844005637539044784
+11.164288020243837707
+13.929623103877117885
+0.33844019124708052404
+22.570889272567093542
+12.762969589612714216
+14.660912822354163154
+22.214606741030763715
+13.817518604722085485
+13.667991104333749419
