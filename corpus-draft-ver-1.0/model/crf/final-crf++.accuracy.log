@@ -1,0 +1,180 @@
+
+### Evaluation for train1:
+closed-test: 
+Accuracy: 98.92% (10285/10397)
+
+Most common mistakes:
+ថា/VB --> ថា/IN	3
+JJ --> មាន/VB	3
+បាន/VB --> បាន/AUX	2
+នៅ/RB --> នៅ/IN	2
+នៅ/VB --> នៅ/IN	2
+ខ្លួន/PRO --> ខ្លួន/NN	2
+សួរ/VB --> សួរ/NN	1
+គឺ/IN --> គឺ/VB	1
+រ៉ូសបឺក/PN --> រ៉ូសបឺក/NN	1
+JJ --> តវ៉ា/VB	1
+open-test: 
+Accuracy: 89.24% (9618/10778)
+
+Most common mistakes:
+បាន/VCOM --> បាន/AUX	15
+ជា/IN --> ជា/VB	13
+នឹង/IN --> នឹង/AUX	10
+ហើយ/CC --> ហើយ/RB	8
+នៅ/VB --> នៅ/IN	8
+JJ --> មាន/VB	8
+ទៅ/VB --> ទៅ/IN	8
+ជា/VB --> ជា/IN	7
+បាន/VB --> បាន/AUX	7
+ឲ្យ/VB --> ឲ្យ/IN	5
+
+### Evaluation for train2:
+closed-test: 
+Accuracy: 98.83% (10275/10397)
+
+Most common mistakes:
+JJ --> មាន/VB	4
+នៅ/VB --> នៅ/IN	2
+គឺ/IN --> គឺ/VB	2
+បាន/VB --> បាន/AUX	2
+JJ --> ស្គាល់/VB	2
+នៅ/RB --> នៅ/IN	2
+ដល់/VB --> ដល់/IN	2
+ខ្លួន/PRO --> ខ្លួន/NN	2
+ថា/VB --> ថា/IN	2
+JJ --> ធ្វើ/VB	2
+open-test: 
+Accuracy: 92.07% (9923/10778)
+
+Most common mistakes:
+ជា/IN --> ជា/VB	12
+បាន/VCOM --> បាន/AUX	10
+ជា/VB --> ជា/IN	8
+JJ --> មាន/VB	8
+ហើយ/CC --> ហើយ/RB	8
+នៅ/VB --> នៅ/IN	8
+ទៅ/VB --> ទៅ/IN	6
+ឲ្យ/VB --> ឲ្យ/IN	5
+ព្រះ~អង្គ/NN --> ព្រះ~អង្គ/PRO	4
+ជាង/IN --> ជាង/RB	4
+
+### Evaluation for train3:
+closed-test: 
+Accuracy: 98.76% (10268/10397)
+
+Most common mistakes:
+ថា/VB --> ថា/IN	3
+ព្រះ~អង្គ/PRO --> ព្រះ~អង្គ/NN	2
+ឲ្យ/VB --> ឲ្យ/IN	2
+ទៅ/VB --> ទៅ/IN	2
+នៅ/VB --> នៅ/IN	2
+បាន/VB --> បាន/AUX	2
+JJ --> ស្គាល់/VB	2
+នៅ/RB --> នៅ/IN	2
+គឺ/IN --> គឺ/VB	2
+មក/VB --> មក/IN	2
+open-test: 
+Accuracy: 93.00% (10024/10778)
+
+Most common mistakes:
+ជា/IN --> ជា/VB	12
+ជា/VB --> ជា/IN	8
+បាន/VCOM --> បាន/AUX	8
+ហើយ/CC --> ហើយ/RB	8
+នៅ/VB --> នៅ/IN	7
+JJ --> មាន/VB	7
+ទៅ/VB --> ទៅ/IN	6
+មុន/IN --> មុន/JJ	5
+ឲ្យ/VB --> ឲ្យ/IN	5
+នឹង/IN --> នឹង/AUX	4
+
+### Evaluation for train4:
+closed-test: 
+Accuracy: 98.71% (10263/10397)
+
+Most common mistakes:
+គឺ/IN --> គឺ/VB	3
+មក/VB --> មក/IN	3
+ថា/VB --> ថា/IN	3
+ដល់/VB --> ដល់/IN	2
+មក/RB --> មក/VB	2
+ហើយ/CC --> ហើយ/RB	2
+ជូន/VB --> ជូន/IN	2
+ទៀត/JJ --> ទៀត/RB	2
+JJ --> ស្គាល់/VB	2
+ព្រះ~អង្គ/PRO --> ព្រះ~អង្គ/NN	2
+open-test: 
+Accuracy: 93.97% (10128/10778)
+
+Most common mistakes:
+ជា/IN --> ជា/VB	11
+បាន/VCOM --> បាន/AUX	8
+ជា/VB --> ជា/IN	8
+ហើយ/CC --> ហើយ/RB	7
+JJ --> មាន/VB	6
+ទៅ/VB --> ទៅ/IN	6
+នៅ/VB --> នៅ/IN	5
+បាន/VB --> បាន/AUX	4
+JJ --> ជា/VB	4
+នឹង/IN --> នឹង/AUX	4
+
+### Evaluation for train5:
+closed-test: 
+Accuracy: 98.61% (10252/10397)
+
+Most common mistakes:
+ថា/VB --> ថា/IN	3
+មក/RB --> មក/VB	3
+គឺ/IN --> គឺ/VB	3
+មក/VB --> មក/IN	3
+ប្រកួត/NN --> ប្រកួត/VB	2
+នៅ/VB --> នៅ/IN	2
+ហើយ/CC --> ហើយ/RB	2
+ទៅ/IN --> ទៅ/VB	2
+មុន/RB --> មុន/JJ	2
+ដល់/VB --> ដល់/IN	2
+open-test: 
+Accuracy: 94.46% (10181/10778)
+
+Most common mistakes:
+ជា/IN --> ជា/VB	11
+ជា/VB --> ជា/IN	9
+ហើយ/CC --> ហើយ/RB	7
+បាន/VCOM --> បាន/AUX	7
+JJ --> មាន/VB	6
+ទៅ/VB --> ទៅ/IN	6
+ឲ្យ/VB --> ឲ្យ/IN	5
+នៅ/VB --> នៅ/IN	4
+JJ --> ធ្វើ/VB	4
+បាន/VB --> បាន/AUX	4
+
+### Evaluation for train6:
+closed-test: 
+Accuracy: 98.61% (10252/10397)
+
+Most common mistakes:
+ដល់/VB --> ដល់/IN	4
+មក/VB --> មក/IN	3
+គឺ/IN --> គឺ/VB	3
+ថា/VB --> ថា/IN	3
+JJ --> ស្គាល់/VB	2
+ហើយ/CC --> ហើយ/RB	2
+ជូន/VB --> ជូន/IN	2
+នៅ/RB --> នៅ/IN	2
+ទៅ/IN --> ទៅ/VB	2
+ទៅ/VB --> ទៅ/IN	2
+open-test: 
+Accuracy: 94.82% (10220/10778)
+
+Most common mistakes:
+ជា/IN --> ជា/VB	11
+ជា/VB --> ជា/IN	8
+ហើយ/CC --> ហើយ/RB	7
+បាន/VCOM --> បាន/AUX	7
+JJ --> មាន/VB	6
+JJ --> ជា/VB	5
+នៅ/VB --> នៅ/IN	5
+ទៅ/VB --> ទៅ/IN	5
+ហើយ/RB --> ហើយ/CC	4
+ប្រកួត/NN --> ប្រកួត/VB	4
