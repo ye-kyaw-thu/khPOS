@@ -28,23 +28,18 @@ The definitions and descriptions of POS tags are presented in detail as follow:
 2. Adjective is a word used to modify or describe the noun. Adjective is usually at the right hand side of noun. There are very few adjectives that their positions are before noun. ក្រហម (red), កន្លះ (half), ប្លែក (strange), តូច (small), ល្អ (good), ស្អាត (beautiful) etc.
 3. Adverb (RB): An adverb is a word that is used to modify verb, adjective or another adverb. For example, ណាស់ (very), ពុំ (not), ទើប (just), ពេកក្រៃ (very), ហើយ (already) etc.
 4. Auxiliary Verb (AUX): Only three groups of verbs are tagged as auxiliary verb that used to make tense.
- - Past form: {\kh \small{បាន}} or {\kh \small{មាន}} + Verb
- - Progressive form: {\kh \small{កំពុង}} + Verb
- - Future form: {\kh \small{នឹង}} + Verb
+ - Past form: បាន or មាន + Verb
+ - Progressive form: កំពុង + Verb
+ - Future form: នឹង + Verb
 5. Cardinal Number (CD): A cardinal number is a word or a number that denoting the quality. For example, បី (three), ១០០ (100), ចតុ (four), ពាន់ (thousand), លាន (million) etc. 
 6. Conjunction (CC): Conjunction is a word to connect between words, phrases, and sentences. ក៏ប៉ុន្តែ (but), ពីព្រោះ (because), ដ្បិត (for, since), ទម្រាំតែ (until), ពុំនោះសោត (otherwise), បើ (if) etc.
 7. Currency (CUR): CUR for currency symbol such as: ៛, \$, ₤, € etc.
 8. Determiner Pronoun (DT): In Khmer grammar, determiners are classified under pronoun unlike English. It is used to tell location or/and uncertainty of noun. They are equivalent to English words: this, that, those, these, all, every, each, some etc. For example, នេះ (this), នោះ (that), ទាំងនេះ (these), ទាំងអស់ (all), នានា (various), ខ្លះ (some), សព្វ (every) etc.
-
-\item Double Sign (DBL): Double sign ({\kh \small{ៗ}}) is used to remind reader to read the previous word twice. For example, {\kh \small{មនុស្ស}}/NN (people) {\kh \small{គ្រប់}}/DT (every) {\kh \small{ៗ}}/DBL {\kh \small{គ្នា}}/PRO (person), \dquotes{everybody} in English.
-
-\item Et Cetera  (ETC): {\kh \small{។ល។}} is equal to et cetera (etc.) in English.
-
-\item Full Stop (KAN): There are two full stops in Khmer language, {\kh \small{។}} for sentence and {\kh \small{៕}} for paragraph.
-
-\item Interjection (UH): Word represents sound of animal, machine, and surprised sound. Interjections are always at the beginning of a sentence, and mostly followed by exclamation mark. For example, {\kh \small{អូ​}} (Oh!), {\kh \small{ម៉េវ}} (Meow), {\kh \small{អ៊ុះ}} (uh) etc.
-
-\item Measure Word (M): Measure Words are classified to describe different quality corresponding class of noun. Some of these words can not be found in English. For example: {\kh \small{ព្រះសង្គ}}/NN (monk) {\kh \small{២}}/CD (2) {\kh \small{អង្គ}}/M (person), {\kh \small{សំលៀកបំពាក់}}/NN (cloth) {\kh \small{១}}/CD (1), {\kh \small{សម្រាប់}}/M (set), {\kh \small{ ឆ្កែ}}/NN (dog) {\kh \small{១}}/CD (1) {\kh \small{ក្បាល}}/M (head) etc.
+9. Double Sign (DBL): Double sign (ៗ) is used to remind reader to read the previous word twice. For example, មនុស្ស/NN (people) គ្រប់/DT (every) ៗ/DBL គ្នា/PRO (person), "everybody" in English.
+10. Et Cetera  (ETC): ។ល។ is equal to et cetera (etc.) in English.
+11. Full Stop (KAN): There are two full stops in Khmer language, ។ for sentence and ៕ for paragraph.
+12. Interjection (UH): Word represents sound of animal, machine, and surprised sound. Interjections are always at the beginning of a sentence, and mostly followed by exclamation mark. For example, អូ (Oh!), ម៉េវ (Meow), អ៊ុះ (uh) etc.
+13. Measure Word (M): Measure Words are classified to describe different quality corresponding class of noun. Some of these words can not be found in English. For example: {\kh \small{ព្រះសង្គ}}/NN (monk) {\kh \small{២}}/CD (2) {\kh \small{អង្គ}}/M (person), {\kh \small{សំលៀកបំពាក់}}/NN (cloth) {\kh \small{១}}/CD (1), {\kh \small{សម្រាប់}}/M (set), {\kh \small{ ឆ្កែ}}/NN (dog) {\kh \small{១}}/CD (1) {\kh \small{ក្បាល}}/M (head) etc.
 
 \item Noun (NN): A noun is a word or compound word that identifies a person, an animal, an object, an idea, a thing, etc. For example: {\kh \small{ឡាន}} (Car), {\kh \small{ការអភិវឌ្ឍន៍}} (Development), {\kh \small{សកម្មភាព}} (Action), {\kh \small{ខ្មៅដៃ}} (Pencil), {\kh \small{ទឹកកក}} (Ice) etc.
 
