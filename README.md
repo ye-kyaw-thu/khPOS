@@ -18,6 +18,8 @@ In Khmer texts, words composed of single or multiple syllables are usually not s
 - Word Type 3: Compound Words with Prefix
 - Word Type 4: Compound Words with Suffix
 
+For the detail information of the word segmentation rules and how we built a Khmer word segmentation model, please refer to our published paper (see Publiation Section).
+
 ## Publication
 Vichet Chea, Ye Kyaw Thu, Chenchen Ding, Masao Utiyama, Andrew Finch and Eiichiro Sumita, "Khmer Word Segmentation Using Conditional Random Fields", In Khmer Natural Language Processing 2015 (KNLP2015), December 4, 2015, Phnom Penh, Cambodia. 
 [paper](http://khmernlp.org/2015/wp-content/uploads/2016/09/Paper-Khmer-Word-Segmentation-Using-.pdf)
