@@ -1,0 +1,107 @@
+JJ_IN should be IN
+VB_IN should be IN
+VB_NN should be NN
+ All of above are mistakes.
+Only VB_JJ must be keep as it is.
+
+=============
+
+Dear Vichet,
+
+This whole day, I keep writing our Khmer POS tagging paper.
+I hope I can send the draft version to you by tomorrow.
+I need your help for checking at least Khmer text potions and also some 
+Related Work and Acknowledgement sections.
+
+I also count the number of POS tags in our 12K corpus and as follows:
+
+! 66
+? 84
+AB 69
+AUX 2466
+CC 2788
+CD 3337
+DBL 392
+DT 4311
+ETC 7
+IN 13444
+JJ 4446
+JJ_NN 1
+KAN 3028
+LBR 683
+M 343
+NN 31946
+PA 829
+PN 20084
+PRO 12194
+QT 79
+RB 6428
+RBR 605
+RPN 1756
+SYM 960
+UH 56
+VB 16519
+VB_IN 2
+VB_JJ 1721
+VB_NN 7
+VCOM 364
+
+Keep in touch!
+
+Ye@Lab
+
+==============
+
+As shown in above; I noticed that we have manual tagging errors.
+Refer error-freq/ folder.
+I discussed with Vichet and decided to update corpus tags as follows:
+
+JJ_IN should be IN
+VB_IN should be IN
+VB_NN should be NN
+ 
+! and ? should be SYM.
+
+RBnews-pk-lift-18-6-15-pos000002	1	0.000775104% problem also!
+
+> LBR = left brace, RBR = right brace. It is used for brace and 
+quotation
+> speech......
+
+==============
+
+/home/ye/experiment/kh-pos/final-exp/data4release/before-replace folder is the folder that I kept some files before replacing ...
+(I can delete it, if I want)
+
+=============
+I replaced tags with following shell script:
+ye@DL-Box:~/experiment/kh-pos/final-exp$ ./tag-error-fix.sh 
+
+Then re-reculate freq:
+
+ye@DL-Box:~/experiment/kh-pos/final-exp/data4release$ cat ./train.all2.tag.freq 
+AB	69	0.0534822%
+AUX	2466	1.91141%
+CC	2788	2.16099%
+CD	3337	2.58652%
+DBL	392	0.303841%
+DT	4311	3.34147%
+ETC	7	0.00542573%
+IN	13446	10.422%
+JJ	4446	3.44611%
+KAN	3028	2.34701%
+M	343	0.265861%
+NN	31954	24.7677%
+PA	829	0.642561%
+PN	20084	15.5672%
+PRO	12194	9.45161%
+QT	79	0.0612332%
+RB	6428	4.98237%
+RPN	1756	1.36108%
+SYM	2412	1.86955%
+UH	56	0.0434058%
+VB	16519	12.8039%
+VB_JJ	1721	1.33395%
+VCOM	364	0.282138%
+
+==================
