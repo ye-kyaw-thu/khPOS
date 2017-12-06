@@ -67,6 +67,20 @@ The definitions and descriptions of POS tags are presented in detail as follow:
 
 24. Verb Complement (VCOM): Its original form is a verb, but it will turn into VCOM when two verbs in a sentence to emphasize the first verb. Especially, a compound verb is splitted by the word មិន (no or not), the first part is a verb and the second part is VCOM. For example, លក់ (sell) ដាច់/VCOM (a lot), ប្រលង (exam) មិន (no) ជាប់/VCOM (pass), ដេក/VB (sleep), មិន/RB (not) លក់/VCOM (sleep well) etc.
  
+## Files/Scripts
+
+**Scripts:** 
+
+**Data:**
+
+
+**Models:** 
+
+## Development and Support
+
+Contributors
+
+
 ## Publication
 Vichet Chea, Ye Kyaw Thu, Chenchen Ding, Masao Utiyama, Andrew Finch and Eiichiro Sumita, "Khmer Word Segmentation Using Conditional Random Fields", In Khmer Natural Language Processing 2015 (KNLP2015), December 4, 2015, Phnom Penh, Cambodia. 
 [paper](http://khmernlp.org/2015/wp-content/uploads/2016/09/Paper-Khmer-Word-Segmentation-Using-.pdf)
