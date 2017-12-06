@@ -10,6 +10,7 @@ The khPOS Corpus (Khmer POS Corpus) is a 12,000 sentences (25,626 words) manuall
 
 1814 : " ម៉ែ ឥត មាន ស្អប់_ខ្ពើម ឪពុក កូន ឯង ទេ ម៉ែ តែង នឹក មក កូន នឹង ឪពុក ឯង ពុំ មាន ភ្លេច ព្រម_ទាំង អ្នក\~ភូមិ ផង របង ជាមួយ ឯង ទៀត ដែល ម្ដាយ ធ្លាប់ នៅ ជាមួយ គេ ប៉ុន្តែ ម៉ែ ជាតិ ជា ទេព_ធីតា ពុំ អាច នៅ ជាមួយ មនុស្ស_លោក បាន យូរ ទេ រាល់ ថ្ងៃ ម៉ែ តែង ទៅ បំពេញ កិច្ច នៅ ចំពោះ មុខ ព្រះ\~ភក្ត្រ ព្រះ\~ឥន្ទ្រាធិរាជ គឺ សុំ អង្វរ ឲ្យ ព្រះ\~អង្គ ប្រទាន ពរ ដល់ កូន ឯង និង ឪពុក កូន ឯង កុំ បី ខាន មិន តែ ប៉ុណ្ណោះ ម្ដាយ បាន ទាំង ទូល សុំ ព្រះ\~ឥន្ទ្រ ឲ្យ ព្រះ\~អង្គ មេត្តា ផ្សាយ នូវ សុភ_មង្គល ដល់ មនុស្ស នៅ ឋាន នេះ ទូទៅ ផង កូន_ប្រុស ពន្លក ម្ដាយ ! ម្ដាយ ពុំ អាច នៅ ជាមួយ_នឹង កូន បាន ទៀត តែ ម្ដាយ យក កូន ឯង ទៅ លេង ប្រាសាទ ម្ដាយ ឯ ឋាន លើ មួយ ដង ម្ដាយ នឹង នាំ កូន ឯង ទៅ មុជ_ទឹក ក្នុង អាង ក្រអូប នៅ_ក្នុង សួន ព្រះ\~ឥន្ទ្រ ហើយ ទឹក នោះ នឹង ជម្រះ កាយ កូន ឯង ឲ្យ បាត់ ធំ ក្លិន មនុស្ស_លោក បន្ទាប់_ពី នោះ មក ម្ដាយ នឹង នាំ កូន ឯង ចូល ទៅ_ក្នុង ប្រាសាទ រួច នាំ កូន ឯង ទៅ ថ្វាយ_បង្រះ\~ឥន្ទ្រ " ។
 
-
+## Word Segmentation
+In Khmer texts, words composed of single or multiple syllables are usually not separated by white space. Spaces are used for easier reading and generally put between phrases, but there are no clear rules for using spaces in Khmer language. Therefore, word segmentation is a necessary prerequisite for POS tagging. In our khPOS corpus, we did manual word segmentation based on following rules:
 
 
