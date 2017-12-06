@@ -47,27 +47,19 @@ The definitions and descriptions of POS tags are presented in detail as follow:
 - Hesitation Particle: ខ្ញុំ (I) គិត (think) …អ៊ើ/PA (Er. . .) មិន (not) ឃើញ (see), ("I er… don’t think so" in English)
 - Response Particle: អើ/PA (Hm, Ah) ខ្ញុំ (I) ដឹង (know) ហើយ (already), ("Hmm I already know" in English)
 - Final Particle: There are some final particles such as ណា៎, សិន and ចុះ. Example usage of ណា៎: កុំ/RB (don't) ភ្លេច/VB (forget) ណា៎/PA, ("Hmm don't forget!" in English), Example usage of សិន: ចាំ/VB (wait) បន្តិច/RB (a while) សិន/PA, Example usage of ចុះ: ទៅ/VB (go) ចុះ/PA
-16. Preposition (IN): Preposition is a word or a compound word that is used to connect two different words or phrases. It indicate the place, time, possession, relation etc. For example, {\kh \small{ចំពោះ}} (to), {\kh \small{ដល់}} (to), {\kh \small{ដើម្បី}} (in order to), {\kh \small{ក្នុង}} (in), {\kh \small{លើ}} (on), {\kh \small{រវាង}} (between, around) etc. 
-
-\item Pronoun (PRO): A pronoun is a word that substitutes of a noun or a noun phrase. Those words are equivalent to Englis word: I, he, she, it, we, they, them, him, her etc. For example, {\kh \small{ខ្ញុំ}} (I), {\kh \small{គាត់}} (he or she), {\kh \small{យើង}} (we), {\kh \small{ពួកយើង}} (our group or we), {\kh \small{ខ្ញុំបាទ}} (polite form of I, me), {\kh \small{ទូលបង្គំ}} (I, me for conversation with royal family) etc.
-
-\item Proper Noun (PN): A proper noun is a noun that represents of a unique thing, for example, name of person, name of place and name of date etc. For example: {\kh \small{សុខា}} (Sokha) {\kh \small{ភ្នំពេញ}} (Phnom Penh),{\kh \small{ ថ្ងៃអង្គារ}} (Tuesday), {\kh \small{កាល់តិច}} (Caltex), {\kh \small{មេគង្គ}} (Mekong) etc. 
-
-\item Question Word (QT): In Khmer language, {\kh \small{តើ}} is mostly used in the beginning of an interrogative sentence. For example, 
-{\kh \small{តើ}}/QT {\kh \small{អ្នក}}/PRO (you) {\kh \small{ឈ្មោះ}}/NN (name) {\kh \small{អ្វី}}/PRO (what)?, \dquotes{What is your name?} in English.
-
-\item Relative Pronoun (RPN): In Khmer language, there is only one relative pronoun. It is {\kh \small{ ដែល }}\dquotes{that, which, where, who} in English. 
-
-\item Symbol (SYM): SYM for others sign or symbol such as: $+, -$, *, \/, ៖, =, @, \#, \% etc.
-
-\item VB\_JJ: VB\_JJ is a tag for an adjective which its original form is a Verb. Currently, there is no proposed POS tag name for such kind of Khmer words. Although we can use JJ tag, we want to clarify by using VB\_JJ POS tag for its function and also for semantic purpose. For example: 
-
-\item The word {\kh \small{សម្រាប់}} (for) or {\kh \small{ដើម្បី}} (to) is normally removed in both written and spoken Khmer. \\
-{\kh \small{កន្លែង}}/NN (place) {\kh \small{សម្រាប់}} (for){\kh \small{ ធ្វើការ}}/VB\_JJ (working), office in English  \\
-{\kh \small{ម៉ាស៊ីន}}/NN (Machine) {\kh \small{សម្រាប់}} (for) {\kh \small{បោក}}/VB\_JJ (washing) {\kh \small{ខោអាវ}}/NN (cloth), washing machine in English \\
-{\kh \small{ពួកគាត់}}/PRO (they) {\kh \small{អាច}}/VB (can) {\kh \small{មាន}}/VB (have) {\kh \small{ការងារ}}/NN (work){\kh \small{ ធ្វើ}}/VB\_JJ (to do)
-
-\item When Khmer Relative Pronoun is removed, the verb form keep the same as it was. It must be VB\_JJ it is no longer a Verb in subbordiante clause. \\
+16. Preposition (IN): Preposition is a word or a compound word that is used to connect two different words or phrases. It indicate the place, time, possession, relation etc. For example, ចំពោះ (to), ដល់ (to), ដើម្បី (in order to), ក្នុង (in), លើ (on), រវាង (between, around) etc. 
+17. Pronoun (PRO): A pronoun is a word that substitutes of a noun or a noun phrase. Those words are equivalent to Englis word: I, he, she, it, we, they, them, him, her etc. For example, ខ្ញុំ (I), គាត់ (he or she), យើង (we), ពួកយើង (our group or we), ខ្ញុំបាទ (polite form of I, me), ទូលបង្គំ (I, me for conversation with royal family) etc.
+18. Proper Noun (PN): A proper noun is a noun that represents of a unique thing, for example, name of person, name of place and name of date etc. For example: សុខា (Sokha) ភ្នំពេញ (Phnom Penh), ថ្ងៃអង្គារ (Tuesday), កាល់តិច (Caltex), មេគង្គ (Mekong) etc. 
+19. Question Word (QT): In Khmer language, តើ is mostly used in the beginning of an interrogative sentence. For example, 
+តើ/QT អ្នក/PRO (you) ឈ្មោះ/NN (name) អ្វី/PRO (what)?, "What is your name?" in English.
+20. Relative Pronoun (RPN): In Khmer language, there is only one relative pronoun. It is ដែល "that, which, where, who" in English. 
+21. Symbol (SYM): SYM for others sign or symbol such as: +, -, \*, \/, ៖, =, @, \#, \% etc.
+22. VB\_JJ: VB\_JJ is a tag for an adjective which its original form is a Verb. Currently, there is no proposed POS tag name for such kind of Khmer words. Although we can use JJ tag, we want to clarify by using VB\_JJ POS tag for its function and also for semantic purpose. For example: 
+23 The word សម្រាប់ (for) or ដើម្បី (to) is normally removed in both written and spoken Khmer. 
+កន្លែង/NN (place) សម្រាប់ (for) ធ្វើការ/VB\_JJ (working), office in English  
+ម៉ាស៊ីន/NN (Machine) សម្រាប់ (for) បោក/VB\_JJ (washing) ខោអាវ/NN (cloth), washing machine in English 
+ពួកគាត់/PRO (they) អាច/VB (can) មាន/VB (have) ការងារ/NN (work) ធ្វើ/VB\_JJ (to do)
+24 When Khmer Relative Pronoun is removed, the verb form keep the same as it was. It must be VB\_JJ it is no longer a Verb in subbordiante clause.
 
 {\kh \small{សិស្ស}} (student) {\kh \small{ដែល}} (who) {\kh \small{មាន}}/VB (has) {\kh \small{ពិន្ទុ}} (mark) {\kh \small{ខ្ពស់}} (hight) {\kh \small{នឹង}} (will) {\kh \small{ទទួលបាន}} (get) {\kh \small{អាហារូបករណ៍}} (scholarship), student who has hight mark will get a scholarship in English but when {\kh \small{ដែល}} who is removed, {\kh \small{មាន}}/VB (has) should become {\kh \small{មាន}}/VB\_JJ (having)
 \end{enumerate}
