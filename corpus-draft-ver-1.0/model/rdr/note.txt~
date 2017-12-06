@@ -1,0 +1,513 @@
+Log file of Training, Testing and Evaluation for RDR:
+
+Training:
+
+(py2.7) ye@DL-Box:~/experiment/kh-pos/final-exp/rdr$ time ./train-rdr-all.sh | tee rdr-training.log
+
+====== Start ======
+
+Generate from the gold standard training corpus a lexicon /home/ye/experiment/kh-pos/final-exp/rdr/train1/train1.DICT
+
+Extract from the gold standard training corpus a raw text corpus /home/ye/experiment/kh-pos/final-exp/rdr/train1/train1.RAW
+
+Perform initially POS tagging on the raw text corpus, to generate /home/ye/experiment/kh-pos/final-exp/rdr/train1/train1.INIT
+
+Learn a tree model of rules for POS tagging from /home/ye/experiment/kh-pos/final-exp/rdr/train1/train1 and /home/ye/experiment/kh-pos/final-exp/rdr/train1/train1.INIT
+
+===> Building exception rules for tag VB_JJ
+
+===> Building exception rules for tag ETC
+
+===> Building exception rules for tag JJ
+
+===> Building exception rules for tag DT
+
+===> Building exception rules for tag NN
+
+===> Building exception rules for tag PRO
+
+===> Building exception rules for tag VCOM
+
+===> Building exception rules for tag PA
+
+===> Building exception rules for tag RB
+
+===> Building exception rules for tag PN
+
+===> Building exception rules for tag RPN
+
+===> Building exception rules for tag VB
+
+===> Building exception rules for tag AB
+
+===> Building exception rules for tag CC
+
+===> Building exception rules for tag M
+
+===> Building exception rules for tag CD
+
+===> Building exception rules for tag IN
+
+===> Building exception rules for tag AUX
+
+===> Building exception rules for tag DBL
+
+===> Building exception rules for tag QT
+
+===> Building exception rules for tag KAN
+
+===> Building exception rules for tag SYM
+
+===> Building exception rules for tag UH
+
+Write the learned tree model to file  /home/ye/experiment/kh-pos/final-exp/rdr/train1/train1.RDR
+
+Done!
+
+ Finished RDR training for train1!
+
+====== Start ======
+
+Generate from the gold standard training corpus a lexicon /home/ye/experiment/kh-pos/final-exp/rdr/train2/train2.DICT
+
+Extract from the gold standard training corpus a raw text corpus /home/ye/experiment/kh-pos/final-exp/rdr/train2/train2.RAW
+
+Perform initially POS tagging on the raw text corpus, to generate /home/ye/experiment/kh-pos/final-exp/rdr/train2/train2.INIT
+
+Learn a tree model of rules for POS tagging from /home/ye/experiment/kh-pos/final-exp/rdr/train2/train2 and /home/ye/experiment/kh-pos/final-exp/rdr/train2/train2.INIT
+
+===> Building exception rules for tag VB_JJ
+
+===> Building exception rules for tag ETC
+
+===> Building exception rules for tag JJ
+
+===> Building exception rules for tag DT
+
+===> Building exception rules for tag NN
+
+===> Building exception rules for tag PRO
+
+===> Building exception rules for tag PA
+
+===> Building exception rules for tag RB
+
+===> Building exception rules for tag PN
+
+===> Building exception rules for tag RPN
+
+===> Building exception rules for tag VB
+
+===> Building exception rules for tag AB
+
+===> Building exception rules for tag CC
+
+===> Building exception rules for tag M
+
+===> Building exception rules for tag CD
+
+===> Building exception rules for tag IN
+
+===> Building exception rules for tag AUX
+
+===> Building exception rules for tag DBL
+
+===> Building exception rules for tag QT
+
+===> Building exception rules for tag KAN
+
+===> Building exception rules for tag SYM
+
+===> Building exception rules for tag UH
+
+Write the learned tree model to file  /home/ye/experiment/kh-pos/final-exp/rdr/train2/train2.RDR
+
+Done!
+
+ Finished RDR training for train2!
+
+====== Start ======
+
+Generate from the gold standard training corpus a lexicon /home/ye/experiment/kh-pos/final-exp/rdr/train3/train3.DICT
+
+Extract from the gold standard training corpus a raw text corpus /home/ye/experiment/kh-pos/final-exp/rdr/train3/train3.RAW
+
+Perform initially POS tagging on the raw text corpus, to generate /home/ye/experiment/kh-pos/final-exp/rdr/train3/train3.INIT
+
+Learn a tree model of rules for POS tagging from /home/ye/experiment/kh-pos/final-exp/rdr/train3/train3 and /home/ye/experiment/kh-pos/final-exp/rdr/train3/train3.INIT
+
+===> Building exception rules for tag VB_JJ
+
+===> Building exception rules for tag ETC
+
+===> Building exception rules for tag JJ
+
+===> Building exception rules for tag DT
+
+===> Building exception rules for tag NN
+
+===> Building exception rules for tag PRO
+
+===> Building exception rules for tag PA
+
+===> Building exception rules for tag RB
+
+===> Building exception rules for tag PN
+
+===> Building exception rules for tag RPN
+
+===> Building exception rules for tag VB
+
+===> Building exception rules for tag AB
+
+===> Building exception rules for tag CC
+
+===> Building exception rules for tag M
+
+===> Building exception rules for tag CD
+
+===> Building exception rules for tag IN
+
+===> Building exception rules for tag AUX
+
+===> Building exception rules for tag DBL
+
+===> Building exception rules for tag QT
+
+===> Building exception rules for tag KAN
+
+===> Building exception rules for tag SYM
+
+===> Building exception rules for tag UH
+
+Write the learned tree model to file  /home/ye/experiment/kh-pos/final-exp/rdr/train3/train3.RDR
+
+Done!
+
+ Finished RDR training for train3!
+
+====== Start ======
+
+Generate from the gold standard training corpus a lexicon /home/ye/experiment/kh-pos/final-exp/rdr/train4/train4.DICT
+
+Extract from the gold standard training corpus a raw text corpus /home/ye/experiment/kh-pos/final-exp/rdr/train4/train4.RAW
+
+Perform initially POS tagging on the raw text corpus, to generate /home/ye/experiment/kh-pos/final-exp/rdr/train4/train4.INIT
+
+Learn a tree model of rules for POS tagging from /home/ye/experiment/kh-pos/final-exp/rdr/train4/train4 and /home/ye/experiment/kh-pos/final-exp/rdr/train4/train4.INIT
+
+===> Building exception rules for tag VB_JJ
+
+===> Building exception rules for tag ETC
+
+===> Building exception rules for tag JJ
+
+===> Building exception rules for tag DT
+
+===> Building exception rules for tag NN
+
+===> Building exception rules for tag PRO
+
+===> Building exception rules for tag PA
+
+===> Building exception rules for tag RB
+
+===> Building exception rules for tag PN
+
+===> Building exception rules for tag RPN
+
+===> Building exception rules for tag VB
+
+===> Building exception rules for tag AB
+
+===> Building exception rules for tag CC
+
+===> Building exception rules for tag M
+
+===> Building exception rules for tag CD
+
+===> Building exception rules for tag IN
+
+===> Building exception rules for tag AUX
+
+===> Building exception rules for tag DBL
+
+===> Building exception rules for tag QT
+
+===> Building exception rules for tag KAN
+
+===> Building exception rules for tag SYM
+
+===> Building exception rules for tag UH
+
+Write the learned tree model to file  /home/ye/experiment/kh-pos/final-exp/rdr/train4/train4.RDR
+
+Done!
+
+ Finished RDR training for train4!
+
+====== Start ======
+
+Generate from the gold standard training corpus a lexicon /home/ye/experiment/kh-pos/final-exp/rdr/train5/train5.DICT
+
+Extract from the gold standard training corpus a raw text corpus /home/ye/experiment/kh-pos/final-exp/rdr/train5/train5.RAW
+
+Perform initially POS tagging on the raw text corpus, to generate /home/ye/experiment/kh-pos/final-exp/rdr/train5/train5.INIT
+
+Learn a tree model of rules for POS tagging from /home/ye/experiment/kh-pos/final-exp/rdr/train5/train5 and /home/ye/experiment/kh-pos/final-exp/rdr/train5/train5.INIT
+
+===> Building exception rules for tag VB_JJ
+
+===> Building exception rules for tag ETC
+
+===> Building exception rules for tag JJ
+
+===> Building exception rules for tag DT
+
+===> Building exception rules for tag NN
+
+===> Building exception rules for tag PRO
+
+===> Building exception rules for tag PA
+
+===> Building exception rules for tag RB
+
+===> Building exception rules for tag PN
+
+===> Building exception rules for tag RPN
+
+===> Building exception rules for tag VB
+
+===> Building exception rules for tag AB
+
+===> Building exception rules for tag CC
+
+===> Building exception rules for tag M
+
+===> Building exception rules for tag CD
+
+===> Building exception rules for tag IN
+
+===> Building exception rules for tag AUX
+
+===> Building exception rules for tag DBL
+
+===> Building exception rules for tag QT
+
+===> Building exception rules for tag KAN
+
+===> Building exception rules for tag SYM
+
+===> Building exception rules for tag UH
+
+Write the learned tree model to file  /home/ye/experiment/kh-pos/final-exp/rdr/train5/train5.RDR
+
+Done!
+
+ Finished RDR training for train5!
+
+====== Start ======
+
+Generate from the gold standard training corpus a lexicon /home/ye/experiment/kh-pos/final-exp/rdr/train6/train6.DICT
+
+Extract from the gold standard training corpus a raw text corpus /home/ye/experiment/kh-pos/final-exp/rdr/train6/train6.RAW
+
+Perform initially POS tagging on the raw text corpus, to generate /home/ye/experiment/kh-pos/final-exp/rdr/train6/train6.INIT
+
+Learn a tree model of rules for POS tagging from /home/ye/experiment/kh-pos/final-exp/rdr/train6/train6 and /home/ye/experiment/kh-pos/final-exp/rdr/train6/train6.INIT
+
+===> Building exception rules for tag VB_JJ
+
+===> Building exception rules for tag ETC
+
+===> Building exception rules for tag JJ
+
+===> Building exception rules for tag DT
+
+===> Building exception rules for tag NN
+
+===> Building exception rules for tag PRO
+
+===> Building exception rules for tag PA
+
+===> Building exception rules for tag RB
+
+===> Building exception rules for tag PN
+
+===> Building exception rules for tag RPN
+
+===> Building exception rules for tag VB
+
+===> Building exception rules for tag AB
+
+===> Building exception rules for tag CC
+
+===> Building exception rules for tag M
+
+===> Building exception rules for tag CD
+
+===> Building exception rules for tag IN
+
+===> Building exception rules for tag AUX
+
+===> Building exception rules for tag DBL
+
+===> Building exception rules for tag QT
+
+===> Building exception rules for tag KAN
+
+===> Building exception rules for tag SYM
+
+===> Building exception rules for tag UH
+
+Write the learned tree model to file  /home/ye/experiment/kh-pos/final-exp/rdr/train6/train6.RDR
+
+Done!
+
+ Finished RDR training for train6!
+
+real	3m27.931s
+user	3m27.130s
+sys	0m0.694s
+(py2.7) ye@DL-Box:~/experiment/kh-pos/final-exp/rdr$ 
+
+
+====================
+
+Prepare test data:
+I copied CLOSE-TEST.word and OPEN-TEST.word to all training folders (i.e. train1 to train6):
+
+(py2.7) ye@DL-Box:~/experiment/kh-pos/final-exp/rdr$ for i in {1..6}; do cp *.word ./train$i/; done;
+
+======================
+
+Testing with RDR models:
+
+(py2.7) ye@DL-Box:~/experiment/kh-pos/final-exp/rdr$ ./test-all.sh | tee rdr-testing.log
+
+=> Read a POS tagging model from /home/ye/experiment/kh-pos/final-exp/rdr/train1/train1.RDR
+
+=> Read a lexicon from /home/ye/experiment/kh-pos/final-exp/rdr/train1/train1.DICT
+
+=> Perform POS tagging on /home/ye/experiment/kh-pos/final-exp/rdr/train1/CLOSE-TEST.word
+
+Output file: /home/ye/experiment/kh-pos/final-exp/rdr/train1/CLOSE-TEST.word.TAGGED
+
+ Finished testing with closed-test data file with train1 RDR model!
+
+=> Read a POS tagging model from /home/ye/experiment/kh-pos/final-exp/rdr/train1/train1.RDR
+
+=> Read a lexicon from /home/ye/experiment/kh-pos/final-exp/rdr/train1/train1.DICT
+
+=> Perform POS tagging on /home/ye/experiment/kh-pos/final-exp/rdr/train1/OPEN-TEST.word
+
+Output file: /home/ye/experiment/kh-pos/final-exp/rdr/train1/OPEN-TEST.word.TAGGED
+
+ Finished testing with open test data file with train1 RDR model!
+
+=> Read a POS tagging model from /home/ye/experiment/kh-pos/final-exp/rdr/train2/train2.RDR
+
+=> Read a lexicon from /home/ye/experiment/kh-pos/final-exp/rdr/train2/train2.DICT
+
+=> Perform POS tagging on /home/ye/experiment/kh-pos/final-exp/rdr/train2/CLOSE-TEST.word
+
+Output file: /home/ye/experiment/kh-pos/final-exp/rdr/train2/CLOSE-TEST.word.TAGGED
+
+ Finished testing with closed-test data file with train2 RDR model!
+
+=> Read a POS tagging model from /home/ye/experiment/kh-pos/final-exp/rdr/train2/train2.RDR
+
+=> Read a lexicon from /home/ye/experiment/kh-pos/final-exp/rdr/train2/train2.DICT
+
+=> Perform POS tagging on /home/ye/experiment/kh-pos/final-exp/rdr/train2/OPEN-TEST.word
+
+Output file: /home/ye/experiment/kh-pos/final-exp/rdr/train2/OPEN-TEST.word.TAGGED
+
+ Finished testing with open test data file with train2 RDR model!
+
+=> Read a POS tagging model from /home/ye/experiment/kh-pos/final-exp/rdr/train3/train3.RDR
+
+=> Read a lexicon from /home/ye/experiment/kh-pos/final-exp/rdr/train3/train3.DICT
+
+=> Perform POS tagging on /home/ye/experiment/kh-pos/final-exp/rdr/train3/CLOSE-TEST.word
+
+Output file: /home/ye/experiment/kh-pos/final-exp/rdr/train3/CLOSE-TEST.word.TAGGED
+
+ Finished testing with closed-test data file with train3 RDR model!
+
+=> Read a POS tagging model from /home/ye/experiment/kh-pos/final-exp/rdr/train3/train3.RDR
+
+=> Read a lexicon from /home/ye/experiment/kh-pos/final-exp/rdr/train3/train3.DICT
+
+=> Perform POS tagging on /home/ye/experiment/kh-pos/final-exp/rdr/train3/OPEN-TEST.word
+
+Output file: /home/ye/experiment/kh-pos/final-exp/rdr/train3/OPEN-TEST.word.TAGGED
+
+ Finished testing with open test data file with train3 RDR model!
+
+=> Read a POS tagging model from /home/ye/experiment/kh-pos/final-exp/rdr/train4/train4.RDR
+
+=> Read a lexicon from /home/ye/experiment/kh-pos/final-exp/rdr/train4/train4.DICT
+
+=> Perform POS tagging on /home/ye/experiment/kh-pos/final-exp/rdr/train4/CLOSE-TEST.word
+
+Output file: /home/ye/experiment/kh-pos/final-exp/rdr/train4/CLOSE-TEST.word.TAGGED
+
+ Finished testing with closed-test data file with train4 RDR model!
+
+=> Read a POS tagging model from /home/ye/experiment/kh-pos/final-exp/rdr/train4/train4.RDR
+
+=> Read a lexicon from /home/ye/experiment/kh-pos/final-exp/rdr/train4/train4.DICT
+
+=> Perform POS tagging on /home/ye/experiment/kh-pos/final-exp/rdr/train4/OPEN-TEST.word
+
+Output file: /home/ye/experiment/kh-pos/final-exp/rdr/train4/OPEN-TEST.word.TAGGED
+
+ Finished testing with open test data file with train4 RDR model!
+
+=> Read a POS tagging model from /home/ye/experiment/kh-pos/final-exp/rdr/train5/train5.RDR
+
+=> Read a lexicon from /home/ye/experiment/kh-pos/final-exp/rdr/train5/train5.DICT
+
+=> Perform POS tagging on /home/ye/experiment/kh-pos/final-exp/rdr/train5/CLOSE-TEST.word
+
+Output file: /home/ye/experiment/kh-pos/final-exp/rdr/train5/CLOSE-TEST.word.TAGGED
+
+ Finished testing with closed-test data file with train5 RDR model!
+
+=> Read a POS tagging model from /home/ye/experiment/kh-pos/final-exp/rdr/train5/train5.RDR
+
+=> Read a lexicon from /home/ye/experiment/kh-pos/final-exp/rdr/train5/train5.DICT
+
+=> Perform POS tagging on /home/ye/experiment/kh-pos/final-exp/rdr/train5/OPEN-TEST.word
+
+Output file: /home/ye/experiment/kh-pos/final-exp/rdr/train5/OPEN-TEST.word.TAGGED
+
+ Finished testing with open test data file with train5 RDR model!
+
+=> Read a POS tagging model from /home/ye/experiment/kh-pos/final-exp/rdr/train6/train6.RDR
+
+=> Read a lexicon from /home/ye/experiment/kh-pos/final-exp/rdr/train6/train6.DICT
+
+=> Perform POS tagging on /home/ye/experiment/kh-pos/final-exp/rdr/train6/CLOSE-TEST.word
+
+Output file: /home/ye/experiment/kh-pos/final-exp/rdr/train6/CLOSE-TEST.word.TAGGED
+
+ Finished testing with closed-test data file with train6 RDR model!
+
+=> Read a POS tagging model from /home/ye/experiment/kh-pos/final-exp/rdr/train6/train6.RDR
+
+=> Read a lexicon from /home/ye/experiment/kh-pos/final-exp/rdr/train6/train6.DICT
+
+=> Perform POS tagging on /home/ye/experiment/kh-pos/final-exp/rdr/train6/OPEN-TEST.word
+
+Output file: /home/ye/experiment/kh-pos/final-exp/rdr/train6/OPEN-TEST.word.TAGGED
+
+ Finished testing with open test data file with train6 RDR model!
+(py2.7) ye@DL-Box:~/experiment/kh-pos/final-exp/rdr$ 
+
+====================
+
+Evaluation:
+
+

@@ -1,0 +1,180 @@
+
+Evaluation for closed-test with train1:
+Accuracy: 96.60% (10044/10397)
+
+Most common mistakes:
+"/SYM --> ''/SYM	14
+“/SYM --> ''/SYM	13
+”/SYM --> ''/SYM	11
+ហើយ/CC --> ហើយ/RB	10
+បាន/VCOM --> បាន/AUX	8
+ទៅ/VB --> ទៅ/IN	6
+ជា/IN --> ជា/VB	6
+ខ្លួន/NN --> ខ្លួន/PRO	6
+JJ --> មាន/VB	5
+ជា/VB --> ជា/IN	5
+
+Evaluation for closed-test with train2:
+Accuracy: 96.75% (10059/10397)
+
+Most common mistakes:
+"/SYM --> ''/SYM	14
+“/SYM --> ''/SYM	13
+”/SYM --> ''/SYM	11
+ហើយ/CC --> ហើយ/RB	10
+បាន/VCOM --> បាន/AUX	8
+ទៅ/VB --> ទៅ/IN	7
+ជា/IN --> ជា/VB	6
+JJ --> មាន/VB	6
+មុន/IN --> មុន/JJ	4
+ឲ្យ/VB --> ឲ្យ/IN	4
+
+Evaluation for closed-test with train3:
+Accuracy: 96.85% (10069/10397)
+
+Most common mistakes:
+"/SYM --> ''/SYM	14
+“/SYM --> ''/SYM	13
+”/SYM --> ''/SYM	11
+ជា/VB --> ជា/IN	8
+ហើយ/CC --> ហើយ/RB	7
+បាន/VCOM --> បាន/AUX	7
+ខ្លួន/PRO --> ខ្លួន/NN	5
+ជូន/VB --> ជូន/IN	5
+ឲ្យ/VB --> ឲ្យ/IN	4
+មុន/IN --> មុន/JJ	4
+
+Evaluation for closed-test with train4:
+Accuracy: 96.89% (10074/10397)
+
+Most common mistakes:
+"/SYM --> ''/SYM	14
+“/SYM --> ''/SYM	13
+”/SYM --> ''/SYM	11
+ហើយ/CC --> ហើយ/RB	9
+បាន/VCOM --> បាន/AUX	8
+ជា/VB --> ជា/IN	6
+JJ --> មាន/VB	6
+ជូន/VB --> ជូន/IN	5
+ជា/IN --> ជា/VB	5
+ខ្លួន/PRO --> ខ្លួន/NN	5
+
+Evaluation for closed-test with train5:
+Accuracy: 97.11% (10097/10397)
+
+Most common mistakes:
+"/SYM --> ''/SYM	14
+“/SYM --> ''/SYM	13
+”/SYM --> ''/SYM	11
+ហើយ/CC --> ហើយ/RB	7
+ជា/VB --> ជា/IN	6
+ឲ្យ/VB --> ឲ្យ/IN	6
+JJ --> មាន/VB	6
+បាន/VCOM --> បាន/AUX	6
+ទៅ/VB --> ទៅ/IN	5
+ជូន/VB --> ជូន/IN	4
+
+Evaluation for closed-test with train6:
+Accuracy: 97.14% (10100/10397)
+
+Most common mistakes:
+"/SYM --> ''/SYM	14
+“/SYM --> ''/SYM	13
+”/SYM --> ''/SYM	11
+ហើយ/CC --> ហើយ/RB	9
+JJ --> មាន/VB	6
+ជា/VB --> ជា/IN	6
+បាន/VCOM --> បាន/AUX	5
+មុន/IN --> មុន/JJ	4
+ទៅ/VB --> ទៅ/IN	4
+ឲ្យ/VB --> ឲ្យ/IN	4
+
+Evaluation for open-test with train1:
+Accuracy: 91.44% (9855/10778)
+
+Most common mistakes:
+"/SYM --> ''/SYM	25
+”/SYM --> ''/SYM	17
+“/SYM --> ''/SYM	14
+ជា/IN --> ជា/VB	14
+ចេញ/VB --> ចេញ/PA	12
+ហើយ/CC --> ហើយ/RB	9
+ព្រះ~អង្គ/NN --> ព្រះ~អង្គ/PRO	8
+បាន/VCOM --> បាន/AUX	8
+ជូន/IN --> ជូន/VB	8
+នៅ/VB --> នៅ/IN	7
+
+Evaluation for open-test with train2:
+Accuracy: 93.18% (10043/10778)
+
+Most common mistakes:
+"/SYM --> ''/SYM	25
+”/SYM --> ''/SYM	17
+“/SYM --> ''/SYM	14
+ជា/IN --> ជា/VB	14
+ហើយ/CC --> ហើយ/RB	9
+បាន/VCOM --> បាន/AUX	8
+ទៅ/VB --> ទៅ/IN	8
+ព្រះ~អង្គ/NN --> ព្រះ~អង្គ/PRO	7
+JJ --> មាន/VB	7
+ចេញ/VB --> ចេញ/PA	7
+
+Evaluation for open-test with train3:
+Accuracy: 94.17% (10150/10778)
+
+Most common mistakes:
+"/SYM --> ''/SYM	25
+”/SYM --> ''/SYM	17
+“/SYM --> ''/SYM	14
+ជា/IN --> ជា/VB	11
+ជា/VB --> ជា/IN	10
+ហើយ/CC --> ហើយ/RB	9
+នៅ/VB --> នៅ/IN	8
+ចេញ/VB --> ចេញ/PA	7
+ទៅ/VB --> ទៅ/IN	7
+បាន/VB --> បាន/AUX	6
+
+Evaluation for open-test with train4:
+Accuracy: 94.75% (10212/10778)
+
+Most common mistakes:
+"/SYM --> ''/SYM	25
+”/SYM --> ''/SYM	17
+“/SYM --> ''/SYM	14
+ជា/IN --> ជា/VB	14
+ហើយ/CC --> ហើយ/RB	8
+ចេញ/VB --> ចេញ/PA	7
+ទៅ/VB --> ទៅ/IN	7
+ព្រះ~អង្គ/NN --> ព្រះ~អង្គ/PRO	6
+JJ --> មាន/VB	6
+បាន/VCOM --> បាន/AUX	6
+
+Evaluation for open-test with train5:
+Accuracy: 95.13% (10253/10778)
+
+Most common mistakes:
+"/SYM --> ''/SYM	25
+”/SYM --> ''/SYM	17
+ជា/IN --> ជា/VB	15
+“/SYM --> ''/SYM	14
+ហើយ/CC --> ហើយ/RB	9
+ចេញ/VB --> ចេញ/PA	7
+ទៅ/VB --> ទៅ/IN	7
+ព្រះ~អង្គ/NN --> ព្រះ~អង្គ/PRO	6
+ជា/VB --> ជា/IN	6
+នៅ/VB --> នៅ/IN	6
+
+Evaluation for open-test with train6:
+Accuracy: 95.33% (10275/10778)
+
+Most common mistakes:
+"/SYM --> ''/SYM	25
+”/SYM --> ''/SYM	17
+ជា/IN --> ជា/VB	15
+“/SYM --> ''/SYM	14
+ហើយ/CC --> ហើយ/RB	7
+ព្រះ~អង្គ/NN --> ព្រះ~អង្គ/PRO	6
+JJ --> មាន/VB	6
+នៅ/VB --> នៅ/IN	6
+ជា/VB --> ជា/IN	6
+បាន/VCOM --> បាន/AUX	5
