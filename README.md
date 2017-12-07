@@ -84,23 +84,23 @@ data/ : Data preparation folder for incremental POS-tagging models
 
 Models:
 
+Two-Hours/: Incremental training (2,000 to 12,000 sentences) of 2hours annotation approach models with khPOS corpus.  
+Running logfile: [note.txt](https://github.com/ye-kyaw-thu/khPOS/blob/master/corpus-draft-ver-1.0/model/2hours/note.txt)  
+
 3gHMM/ : Incremental training (2,000 to 12,000 sentences) of 3-gram HMM (Hidden Markov Model) models with khPOS corpus.  
-Running logfile: [note.txt](https://github.com/ye-kyaw-thu/myPOS/blob/master/corpus-draft-ver-1.0/model/3gHMM/note.txt)  
+Running logfile: [note.txt](https://github.com/ye-kyaw-thu/khPOS/blob/master/corpus-draft-ver-1.0/model/3gHMM/note.txt)  
 
 crf/ : Incremental training (2,000 to 12,000 sentences) of CRF POS-tagging models with khPOS corpus.  
-Running logfile: [note.txt](https://github.com/ye-kyaw-thu/myPOS/blob/master/corpus-draft-ver-1.0/model/crf/note.txt)  
+Running logfile: [note.txt](https://github.com/ye-kyaw-thu/khPOS/blob/master/corpus-draft-ver-1.0/model/crf/note.txt)  
 
 kytea/ : Incremental training (2,000 to 12,000 sentences) of L2 regularized SVM models with khPOS corpus.  
-Running logfile: [note](https://github.com/ye-kyaw-thu/myPOS/blob/master/corpus-draft-ver-1.0/model/kytea/note.txt)
-  
-low-resource-pos-tagging-2014/: Incremental training (2,000 to 12,000 sentences) of 2hours annotation approach models with khPOS corpus.  
-Running logfile: [note.txt](https://github.com/ye-kyaw-thu/myPOS/blob/master/corpus-draft-ver-1.0/model/low-resource-pos-tagging-2014/2hours/note.txt)  
-
+Running logfile: [note](https://github.com/ye-kyaw-thu/khPOS/blob/master/corpus-draft-ver-1.0/model/kytea/note.txt)
+ 
 maxent/ : Incremental training (2,000 to 12,000 sentences) of Maximum Entrophy models with khPOS corpus.  
-Running logfile: [note.txt](https://github.com/ye-kyaw-thu/myPOS/blob/master/corpus-draft-ver-1.0/model/maxent/note.txt)  
+Running logfile: [note.txt](https://github.com/ye-kyaw-thu/khPOS/blob/master/corpus-draft-ver-1.0/model/maxent/note.txt)  
 
 rdr/ : Incremental training (2,000 to 12,000 sentences) of RDR (Ripple Down Rule-based) models with kjPOS corpus.  
-Running logfile: [note.txt](https://github.com/ye-kyaw-thu/myPOS/blob/master/corpus-draft-ver-1.0/model/rdr/note.txt)  
+Running logfile: [note.txt](https://github.com/ye-kyaw-thu/khPOS/blob/master/corpus-draft-ver-1.0/model/rdr/note.txt)  
   
 
 ## Development and Support
