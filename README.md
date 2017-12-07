@@ -64,14 +64,14 @@ The definitions and descriptions of POS tags are presented in detail as follow:
 24. Verb Complement (VCOM): Its original form is a verb, but it will turn into VCOM when two verbs in a sentence to emphasize the first verb. Especially, a compound verb is splitted by the word មិន (no or not), the first part is a verb and the second part is VCOM. For example, លក់ (sell) ដាច់/VCOM (a lot), ប្រលង (exam) មិន (no) ជាប់/VCOM (pass), ដេក/VB (sleep), មិន/RB (not) លក់/VCOM (sleep well) etc.
  
 ## Files/Scripts
-Corpus-draft-ver-1.0/ (latest version)
+Corpus-draft-ver-1.0/ (**_latest version_**)  
 
 **Scripts:** 
-mk-wordtag.pl : Perl script for printing word only file, tag only file, listing compound-words etc.
-mk-pair.pl : Perl script for combining word file and tag file to word/tag format
+mk-wordtag.pl : Perl script for printing word only file, tag only file, listing compound-words etc.  
+mk-pair.pl : Perl script for combining word file and tag file to word/tag format  
 
 **Data:**
-data/ : Data preparation folder for incremental POS-tagging models
+data/ : Data preparation folder for incremental POS-tagging models  
 
 **Models:** 
 Scripts:
@@ -84,23 +84,24 @@ data/ : Data preparation folder for incremental POS-tagging models
 
 Models:
 
-3gHMM/ : Incremental training (2,000 to 12,000 sentences) of 3-gram HMM (Hidden Markov Model) models with khPOS corpus.
-Running logfile: note.txt
+3gHMM/ : Incremental training (2,000 to 12,000 sentences) of 3-gram HMM (Hidden Markov Model) models with khPOS corpus.  
+Running logfile: [note.txt](https://github.com/ye-kyaw-thu/myPOS/blob/master/corpus-draft-ver-1.0/model/3gHMM/note.txt)  
 
-crf/ : Incremental training (2,000 to 12,000 sentences) of CRF POS-tagging models with khPOS corpus.
-Running logfile: note.txt
+crf/ : Incremental training (2,000 to 12,000 sentences) of CRF POS-tagging models with khPOS corpus.  
+Running logfile: [note.txt](https://github.com/ye-kyaw-thu/myPOS/blob/master/corpus-draft-ver-1.0/model/crf/note.txt)  
 
-kytea/ : Incremental training (2,000 to 12,000 sentences) of L2 regularized SVM models with khPOS corpus.
-Running logfile: note
+kytea/ : Incremental training (2,000 to 12,000 sentences) of L2 regularized SVM models with khPOS corpus.  
+Running logfile: [note](https://github.com/ye-kyaw-thu/myPOS/blob/master/corpus-draft-ver-1.0/model/kytea/note.txt)
+  
+low-resource-pos-tagging-2014/: Incremental training (2,000 to 12,000 sentences) of 2hours annotation approach models with khPOS corpus.  
+Running logfile: [note.txt](https://github.com/ye-kyaw-thu/myPOS/blob/master/corpus-draft-ver-1.0/model/low-resource-pos-tagging-2014/2hours/note.txt)  
 
-low-resource-pos-tagging-2014/: Incremental training (2,000 to 12,000 sentences) of 2hours annotation approach models with khPOS corpus.
-Running logfile: note.txt
+maxent/ : Incremental training (2,000 to 12,000 sentences) of Maximum Entrophy models with khPOS corpus.  
+Running logfile: [note.txt](https://github.com/ye-kyaw-thu/myPOS/blob/master/corpus-draft-ver-1.0/model/maxent/note.txt)  
 
-maxent/ : Incremental training (2,000 to 12,000 sentences) of Maximum Entrophy models with khPOS corpus.
-Running logfile: note.txt
-
-rdr/ : Incremental training (1,000 to 10,000 sentences) of RDR (Ripple Down Rule-based) models with khPOS corpus.
-Running logfile: note.txt
+rdr/ : Incremental training (2,000 to 12,000 sentences) of RDR (Ripple Down Rule-based) models with kjPOS corpus.  
+Running logfile: [note.txt](https://github.com/ye-kyaw-thu/myPOS/blob/master/corpus-draft-ver-1.0/model/rdr/note.txt)  
+  
 
 ## Development and Support
 
