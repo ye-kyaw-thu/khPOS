@@ -107,7 +107,7 @@ Running logfile: [note.txt](https://github.com/ye-kyaw-thu/khPOS/blob/master/cor
 
 Contributors
 
-Vichet Chea
+Vichet Chea  
 [Ye Kyaw Thu](https://sites.google.com/site/yekyawthunlp/) 
 
 ## Publication
