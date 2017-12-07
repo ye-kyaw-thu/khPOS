@@ -64,13 +64,164 @@ The definitions and descriptions of POS tags are presented in detail as follow:
 24. Verb Complement (VCOM): Its original form is a verb, but it will turn into VCOM when two verbs in a sentence to emphasize the first verb. Especially, a compound verb is splitted by the word មិន (no or not), the first part is a verb and the second part is VCOM. For example, លក់ (sell) ដាច់/VCOM (a lot), ប្រលង (exam) មិន (no) ជាប់/VCOM (pass), ដេក/VB (sleep), មិន/RB (not) លក់/VCOM (sleep well) etc.
  
 ## Files/Scripts
+Corpus-draft-ver-1.0/ (latest version)
 
 **Scripts:** 
+mk-wordtag.pl : Perl script for printing word only file, tag only file, listing compound-words etc.
+mk-pair.pl : Perl script for combining word file and tag file to word/tag format
 
 **Data:**
-
+data/ : Data preparation folder for incremental POS-tagging models
 
 **Models:** 
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ @ye-kyaw-thu
+ Sign out
+ Unwatch 3
+  Star 4  Fork 1 ye-kyaw-thu/myPOS
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+myPOS (Myanmar Part-of-Speech) Corpus for Myanmar NLP Research and Developments Edit
+pos-tagging
+mypos-corpus
+myanmar
+myanmar-language
+myanmar-nlp
+part-of-speech-tagger
+pos
+Manage topics
+ 335 commits
+ 1 branch
+ 0 releases
+ 1 contributor
+ Python 65.0%	 Shell 19.3%	 Perl 15.7%
+Python	Shell	Perl
+Clone or download  Create new file Upload files Find file Branch: master New pull request
+Latest commit 44a53fb  on Jun 3 @ye-kyaw-thu  ye-kyaw-thu Update note.txt
+CICLING2017	Update note.txt	6 months ago
+corpus-draft-ver-0.9	Create note.txt	7 months ago
+corpus-draft-ver-1.0	Update note.txt	7 months ago
+README.md	Update README.md	7 months ago
+ README.md
+myPOS (draft released 1.0)
+
+myPOS Corpus (Myanmar Part-of-Speech Corpus) for Myanmar language NLP Research and Developments
+
+Lincense
+
+Creative Commons Attribution-NonCommercial-Share Alike 4.0 International (CC BY-NC-SA 4.0) License
+Details Info of License
+
+Introduction
+
+The myPOS Corpus (Myanmar POS Corpus) is a 11,000 sentences (264,920 words or 242,865 words if we consider compound words) manually word segmented and POS tagged corpus developed for Myanmar language NLP research and developments. We collected Myanmar sentences from Wikipedia that include various area such as economics, history, news, politics and philosophy. The average number of words per sentence in the whole corpus is 21.78. The longest sentence contained 423 words and shortest sentence contained 2 words as follows (here, line number : Myanamr sentence):
+
+Longest sentence : 423 words
+2201 : လူ ခပ်သိမ်း ၏ မျိုးရိုး ဂုဏ်သိက္ခာ နှင့်တကွ လူ တိုင်း အညီအမျှ ခံစားခွင့် ရှိ သည့် အခွင့်အရေး များ ကို အသိအမှတ်ပြု ခြင်း သည် လူ ခပ်သိမ်း ၏ လွတ်လပ် မှု ၊ တရားမျှတ မှု ၊ ငြိမ်းချမ်း မှု တို့ ၏ အခြေခံ အုတ်မြစ် ဖြစ် သောကြောင့် လည်းကောင်း ၊ လူ့ အခွင့်ရေး များ ကို အရေးမထား မထီလေးစားပြု ခြင်း သည် လူ ခပ်သိမ်း ၏ အကျင့် သိက္ခာ ကို ချိုးဖောက် ဖျက်ဆီး တတ် သည့် ရက်စက် ကြမ်းကြုတ် သော အပြုအမူ များ ကို ဖြစ်ပေါ် စေ ခဲ့ သောကြောင့် လည်းကောင်း ၊ လွတ်လပ် စွာ ဖွင့်ဟ ပြောဆို နိုင် မှု လွတ်လပ် စွာ သက်ဝင် ယုံကြည် နိုင် မှု ၊ ကြောက်ရွံ့ ခြင်း ၊ ချို့ငဲ့ ခြင်း တို့ မှ ကင်းလွတ် စွာ အသက်မွေး နိုင် မှု တို့ ကို ခံစား ရယူ နိုင် စေ မည့် လောက တစ် ခု ပေါ်ပေါက် လာ ရန် အရေး ကို လူ ခပ်သိမ်း တို့ က မိမိ တို့ ၏ အထက်သန်ဆုံး သော လိုလား ချက် ဆန္ဒ ကြီး အဖြစ် ဖြင့် ကြွေးကြော် ကြေညာ ပြီး ဖြစ် သောကြောင့် လည်းကောင်း ၊ လူ ခပ်သိမ်း တို့ သည် ၊ တရားလက်လွတ် နှိပ်စက်ကလူပြု မှု ၊ အုပ်စိုး မှု နှင့် ဖိစီး ညှဉ်းပန်း မှု တို့ ကို နောက်ဆုံး မလွှဲသာမရှောင်သာ လက်နက် စွဲကိုင် ကာ တော်လှန် ခြင်း ၊ ပုန်ကန် ခြင်း မ ပြု စေရန် ၊ လူ့ အခွင့်ရေး များ ကို ဥပဒေ ဖြင့် ထိန်းသိမ်း ကာကွယ် ပေး ရ မည် ဖြစ် သောကြောင့် လည်းကောင်း ၊ နိုင်ငံ အချင်းချင်း ချစ်ခင် ရင်းနှီး စွာ ဆက်ဆံ ရေး ကို ပိုမို တိုးတက် စေရန် ကြံဆောင် ရ မည် ဖြစ် သောကြောင့် လည်းကောင်း ၊ ကမ္ဘာ့ ကုလသမဂ္ဂ အဖွဲ့ ဝင် တို့ သည် မူလ လူ့ အခွင့်အရေး များ ကို လည်းကောင်း ၊ လူ ၏ ဂုဏ်သိက္ခာ ကို လည်းကောင်း ၊ ယောက်ျား မိန်းမ တို့ ၏ တူညီ သည့် အခွင့်အရေး များ ကို လည်းကောင်း ၊ လေးစား ယုံကြည် ပါ သည် ဟု ကုလသမဂ္ဂ တွင် ထပ်မံ ၍ အတည်ပြု ပြီး သည့် ပြင် ၊ လူမှု ကြီးပွား တိုးတက် ရေး နှင့်တကွ ပိုမို လွတ်လပ် ကောင်းမွန် သော လူ့ ဘဝ အဆင့်အတန်း တို့ ကို မြှင့်တင် ရန် သန္နိဋ္ဌာန်ချ ပြီး ဖြစ် သောကြောင့် လည်းကောင်း ၊ ကမ္ဘာ့ ကုလသမဂ္ဂ အဖွဲ့ ဝင် နိုင်ငံ တို့ သည် ကုလသမဂ္ဂ အဖွဲ့ နှင့် ပူးပေါင်း ၍ လူ့ အခွင့်အရေး များ ကို လည်းကောင်း ၊ အခြေခံ လွတ်လပ်ခွင့် အခွင့်အရေး များ ကို လည်းကောင်း ၊ ကမ္ဘာ့ တစ်ဝန်း လုံး တွင် ရိုသေ လေးစား ကျင့်သုံး စောင့်စည်း ကြ ခြင်း ကို အားပေး မည် ဟု ကတိပြု ပြီး ဖြစ် သောကြောင့် လည်းကောင်း ၊ ထို ကြောင့် အထွေထွေညီလာခံ က အပြည်ပြည် ဆိုင်ရာ လူ့ အခွင့်အရေး ကြေညာစာတမ်း ကို လူ တိုင်း အဖွဲ့အစည်း တိုင်း သည် အစဉ် နှလုံးသွင်း လျက် ကမ္ဘာ တစ်ဝန်း လုံး တွင် အဆိုပါ အခွင့်အရေး များ နှင့် လွတ်လပ်ခွင့် များ ကို ရိုသေ လေးစား ကြ စေရန် ဆုံးမ သွန်သင် ခြင်း ဖြင့် အားထုတ် ကြ ရ မည် ဟု လည်းကောင်း ၊ ကုလသမဂ္ဂ အဖွဲ့ ဝင် နိုင်ငံ များ နှင့် ထို နိုင်ငံ တို့ ၏ အာဏာပိုင် အတွင်း ရှိ နယ်ပယ် ဆိုင်ရာ တိုင်းသူပြည်သား များ အား အဆိုပါ အခွင့်အရေး နှင့် လွတ်လပ်ခွင့် များ ကို ကျယ်ကျယ်ပြန့်ပြန့် ထိရောက် စွာ သိမှတ် ကျင့်သုံး စောင့်စည်း ကြ စေရန် ပြည်တွင်း ပြည်ပ ဆိုင်ရာ တိုးတက် သော ဆောင်ရွက် ချက် များ ဖြင့် အားထုတ် ကြ ရ မည် ဟု လည်းကောင်း ရည်ရွယ် ပြီးလျှင် လူ့ အခွင့်အရေး များ ဆိုင်ရာ အပြည်ပြည် ဆိုင်ရာ ကြေညာစာတမ်း ကို နိုင်ငံ ခပ်သိမ်း ၊ လူ ခပ်သိမ်း တို့ တပြေးညီ စွာ ဆောင်ရွက် နိုင် ကြ စိမ့်သောငှာ ယခု ထုတ်ပြန် ကြေညာ လိုက် သည် ။ total : 1
+
+Shortest sentence : 2 word(s)
+20 : သူခိုး ။
+1336 : အိုကေ ။
+2312 : ဒေးကတ်အာ ။
+2511 : ဗေကင်ဖရန်စစ် ။
+2568 : ဘာ ။
+3735 : ကျည်းကန်ရှင်ကြီး ။
+4842 : ဖယ် ။
+5320 : တဆိတ်လောက် ။
+5604 : ဆပင်နိုဇာဗီ ။
+6927 : ဒူးထောက် ။
+6982 : ကန့်အိုင် ။
+8239 : ကွန်ဖူးဇီး ။
+9918 : ဟုတ်ကဲ့ ။
+10196 : ဟေး ။
+10902 : အမလေး ။
+total : 15
+
+Average words per line : 21.78
+
+Word Segmentation
+
+In Myanmar texts, words composed of single or multiple syllables are usually not separated by white space. Spaces are used for easier reading and generally put between phrases, but there are no clear rules for using spaces in Myanmar language. Therefore, word segmentation is a necessary prerequisite for POS tagging. In our myPOS corpus, we did manual word segmentation based on following six rules:
+
+Myanmar word can usually be identified by the combination of root word, prefix and suffix.
+Unsegmented word: စားသည် (eat)
+Segmented word:	စား/v သည်/ppm
+Plural Nouns are identified by following the particle.
+Unsegmented word: ကျောင်းသားများ (students)
+Segmented word:	ကျောင်းသား/n များ/part
+Possessive words are identified by following post positional marker.
+Unsegmented word: ကျွန်တော်၏စာအုပ် (my book)
+Segmented word:	ကျွန်တော်/n ၏/ppm စာအုပ်/n
+Noun is identified with the combination of particle to the verb or the adjective.
+Unsegmented word: ဆက်သွယ်ရေး (communication), ရိုးသားမှု(honesty)
+Segmented word:	ဆက်သွယ်/v ရေး/part, ရိုးသား/adj မှု/part
+Particle state the type of noun , and used after number or text number.
+Unsegmented word: ၁၀ယောက် (10 people), ငါးခု (five pieces)
+Segmented word:	၁၀/num ယောက်/part, ငါး/tn ခု/part
+We put breakpoints ("|", pipe character) for compound words.
+Unsegmented word:ခရမ်းမြို့နယ် (Khayan township)
+Segmented word: ခရမ်း/n|မြို့နယ်/n
+POS Tags
+
+15 Myanmar POS are used in our tag set to meet the necessity of further NLP processing such as information extraction, semantic processing and machine translation. The definitions and descriptions of POS tags are presented in detail as follows:
+
+POS Tag	Brief Definition	Examples
+abb	Abbreviation	အထက(Basic Education High School), လ.ဝ (Confidentiality)
+adj	Adjective	ရဲရင့် (brave), လှပ (beautiful), မွန်မြတ် (noble)
+adv	Adverb	ဖြေးဖြေး (slow), နည်းနည်း (less)
+conj	Conjunction	နှင့် (and), ထို့ကြောင့် (therefore), သို့မဟုတ် (or)
+fw	Foreign Word	1, 2, 3, Myanmar, ミャンマー (Myanmar in Japanese), BBC, Google. 缅甸 (Myanmar in Chinese)
+int	Interjection	အမလေး (Oh My God!)
+n	Noun	ကျောင်း (school), စာအုပ် (book), ဒေါ်အောင်ဆန်းစုကြည် (Daw Aung San Suu Kyi), လွတ်လပ်ရေး (freedom)
+num	Number	၁ (1), ၂ (2), ၃ (3), ၁၀ (10), ၁၀၀ (100), ၁၀၀၀ (1000)
+part	Particle	များ (used to form the plural nouns as "-s" , "-es"), ခဲ့ (the past tense "-ed"), သင့် (modal verb "shall"), လိမ့် (modal verb "will"), နိုင် (modal verb "can")
+ppm	Post-positional Marker	သည်, က, ကို, အား, သို့, မှာ, တွင် (at, on ,in, to)
+pron	Pronoun	ကျွန်တော် (I), ကျွန်မ (I), သင် (you), သူ (he), သူမ (she)
+punc	Punctuation	။, ၊, (, ), , _ , ', "
+sb	Symbol	?, #, &, %, $, £, ¥, 𝜆, π, ÷, +, ×, @
+tn	Text Number	တစ် (one), နှစ် (two), သုံး (three), တစ်ရာ (one hundred), တစ်ထောင် (one thousand)
+v	Verb	ကူညီ (help), လိုက်နာ (observe), အားပေး (encourage)
+Files/Scripts
+
+Corpus-draft-ver-1.0/ (latest version)
+mypos-dver.1.0.txt : myPOS Corpus draft version 1.0, UTF-8 text file format
+mypos-dver.1.0.word.txt : print out word only (i.e. without POS tags) of myPOS Corpus draft version 1.0
+mypos-dver.1.0.cword.txt : print out words and compound words of myPOS Corpus draft version 1.0
+mypos-dver.1.0.lcw.txt : list of compound Myanmar words of myPOS draft version 1.0 (17,562 words)
+mypos-dver.1.0.lcw.uniq.txt : unique list of compound Myanmar words of myPOS draft version 1.0 (8,627 words)
+mypos-dver.1.0.tag.txt : print out POS-tagged only of myPOS draft version 1.0
+
+Scripts:
+mk-wordtag.pl : Perl script for printing word only file, tag only file, listing compound-words etc.
+mk-pair.pl : Perl script for combining word file and tag file to word/tag format
+how2run.txt : Example usages of perl scripts
+
+Data:
+data/ : Data preparation folder for incremental POS-tagging models
+
+Models:
+
+3gHMM/ : Incremental training (2,000 to 12,000 sentences) of 3-gram HMM (Hidden Markov Model) models with khPOS corpus.
+Running logfile: note.txt
+
+crf/ : Incremental training (2,000 to 12,000 sentences) of CRF POS-tagging models with khPOS corpus.
+Running logfile: note.txt
+
+kytea/ : Incremental training (2,000 to 12,000 sentences) of L2 regularized SVM models with khPOS corpus.
+Running logfile: note
+
+low-resource-pos-tagging-2014/: Incremental training (2,000 to 12,000 sentences) of 2hours annotation approach models with khPOS corpus.
+Running logfile: note.txt
+
+maxent/ : Incremental training (2,000 to 12,000 sentences) of Maximum Entrophy models with khPOS corpus.
+Running logfile: note.txt
+
+rdr/ : Incremental training (1,000 to 10,000 sentences) of RDR (Ripple Down Rule-based) models with khPOS corpus.
+Running logfile: note.txt
 
 ## Development and Support
 
