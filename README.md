@@ -75,9 +75,8 @@ data/ : Data preparation folder for incremental POS-tagging models
 
 **Models:** 
 Scripts:
-mk-wordtag.pl : Perl script for printing word only file, tag only file, listing compound-words etc.
-mk-pair.pl : Perl script for combining word file and tag file to word/tag format
-how2run.txt : Example usages of perl scripts
+mk-wordtag.pl : Perl script for printing word only file, tag only file, listing compound-words etc.  
+mk-pair.pl : Perl script for combining word file and tag file to word/tag format  
 
 Data:
 data/ : Data preparation folder for incremental POS-tagging models
