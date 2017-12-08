@@ -113,9 +113,11 @@ Vichet Chea
 We would like to express our gratitude to Mr. Sorn Kea and Miss Leng Greyhuy for their help in POS tagging 12,1000 sentences of Khmer Corpus manually
 
 ## Publication
+Please cite following paper:
+Ye Kyaw Thu, Vichet Chea, Yoshinori Sagisaka, "Compaison of Six POS Tagging Methods on 12K Sentences Khmer Language POS Tagged Corpus", In the first Regional Conference on Optical character recognition and Natural language processing technologies for ASEAN languages (ONA 2017), December 7-8, 2017, Phnom Penh, Cambodia. [paper]()
+## Reference
 Vichet Chea, Ye Kyaw Thu, Chenchen Ding, Masao Utiyama, Andrew Finch and Eiichiro Sumita, "Khmer Word Segmentation Using Conditional Random Fields", In Khmer Natural Language Processing 2015 (KNLP2015), December 4, 2015, Phnom Penh, Cambodia. 
 [paper](http://khmernlp.org/2015/wp-content/uploads/2016/09/Paper-Khmer-Word-Segmentation-Using-.pdf)
 
-## Reference
-
 Madeline Elizabeth. Ehrman, Kem Sos, Foreign Service Institute (U.S.), and Defense Language Institute (U.S.). Contemporary Cambodian: grammatical sketch, by Madeline E. Ehrman, with the assistance of Kem Sos. Foreign Service Institute, Dept. of State; \[for sale by the Supt. of Docs., U.S. Govt. Print. O .\] Washington, 1972.
+
