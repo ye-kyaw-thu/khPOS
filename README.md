@@ -102,13 +102,15 @@ Running logfile: [note.txt](https://github.com/ye-kyaw-thu/khPOS/blob/master/cor
 rdr/ : Incremental training (2,000 to 12,000 sentences) of RDR (Ripple Down Rule-based) models with kjPOS corpus.  
 Running logfile: [note.txt](https://github.com/ye-kyaw-thu/khPOS/blob/master/corpus-draft-ver-1.0/model/rdr/note.txt)  
   
-
 ## Development and Support
 
 Contributors
 
 Vichet Chea  
 [Ye Kyaw Thu](https://sites.google.com/site/yekyawthunlp/) 
+
+## Acknowledgements
+We would like to express our gratitude to Mr. Sorn Kea and Miss Leng Greyhuy for their help in POS tagging 12,1000 sentences of Khmer Corpus manually
 
 ## Publication
 Vichet Chea, Ye Kyaw Thu, Chenchen Ding, Masao Utiyama, Andrew Finch and Eiichiro Sumita, "Khmer Word Segmentation Using Conditional Random Fields", In Khmer Natural Language Processing 2015 (KNLP2015), December 4, 2015, Phnom Penh, Cambodia. 
