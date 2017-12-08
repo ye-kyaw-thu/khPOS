@@ -63,25 +63,25 @@ The definitions and descriptions of POS tags are presented in detail as follow:
 23. Verb (VB): Verb is a word that shows the action, even, and condition. Verb is a middle part of phrase. Normally, verb always need object and sometime it also need complement. For example, ស្តាប់ (listen), មានប្រសាសន៍ (say), ស្រលាញ់ (love), ច្រៀង (sing), បើកបរ (drive) etc.
 24. Verb Complement (VCOM): Its original form is a verb, but it will turn into VCOM when two verbs in a sentence to emphasize the first verb. Especially, a compound verb is splitted by the word មិន (no or not), the first part is a verb and the second part is VCOM. For example, លក់ (sell) ដាច់/VCOM (a lot), ប្រលង (exam) មិន (no) ជាប់/VCOM (pass), ដេក/VB (sleep), មិន/RB (not) លក់/VCOM (sleep well) etc.
  
-## Files/Scripts
+## Files/Scripts  
 Corpus-draft-ver-1.0/ (**_latest version_**)  
 
-**Scripts:** 
+**Scripts:**  
 mk-wordtag.pl : Perl script for printing word only file, tag only file, listing compound-words etc.  
 mk-pair.pl : Perl script for combining word file and tag file to word/tag format  
 
-**Data:**
+**Data:**  
 data/ : Data preparation folder for incremental POS-tagging models  
 
-**Models:** 
-Scripts:
+**Models:**  
+Scripts:  
 mk-wordtag.pl : Perl script for printing word only file, tag only file, listing compound-words etc.  
 mk-pair.pl : Perl script for combining word file and tag file to word/tag format  
 
-Data:
+Data:  
 data/ : Data preparation folder for incremental POS-tagging models
 
-Models:
+Models:  
 
 Two-Hours/: Incremental training (2,000 to 12,000 sentences) of 2hours annotation approach models with khPOS corpus.  
 Running logfile: [note.txt](https://github.com/ye-kyaw-thu/khPOS/blob/master/corpus-draft-ver-1.0/model/2hours/note.txt)  
@@ -93,7 +93,7 @@ crf/ : Incremental training (2,000 to 12,000 sentences) of CRF POS-tagging model
 Running logfile: [note.txt](https://github.com/ye-kyaw-thu/khPOS/blob/master/corpus-draft-ver-1.0/model/crf/note.txt)  
 
 kytea/ : Incremental training (2,000 to 12,000 sentences) of L2 regularized SVM models with khPOS corpus.  
-Running logfile: [note](https://github.com/ye-kyaw-thu/khPOS/blob/master/corpus-draft-ver-1.0/model/kytea/note.txt)
+Running logfile: [note](https://github.com/ye-kyaw-thu/khPOS/blob/master/corpus-draft-ver-1.0/model/kytea/note.txt)  
  
 maxent/ : Incremental training (2,000 to 12,000 sentences) of Maximum Entrophy models with khPOS corpus.  
 Running logfile: [note.txt](https://github.com/ye-kyaw-thu/khPOS/blob/master/corpus-draft-ver-1.0/model/maxent/note.txt)  
@@ -101,21 +101,21 @@ Running logfile: [note.txt](https://github.com/ye-kyaw-thu/khPOS/blob/master/cor
 rdr/ : Incremental training (2,000 to 12,000 sentences) of RDR (Ripple Down Rule-based) models with kjPOS corpus.  
 Running logfile: [note.txt](https://github.com/ye-kyaw-thu/khPOS/blob/master/corpus-draft-ver-1.0/model/rdr/note.txt)  
   
-## Development and Support
+## Development and Support  
 
-Contributors
+Contributors  
 
 Vichet Chea  
 [Ye Kyaw Thu](https://sites.google.com/site/yekyawthunlp/) 
 
-## Acknowledgements
+## Acknowledgements  
 We would like to express our gratitude to Mr. Sorn Kea and Miss Leng Greyhuy for their help in POS tagging 12,100 sentences of Khmer Corpus manually.  
 
-## Publication
+## Publication  
 Please cite following paper:  
 Ye Kyaw Thu, Vichet Chea, Yoshinori Sagisaka, "Compaison of Six POS Tagging Methods on 12K Sentences Khmer Language POS Tagged Corpus", In the first Regional Conference on Optical character recognition and Natural language processing technologies for ASEAN languages (ONA 2017), December 7-8, 2017, Phnom Penh, Cambodia. [paper](https://github.com/ye-kyaw-thu/khPOS/blob/master/khpos.pdf)
 
-## Reference
+## Reference  
 Vichet Chea, Ye Kyaw Thu, Chenchen Ding, Masao Utiyama, Andrew Finch and Eiichiro Sumita, "Khmer Word Segmentation Using Conditional Random Fields", In Khmer Natural Language Processing 2015 (KNLP2015), December 4, 2015, Phnom Penh, Cambodia. 
 [paper](http://khmernlp.org/2015/wp-content/uploads/2016/09/Paper-Khmer-Word-Segmentation-Using-.pdf)
 
