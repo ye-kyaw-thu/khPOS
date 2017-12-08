@@ -110,7 +110,7 @@ Vichet Chea
 [Ye Kyaw Thu](https://sites.google.com/site/yekyawthunlp/) 
 
 ## Acknowledgements
-We would like to express our gratitude to Mr. Sorn Kea and Miss Leng Greyhuy for their help in POS tagging 12,1000 sentences of Khmer Corpus manually
+We would like to express our gratitude to Mr. Sorn Kea and Miss Leng Greyhuy for their help in POS tagging 12,100 sentences of Khmer Corpus manually
 
 ## Publication
 Please cite following paper:  
