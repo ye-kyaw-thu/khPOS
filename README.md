@@ -74,15 +74,6 @@ mk-pair.pl : Perl script for combining word file and tag file to word/tag format
 data/ : Data preparation folder for incremental POS-tagging models  
 
 **Models:**  
-Scripts:  
-mk-wordtag.pl : Perl script for printing word only file, tag only file, listing compound-words etc.  
-mk-pair.pl : Perl script for combining word file and tag file to word/tag format  
-
-Data:  
-data/ : Data preparation folder for incremental POS-tagging models
-
-Models:  
-
 Two-Hours/: Incremental training (2,000 to 12,000 sentences) of 2hours annotation approach models with khPOS corpus.  
 Running logfile: [note.txt](https://github.com/ye-kyaw-thu/khPOS/blob/master/corpus-draft-ver-1.0/model/2hours/note.txt)  
 
