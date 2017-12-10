@@ -89,7 +89,7 @@ Running logfile: [note](https://github.com/ye-kyaw-thu/khPOS/blob/master/corpus-
 maxent/ : Incremental training (2,000 to 12,000 sentences) of Maximum Entrophy models with khPOS corpus.  
 Running logfile: [note.txt](https://github.com/ye-kyaw-thu/khPOS/blob/master/corpus-draft-ver-1.0/model/maxent/note.txt)  
 
-rdr/ : Incremental training (2,000 to 12,000 sentences) of RDR (Ripple Down Rule-based) models with kjPOS corpus.  
+rdr/ : Incremental training (2,000 to 12,000 sentences) of RDR (Ripple Down Rule-based) models with khPOS corpus.  
 Running logfile: [note.txt](https://github.com/ye-kyaw-thu/khPOS/blob/master/corpus-draft-ver-1.0/model/rdr/note.txt)  
   
 ## Development and Support  
