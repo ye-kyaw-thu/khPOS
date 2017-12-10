@@ -104,7 +104,7 @@ We would like to express our gratitude to Mr. Sorn Kea and Miss Leng Greyhuy for
 
 ## Publication  
 *Please cite following paper:*  
-Ye Kyaw Thu, Vichet Chea, Yoshinori Sagisaka, "Compaison of Six POS Tagging Methods on 12K Sentences Khmer Language POS Tagged Corpus", In the first Regional Conference on Optical character recognition and Natural language processing technologies for ASEAN languages (ONA 2017), December 7-8, 2017, Phnom Penh, Cambodia. [paper](https://github.com/ye-kyaw-thu/khPOS/blob/master/khpos.pdf)
+Ye Kyaw Thu, Vichet Chea, Yoshinori Sagisaka, "Comparison of Six POS Tagging Methods on 12K Sentences Khmer Language POS Tagged Corpus", In the first Regional Conference on Optical character recognition and Natural language processing technologies for ASEAN languages (ONA 2017), December 7-8, 2017, Phnom Penh, Cambodia. [paper](https://github.com/ye-kyaw-thu/khPOS/blob/master/khpos.pdf)
 
 ## Reference  
 Vichet Chea, Ye Kyaw Thu, Chenchen Ding, Masao Utiyama, Andrew Finch and Eiichiro Sumita, "Khmer Word Segmentation Using Conditional Random Fields", In Khmer Natural Language Processing 2015 (KNLP2015), December 4, 2015, Phnom Penh, Cambodia. 
